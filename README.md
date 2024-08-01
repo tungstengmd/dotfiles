@@ -1,2 +1,2 @@
 # dotfiles
-these are my dotfiles for like a lot
+these are my dotfiles for fastfetch, btop and more. enjoy :3
