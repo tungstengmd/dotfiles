@@ -1,0 +1,10 @@
+rootCmd = 'sudo'
+pagerStyle = 'native'
+ignorePkgUpdates = []
+
+[[repo]]
+name = 'default'
+url = 'https://github.com/lure-sh/lure-repo.git'
+
+[unsafe]
+allowRunAsRoot = false
