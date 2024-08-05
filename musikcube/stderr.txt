@@ -1,0 +1,2187 @@
+AlsaOut::AlsaOut() called
+SndioOut Info: ---------- sndout.ctor ----------
+PulseOut::PulseOut() called
+AlsaOut: destructor
+AlsaOut: joining...
+AlsaOut: thread finished
+AlsaOut: closing device...
+AlsaOut: destroyed.
+SndioOut Info: joining thread
+[2024-08-05 08:08:51] [info] asio async_connect error: system:111 (Connection refused)
+[2024-08-05 08:08:51] [info] Error getting remote endpoint: system:107 (Transport endpoint is not connected)
+[2024-08-05 08:08:51] [error] handle_connect error: Underlying Transport Error
+ALSA lib confmisc.c:165:(snd_config_get_card) Cannot get card index for 0
+couldn't open play stream: No such file or directory
+SndioOut Info: failed to init device
+SndioOut Info: thread finished
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+[opus @ 0x7f07e80445c0] Could not update timestamps for skipped samples.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+[opus @ 0x7f07e8059f40] Could not update timestamps for skipped samples.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+PulseOut: opening device RDPSink
+pulse_blocking_stream: CHECK_VALIDITY server
+pulse_blocking_stream: CHECK_VALIDITY dir
+pulse_blocking_stream: CHECK_VALIDITY device
+pulse_blocking_stream: CHECK_VALIDITY spec
+pulse_blocking_stream: CHECK_VALIDITY channel map
+pulse_blocking_stream: context is ready
+pulse_blocking_stream: stream is ready
+[opus @ 0x7f07b40432d0] Could not update timestamps for skipped samples.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+[opus @ 0x7f07e8059f40] Could not update timestamps for discarded samples.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+[opus @ 0x7f07e805e710] Could not update timestamps for skipped samples.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+[opus @ 0x7f07e805d210] Could not update timestamps for skipped samples.
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7f07b4043900] Protocol name not provided, cannot determine if input is local or a network protocol, buffers and access patterns cannot be configured optimally without knowing the protocol
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+AlsaOut::AlsaOut() called
+SndioOut Info: ---------- sndout.ctor ----------
+PulseOut::PulseOut() called
+AlsaOut: destructor
+AlsaOut: joining...
+AlsaOut: thread finished
+AlsaOut: closing device...
+AlsaOut: destroyed.
+SndioOut Info: joining thread
+ALSA lib confmisc.c:165:(snd_config_get_card) Cannot get card index for 0
+couldn't open play stream: No such file or directory
+SndioOut Info: failed to init device
+SndioOut Info: thread finished
+AlsaOut::AlsaOut() called
+SndioOut Info: ---------- sndout.ctor ----------
+PulseOut::PulseOut() called
+AlsaOut: destructor
+AlsaOut: joining...
+ALSA lib confmisc.c:165:(snd_config_get_card) Cannot get card index for 0
+couldn't open play stream: No such file or directory
+SndioOut Info: failed to init device
+AlsaOut: thread finished
+AlsaOut: closing device...
+AlsaOut: destroyed.
+SndioOut Info: joining thread
+SndioOut Info: thread finished
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+PulseOut: destroy
+PulseOut: destructor
+PulseOut: destroy
+PulseOut: destructor
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+[opus @ 0x7f07b4001c00] Could not update timestamps for skipped samples.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7f07e8001240] Protocol name not provided, cannot determine if input is local or a network protocol, buffers and access patterns cannot be configured optimally without knowing the protocol
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+[opus @ 0x7f07e8060f10] Could not update timestamps for skipped samples.
+[opus @ 0x7f07b405e800] Could not update timestamps for skipped samples.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+[opus @ 0x7f07e8060f10] Could not update timestamps for discarded samples.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7f07e8001240] Protocol name not provided, cannot determine if input is local or a network protocol, buffers and access patterns cannot be configured optimally without knowing the protocol
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: TagLib::ID3v2::Header::parse() - One of the size bytes in the id3v2 header was greater than the allowed 128.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Header::parse() -- data is too short for an MPEG frame header.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+[opus @ 0x7f07b405e800] Could not update timestamps for discarded samples.
+PulseOut: closing device
+PulseOut: opening device RDPSink
+pulse_blocking_stream: CHECK_VALIDITY server
+pulse_blocking_stream: CHECK_VALIDITY dir
+pulse_blocking_stream: CHECK_VALIDITY device
+pulse_blocking_stream: CHECK_VALIDITY spec
+pulse_blocking_stream: CHECK_VALIDITY channel map
+pulse_blocking_stream: context is ready
+pulse_blocking_stream: stream is ready
+[opus @ 0x7f07b404db00] Could not update timestamps for skipped samples.
+[mp3 @ 0x7f07dc00d9c0] Estimating duration from bitrate, this may be inaccurate
+PulseOut: closing device
+PulseOut: opening device RDPSink
+pulse_blocking_stream: CHECK_VALIDITY server
+pulse_blocking_stream: CHECK_VALIDITY dir
+pulse_blocking_stream: CHECK_VALIDITY device
+pulse_blocking_stream: CHECK_VALIDITY spec
+pulse_blocking_stream: CHECK_VALIDITY channel map
+pulse_blocking_stream: context is ready
+pulse_blocking_stream: stream is ready
+AlsaOut::AlsaOut() called
+SndioOut Info: ---------- sndout.ctor ----------
+PulseOut::PulseOut() called
+AlsaOut: destructor
+AlsaOut: joining...
+AlsaOut: thread finished
+AlsaOut: closing device...
+AlsaOut: destroyed.
+SndioOut Info: joining thread
+ALSA lib confmisc.c:165:(snd_config_get_card) Cannot get card index for 0
+couldn't open play stream: No such file or directory
+SndioOut Info: failed to init device
+SndioOut Info: thread finished
+AlsaOut::AlsaOut() called
+SndioOut Info: ---------- sndout.ctor ----------
+PulseOut::PulseOut() called
+AlsaOut: destructor
+AlsaOut: joining...
+AlsaOut: thread finished
+ALSA lib confmisc.c:165:(snd_config_get_card) Cannot get card index for 0
+AlsaOut: closing device...
+couldn't open play stream: No such file or directory
+AlsaOut: destroyed.
+SndioOut Info: failed to init device
+SndioOut Info: joining thread
+SndioOut Info: thread finished
+PulseOut: destroy
+PulseOut: destructor
+PulseOut: destroy
+PulseOut: destructor
+[mp3 @ 0x7f07e8001240] Estimating duration from bitrate, this may be inaccurate
+PulseOut: destroy
+PulseOut: destructor
+PulseOut: closing device
+[2024-08-05 08:24:06] [error] handle_read_frame error: websocketpp.transport:7 (End of File)

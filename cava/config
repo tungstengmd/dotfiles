@@ -1,0 +1,4 @@
+[input]
+method = fifo
+source = /tmp/cava.fifo
+sample_rate = 48000

@@ -1,0 +1,459 @@
+08:08:50 [info] [LOG SESSION] ---------- START ----------
+08:08:50 [info] [PluginFactory] loading plugins
+08:08:50 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libsupereqdsp.so
+08:08:50 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libopenmptdecoder.so
+08:08:50 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libffmpegdecoder.so
+08:08:50 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libhttpdatastream.so
+08:08:50 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libalsaout.so
+08:08:50 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libtaglibreader.so
+08:08:50 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libserver.so
+08:08:50 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libstockencoders.so
+08:08:50 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libmpris.so
+08:08:50 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libnullout.so
+08:08:50 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libpipewireout.so
+08:08:50 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libgmedecoder.so
+08:08:50 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libsndioout.so
+08:08:50 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libpulseout.so
+08:08:51 [info] [PipeWireOut] shutdown started
+08:08:51 [info] [PipeWireOut] shutdown complete
+08:08:51 [info] [Indexer] indexer source 155697690 running...
+08:08:51 [info] [LocalLibrary] query 'CategoryListQuery' enqueued
+08:08:51 [info] [LocalLibrary] query 'CategoryListQuery' running
+08:08:51 [info] [LocalLibrary] query 'CategoryListQuery' finished with status=4
+08:08:51 [info] [Indexer] indexer source 155697690 finished
+08:08:51 [info] [Indexer] indexer source -1303229654 running...
+08:08:51 [info] [Indexer] indexer source -1303229654 finished
+08:08:51 [info] [Indexer] scanning /home/harley/test/
+08:08:51 [info] [LocalLibrary] query 'PersistedPlayQueueQuery' enqueued
+08:08:51 [info] [LocalLibrary] query 'PersistedPlayQueueQuery' running
+08:08:51 [info] [LocalLibrary] query 'PersistedPlayQueueQuery' finished with status=4
+08:08:51 [info] [LocalLibrary] query 'CategoryTrackListQuery' enqueued
+08:08:51 [info] [LocalLibrary] query 'CategoryTrackListQuery' enqueued
+08:08:51 [info] [LocalLibrary] query 'CategoryListQuery' enqueued
+08:08:51 [info] [LocalLibrary] query 'CategoryListQuery' enqueued
+08:08:51 [info] [LocalLibrary] query 'CategoryListQuery' enqueued
+08:08:51 [info] [LocalLibrary] query 'CategoryTrackListQuery' running
+08:08:51 [info] [LocalLibrary] query 'CategoryTrackListQuery' finished with status=4
+08:08:51 [info] [LocalLibrary] query 'CategoryTrackListQuery' running
+08:08:51 [info] [LocalLibrary] query 'CategoryTrackListQuery' finished with status=4
+08:08:51 [info] [LocalLibrary] query 'CategoryListQuery' running
+08:08:51 [info] [LocalLibrary] query 'CategoryListQuery' finished with status=5
+08:08:51 [info] [LocalLibrary] query 'CategoryListQuery' running
+08:08:51 [info] [LocalLibrary] query 'CategoryListQuery' finished with status=5
+08:08:51 [info] [LocalLibrary] query 'CategoryListQuery' running
+08:08:51 [info] [LocalLibrary] query 'CategoryListQuery' finished with status=4
+08:08:51 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
+08:08:51 [info] [LocalLibrary] query 'TrackMetadataQuery' running
+08:08:51 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
+08:08:51 [info] [GaplessTransport] starting track at /home/harley/test/ULTRAVIOLENT.mp3
+08:08:51 [info] [Player] new instance created
+08:08:51 [info] [GaplessTransport] stop
+08:08:51 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+08:08:51 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+08:08:51 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+08:08:51 [info] [LocalLibrary] query 'CategoryTrackListQuery' enqueued
+08:08:51 [info] [LocalLibrary] query 'CategoryTrackListQuery' running
+08:08:51 [info] [LocalLibrary] query 'CategoryTrackListQuery' finished with status=4
+08:08:51 [info] [Stream] opening /home/harley/test/ULTRAVIOLENT.mp3
+08:08:51 [info] [LocalFileStream] opening file: /home/harley/test/ULTRAVIOLENT.mp3
+08:08:51 [info] [ffmpegdecoder] parsing data stream...
+08:08:51 [info] [ffmpegdecoder] found audio stream!
+08:08:51 [info] [ffmpegdecoder] resolved codec: Opus
+08:08:51 [info] [Streams] found a decoder for /home/harley/test/ULTRAVIOLENT.mp3
+08:08:51 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+08:08:51 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+08:08:51 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+08:09:13 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
+08:09:13 [info] [LocalLibrary] query 'TrackMetadataQuery' running
+08:09:13 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
+08:09:13 [info] [GaplessTransport] starting track at /home/harley/test/BLOOD..mp3
+08:09:13 [info] [Player] new instance created
+08:09:13 [info] [GaplessTransport] stop
+08:09:13 [info] [Stream] opening /home/harley/test/BLOOD..mp3
+08:09:13 [info] [LocalFileStream] opening file: /home/harley/test/BLOOD..mp3
+08:09:13 [info] [ffmpegdecoder] parsing data stream...
+08:09:13 [info] [ffmpegdecoder] found audio stream!
+08:09:13 [info] [ffmpegdecoder] resolved codec: Opus
+08:09:13 [info] [Streams] found a decoder for /home/harley/test/BLOOD..mp3
+08:09:13 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
+08:09:13 [info] [LocalLibrary] query 'TrackMetadataQuery' running
+08:09:13 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
+08:09:13 [info] [Player] new instance created
+08:09:13 [info] [Stream] opening /home/harley/test/Ooga.mp3
+08:09:13 [info] [LocalFileStream] opening file: /home/harley/test/Ooga.mp3
+08:09:13 [info] [ffmpegdecoder] parsing data stream...
+08:09:13 [info] [ffmpegdecoder] found audio stream!
+08:09:13 [info] [ffmpegdecoder] resolved codec: Opus
+08:09:13 [info] [Streams] found a decoder for /home/harley/test/Ooga.mp3
+08:09:37 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+08:09:37 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+08:09:37 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+08:09:37 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+08:09:37 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+08:09:37 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+08:09:37 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+08:09:37 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+08:09:37 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+08:09:37 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+08:09:37 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+08:09:37 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+08:09:37 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+08:09:37 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+08:09:37 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+08:09:37 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+08:09:37 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+08:09:37 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+08:09:37 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+08:09:37 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+08:09:37 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+08:09:37 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+08:09:37 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+08:09:37 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+08:09:37 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+08:09:37 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+08:09:37 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+08:09:37 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+08:09:37 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+08:09:37 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+08:09:37 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+08:09:37 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+08:09:37 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+08:09:37 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+08:09:37 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+08:09:37 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+08:09:45 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' enqueued
+08:09:45 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' running
+08:09:52 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+08:09:56 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' finished with status=3
+08:09:56 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+08:09:56 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+08:09:57 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+08:09:57 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+08:09:57 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+08:10:37 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+08:10:37 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+08:10:37 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+08:10:38 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+08:10:38 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+08:10:38 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+08:10:40 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+08:10:40 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+08:10:40 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+08:10:41 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+08:10:41 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+08:10:41 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+08:10:42 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+08:10:42 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+08:10:42 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+08:10:44 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+08:10:44 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+08:10:44 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+08:10:45 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+08:10:45 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+08:10:45 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+08:10:47 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+08:10:47 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+08:10:47 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+08:10:49 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+08:10:49 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+08:10:49 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+08:11:09 [info] [ffmpegdecoder] finished decoding.
+08:11:11 [info] [GaplessTransport] stop
+08:11:11 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
+08:11:11 [info] [LocalLibrary] query 'TrackMetadataQuery' running
+08:11:11 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
+08:11:11 [info] [Player] new instance created
+08:11:11 [info] [Stream] opening /home/harley/test/Stardust Speedway Zone Act 1.mp3
+08:11:11 [info] [LocalFileStream] opening file: /home/harley/test/Stardust Speedway Zone Act 1.mp3
+08:11:11 [info] [ffmpegdecoder] parsing data stream...
+08:11:11 [info] [ffmpegdecoder] found audio stream!
+08:11:11 [info] [ffmpegdecoder] resolved codec: Opus
+08:11:11 [info] [Streams] found a decoder for /home/harley/test/Stardust Speedway Zone Act 1.mp3
+08:11:12 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
+08:11:12 [info] [LocalLibrary] query 'TrackMetadataQuery' running
+08:11:12 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
+08:11:12 [info] [GaplessTransport] starting track at /home/harley/test/Razor Sharp.mp3
+08:11:12 [info] [Player] new instance created
+08:11:12 [info] [GaplessTransport] stop
+08:11:12 [info] [Stream] opening /home/harley/test/Razor Sharp.mp3
+08:11:12 [info] [LocalFileStream] opening file: /home/harley/test/Razor Sharp.mp3
+08:11:12 [info] [ffmpegdecoder] parsing data stream...
+08:11:12 [info] [ffmpegdecoder] found audio stream!
+08:11:12 [info] [ffmpegdecoder] resolved codec: Opus
+08:11:12 [info] [Streams] found a decoder for /home/harley/test/Razor Sharp.mp3
+08:11:12 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
+08:11:12 [info] [LocalLibrary] query 'TrackMetadataQuery' running
+08:11:12 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
+08:11:12 [info] [Player] new instance created
+08:11:12 [info] [Stream] opening /home/harley/test/Choice.mp3
+08:11:12 [info] [LocalFileStream] opening file: /home/harley/test/Choice.mp3
+08:11:12 [info] [ffmpegdecoder] parsing data stream...
+08:11:12 [info] [ffmpegdecoder] found audio stream!
+08:11:12 [info] [ffmpegdecoder] resolved codec: AAC (Advanced Audio Coding)
+08:11:12 [info] [Streams] found a decoder for /home/harley/test/Choice.mp3
+08:11:28 [info] [PipeWireOut] shutdown started
+08:11:28 [info] [PipeWireOut] shutdown complete
+08:11:28 [info] [PipeWireOut] shutdown started
+08:11:28 [info] [PipeWireOut] shutdown complete
+08:12:22 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' enqueued
+08:12:22 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' running
+08:12:32 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' finished with status=3
+08:15:29 [info] [LocalLibrary] query 'CategoryListQuery' enqueued
+08:15:29 [info] [LocalLibrary] query 'CategoryListQuery' running
+08:15:29 [info] [LocalLibrary] query 'CategoryListQuery' finished with status=4
+08:15:30 [info] [LocalLibrary] query 'CategoryTrackListQuery' enqueued
+08:15:30 [info] [LocalLibrary] query 'CategoryTrackListQuery' running
+08:15:30 [info] [LocalLibrary] query 'CategoryTrackListQuery' finished with status=4
+08:15:30 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+08:15:30 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+08:15:30 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+08:15:44 [info] [LocalLibrary] query 'CategoryListQuery' enqueued
+08:15:44 [info] [LocalLibrary] query 'CategoryListQuery' running
+08:15:44 [info] [LocalLibrary] query 'CategoryListQuery' finished with status=4
+08:15:44 [info] [LocalLibrary] query 'CategoryTrackListQuery' enqueued
+08:15:44 [info] [LocalLibrary] query 'CategoryTrackListQuery' running
+08:15:44 [info] [LocalLibrary] query 'CategoryTrackListQuery' finished with status=4
+08:15:44 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+08:15:44 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+08:15:44 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+08:15:48 [info] [GaplessTransport] starting track at /home/harley/test/Razor Sharp.mp3
+08:15:48 [info] [Player] new instance created
+08:15:48 [info] [GaplessTransport] stop
+08:15:48 [info] [Stream] opening /home/harley/test/Razor Sharp.mp3
+08:15:48 [info] [LocalFileStream] opening file: /home/harley/test/Razor Sharp.mp3
+08:15:48 [info] [ffmpegdecoder] parsing data stream...
+08:15:48 [info] [ffmpegdecoder] found audio stream!
+08:15:48 [info] [ffmpegdecoder] resolved codec: Opus
+08:15:48 [info] [Streams] found a decoder for /home/harley/test/Razor Sharp.mp3
+08:15:53 [info] [Player] new instance created
+08:15:53 [info] [Stream] opening /home/harley/test/Choice.mp3
+08:15:53 [info] [LocalFileStream] opening file: /home/harley/test/Choice.mp3
+08:15:53 [info] [ffmpegdecoder] parsing data stream...
+08:15:53 [info] [ffmpegdecoder] found audio stream!
+08:15:53 [info] [ffmpegdecoder] resolved codec: AAC (Advanced Audio Coding)
+08:15:53 [info] [Streams] found a decoder for /home/harley/test/Choice.mp3
+08:15:57 [info] [LocalLibrary] query 'CategoryListQuery' enqueued
+08:15:57 [info] [LocalLibrary] query 'CategoryListQuery' enqueued
+08:15:57 [info] [LocalLibrary] query 'CategoryListQuery' enqueued
+08:15:57 [info] [LocalLibrary] query 'CategoryListQuery' running
+08:15:57 [info] [LocalLibrary] query 'CategoryListQuery' finished with status=4
+08:15:57 [info] [LocalLibrary] query 'CategoryListQuery' running
+08:15:57 [info] [LocalLibrary] query 'CategoryListQuery' finished with status=4
+08:15:57 [info] [LocalLibrary] query 'CategoryListQuery' running
+08:15:57 [info] [LocalLibrary] query 'CategoryListQuery' finished with status=4
+08:15:57 [info] [LocalLibrary] query 'CategoryListQuery' enqueued
+08:15:57 [info] [LocalLibrary] query 'CategoryListQuery' enqueued
+08:15:57 [info] [LocalLibrary] query 'CategoryListQuery' enqueued
+08:15:57 [info] [LocalLibrary] query 'CategoryListQuery' running
+08:15:57 [info] [LocalLibrary] query 'CategoryListQuery' finished with status=4
+08:15:57 [info] [LocalLibrary] query 'CategoryListQuery' running
+08:15:57 [info] [LocalLibrary] query 'CategoryListQuery' finished with status=4
+08:15:57 [info] [LocalLibrary] query 'CategoryListQuery' running
+08:15:57 [info] [LocalLibrary] query 'CategoryListQuery' finished with status=4
+08:15:59 [info] [LocalLibrary] query 'CategoryListQuery' enqueued
+08:15:59 [info] [LocalLibrary] query 'CategoryListQuery' enqueued
+08:15:59 [info] [LocalLibrary] query 'CategoryListQuery' enqueued
+08:15:59 [info] [LocalLibrary] query 'CategoryListQuery' running
+08:15:59 [info] [LocalLibrary] query 'CategoryListQuery' finished with status=4
+08:15:59 [info] [LocalLibrary] query 'CategoryListQuery' running
+08:15:59 [info] [LocalLibrary] query 'CategoryListQuery' finished with status=4
+08:15:59 [info] [LocalLibrary] query 'CategoryListQuery' running
+08:15:59 [info] [LocalLibrary] query 'CategoryListQuery' finished with status=4
+08:16:00 [info] [LocalLibrary] query 'CategoryListQuery' enqueued
+08:16:00 [info] [LocalLibrary] query 'CategoryListQuery' enqueued
+08:16:00 [info] [LocalLibrary] query 'CategoryListQuery' enqueued
+08:16:00 [info] [LocalLibrary] query 'CategoryListQuery' running
+08:16:00 [info] [LocalLibrary] query 'CategoryListQuery' finished with status=4
+08:16:00 [info] [LocalLibrary] query 'CategoryListQuery' running
+08:16:00 [info] [LocalLibrary] query 'CategoryListQuery' finished with status=4
+08:16:00 [info] [LocalLibrary] query 'CategoryListQuery' running
+08:16:00 [info] [LocalLibrary] query 'CategoryListQuery' finished with status=4
+08:16:01 [info] [LocalLibrary] query 'CategoryListQuery' enqueued
+08:16:01 [info] [LocalLibrary] query 'CategoryListQuery' enqueued
+08:16:01 [info] [LocalLibrary] query 'CategoryListQuery' enqueued
+08:16:01 [info] [LocalLibrary] query 'CategoryListQuery' running
+08:16:01 [info] [LocalLibrary] query 'CategoryListQuery' finished with status=4
+08:16:01 [info] [LocalLibrary] query 'CategoryListQuery' running
+08:16:01 [info] [LocalLibrary] query 'CategoryListQuery' finished with status=4
+08:16:01 [info] [LocalLibrary] query 'CategoryListQuery' running
+08:16:01 [info] [LocalLibrary] query 'CategoryListQuery' finished with status=4
+08:16:02 [info] [LocalLibrary] query 'SearchTrackListQuery' enqueued
+08:16:02 [info] [LocalLibrary] query 'SearchTrackListQuery' running
+08:16:02 [info] [LocalLibrary] query 'SearchTrackListQuery' finished with status=4
+08:16:02 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+08:16:02 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+08:16:02 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+08:16:07 [info] [GaplessTransport] starting track at /home/harley/test/ULTRAVIOLENT.mp3
+08:16:07 [info] [Player] new instance created
+08:16:07 [info] [GaplessTransport] stop
+08:16:07 [info] [Stream] opening /home/harley/test/ULTRAVIOLENT.mp3
+08:16:07 [info] [LocalFileStream] opening file: /home/harley/test/ULTRAVIOLENT.mp3
+08:16:07 [info] [ffmpegdecoder] parsing data stream...
+08:16:07 [info] [ffmpegdecoder] found audio stream!
+08:16:07 [info] [ffmpegdecoder] resolved codec: Opus
+08:16:07 [info] [Streams] found a decoder for /home/harley/test/ULTRAVIOLENT.mp3
+08:16:08 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
+08:16:08 [info] [LocalLibrary] query 'TrackMetadataQuery' running
+08:16:08 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
+08:16:08 [info] [Player] new instance created
+08:16:08 [info] [Stream] opening /home/harley/test/pointers.mp3
+08:16:08 [info] [LocalFileStream] opening file: /home/harley/test/pointers.mp3
+08:16:08 [info] [ffmpegdecoder] parsing data stream...
+08:16:08 [info] [ffmpegdecoder] found audio stream!
+08:16:08 [info] [ffmpegdecoder] resolved codec: Opus
+08:16:08 [info] [Streams] found a decoder for /home/harley/test/pointers.mp3
+08:16:09 [info] [LocalLibrary] query 'SearchTrackListQuery' enqueued
+08:16:09 [info] [LocalLibrary] query 'SearchTrackListQuery' running
+08:16:09 [info] [LocalLibrary] query 'SearchTrackListQuery' finished with status=4
+08:16:09 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+08:16:09 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+08:16:09 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+08:16:27 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' enqueued
+08:16:27 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' running
+08:16:37 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' finished with status=3
+08:17:27 [info] [ffmpegdecoder] finished decoding.
+08:17:29 [info] [GaplessTransport] stop
+08:17:29 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
+08:17:29 [info] [LocalLibrary] query 'TrackMetadataQuery' running
+08:17:29 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
+08:17:29 [info] [Player] new instance created
+08:17:29 [info] [Stream] opening /home/harley/test/Stranding.mp3
+08:17:29 [info] [LocalFileStream] opening file: /home/harley/test/Stranding.mp3
+08:17:29 [info] [ffmpegdecoder] parsing data stream...
+08:17:29 [info] [ffmpegdecoder] found audio stream!
+08:17:29 [info] [ffmpegdecoder] resolved codec: AAC (Advanced Audio Coding)
+08:17:29 [info] [Streams] found a decoder for /home/harley/test/Stranding.mp3
+08:17:43 [info] [Indexer] scan completed successfully
+08:17:45 [info] [Indexer] cleanup 1/2
+08:17:45 [info] [Indexer] cleanup 2/2
+08:17:45 [info] [Indexer] optimizing
+08:17:45 [info] [LocalLibrary] query 'SearchTrackListQuery' enqueued
+08:17:45 [info] [Indexer] done!
+08:17:45 [info] [LocalLibrary] query 'SearchTrackListQuery' running
+08:17:45 [info] [LocalLibrary] query 'SearchTrackListQuery' finished with status=4
+08:17:45 [info] [Indexer] indexer source 155697690 running...
+08:17:45 [info] [LocalLibrary] query 'CategoryListQuery' enqueued
+08:17:45 [info] [LocalLibrary] query 'CategoryListQuery' running
+08:17:45 [info] [LocalLibrary] query 'CategoryListQuery' enqueued
+08:17:45 [info] [LocalLibrary] query 'CategoryListQuery' finished with status=4
+08:17:45 [info] [LocalLibrary] query 'CategoryListQuery' running
+08:17:45 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+08:17:45 [info] [LocalLibrary] query 'CategoryListQuery' finished with status=4
+08:17:45 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+08:17:45 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+08:17:45 [info] [Indexer] indexer source 155697690 finished
+08:17:45 [info] [Indexer] indexer source -1303229654 running...
+08:17:45 [info] [Indexer] indexer source -1303229654 finished
+08:17:45 [info] [Indexer] scanning /home/harley/test/
+08:17:45 [info] [LocalLibrary] query 'CategoryTrackListQuery' enqueued
+08:17:45 [info] [LocalLibrary] query 'CategoryTrackListQuery' enqueued
+08:17:45 [info] [LocalLibrary] query 'CategoryTrackListQuery' running
+08:17:45 [info] [LocalLibrary] query 'CategoryTrackListQuery' finished with status=4
+08:17:45 [info] [LocalLibrary] query 'CategoryTrackListQuery' running
+08:17:45 [info] [LocalLibrary] query 'CategoryTrackListQuery' finished with status=4
+08:17:45 [info] [Indexer] scan completed successfully
+08:17:45 [info] [Indexer] cleanup 1/2
+08:17:45 [info] [Indexer] cleanup 2/2
+08:17:45 [info] [Indexer] optimizing
+08:17:45 [info] [LocalLibrary] query 'SearchTrackListQuery' enqueued
+08:17:45 [info] [Indexer] done!
+08:17:45 [info] [LocalLibrary] query 'SearchTrackListQuery' running
+08:17:45 [info] [LocalLibrary] query 'SearchTrackListQuery' finished with status=4
+08:17:45 [info] [LocalLibrary] query 'CategoryListQuery' enqueued
+08:17:45 [info] [LocalLibrary] query 'CategoryListQuery' running
+08:17:45 [info] [LocalLibrary] query 'CategoryListQuery' finished with status=4
+08:17:45 [info] [LocalLibrary] query 'CategoryListQuery' enqueued
+08:17:45 [info] [LocalLibrary] query 'CategoryListQuery' running
+08:17:45 [info] [LocalLibrary] query 'CategoryListQuery' enqueued
+08:17:45 [info] [LocalLibrary] query 'CategoryListQuery' enqueued
+08:17:45 [info] [LocalLibrary] query 'CategoryListQuery' finished with status=4
+08:17:45 [info] [LocalLibrary] query 'CategoryListQuery' running
+08:17:45 [info] [LocalLibrary] query 'CategoryListQuery' finished with status=5
+08:17:45 [info] [LocalLibrary] query 'CategoryListQuery' running
+08:17:45 [info] [LocalLibrary] query 'CategoryListQuery' finished with status=4
+08:17:45 [info] [LocalLibrary] query 'CategoryListQuery' enqueued
+08:17:45 [info] [LocalLibrary] query 'CategoryListQuery' running
+08:17:45 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+08:17:45 [info] [LocalLibrary] query 'CategoryListQuery' finished with status=4
+08:17:45 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+08:17:45 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+08:17:45 [info] [LocalLibrary] query 'CategoryTrackListQuery' enqueued
+08:17:45 [info] [LocalLibrary] query 'CategoryTrackListQuery' running
+08:17:45 [info] [LocalLibrary] query 'CategoryTrackListQuery' finished with status=4
+08:18:38 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' enqueued
+08:18:38 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' running
+08:18:38 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' finished with status=4
+08:22:06 [info] [ffmpegdecoder] finished decoding.
+08:22:08 [info] [GaplessTransport] stop
+08:22:08 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
+08:22:08 [info] [LocalLibrary] query 'TrackMetadataQuery' running
+08:22:08 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
+08:22:08 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
+08:22:08 [info] [LocalLibrary] query 'TrackMetadataQuery' running
+08:22:08 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
+08:22:09 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
+08:22:09 [info] [LocalLibrary] query 'TrackMetadataQuery' running
+08:22:09 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
+08:22:09 [info] [Player] new instance created
+08:22:09 [info] [Stream] opening /home/harley/test/War.mp3
+08:22:09 [info] [LocalFileStream] opening file: /home/harley/test/War.mp3
+08:22:09 [info] [ffmpegdecoder] parsing data stream...
+08:22:09 [info] [ffmpegdecoder] found audio stream!
+08:22:09 [info] [ffmpegdecoder] resolved codec: Opus
+08:22:09 [info] [Streams] found a decoder for /home/harley/test/War.mp3
+08:22:25 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
+08:22:25 [info] [LocalLibrary] query 'TrackMetadataQuery' running
+08:22:25 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
+08:22:25 [info] [GaplessTransport] starting track at /home/harley/test/WAR - Heaven Pierce Her.mp3
+08:22:25 [info] [Player] new instance created
+08:22:25 [info] [GaplessTransport] stop
+08:22:25 [info] [Stream] opening /home/harley/test/WAR - Heaven Pierce Her.mp3
+08:22:25 [info] [LocalFileStream] opening file: /home/harley/test/WAR - Heaven Pierce Her.mp3
+08:22:25 [info] [ffmpegdecoder] parsing data stream...
+08:22:25 [info] [ffmpegdecoder] found audio stream!
+08:22:25 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+08:22:25 [info] [Streams] found a decoder for /home/harley/test/WAR - Heaven Pierce Her.mp3
+08:22:29 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+08:22:29 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+08:22:29 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+08:22:29 [info] [LocalLibrary] query 'CategoryListQuery' enqueued
+08:22:29 [info] [LocalLibrary] query 'CategoryListQuery' running
+08:22:29 [info] [LocalLibrary] query 'CategoryListQuery' finished with status=4
+08:22:29 [info] [LocalLibrary] query 'CategoryTrackListQuery' enqueued
+08:22:29 [info] [LocalLibrary] query 'CategoryTrackListQuery' running
+08:22:29 [info] [LocalLibrary] query 'CategoryTrackListQuery' finished with status=4
+08:22:29 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+08:22:29 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+08:22:29 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+08:22:30 [info] [PipeWireOut] shutdown started
+08:22:30 [info] [PipeWireOut] shutdown complete
+08:22:30 [info] [PipeWireOut] shutdown started
+08:22:30 [info] [PipeWireOut] shutdown complete
+08:23:26 [info] [LocalLibrary] query 'CategoryListQuery' enqueued
+08:23:26 [info] [LocalLibrary] query 'CategoryListQuery' running
+08:23:26 [info] [LocalLibrary] query 'CategoryListQuery' finished with status=4
+08:23:26 [info] [LocalLibrary] query 'CategoryTrackListQuery' enqueued
+08:23:26 [info] [LocalLibrary] query 'CategoryTrackListQuery' running
+08:23:26 [info] [LocalLibrary] query 'CategoryTrackListQuery' finished with status=4
+08:23:27 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+08:23:27 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+08:23:27 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+08:23:43 [info] [LocalLibrary] query 'CategoryTrackListQuery' enqueued
+08:23:43 [info] [LocalLibrary] query 'CategoryTrackListQuery' running
+08:23:43 [info] [LocalLibrary] query 'CategoryTrackListQuery' finished with status=4
+08:23:43 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+08:23:43 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+08:23:43 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+08:23:44 [info] [GaplessTransport] starting track at /home/harley/test/WAR - Heaven Pierce Her.mp3
+08:23:44 [info] [Player] new instance created
+08:23:44 [info] [GaplessTransport] stop
+08:23:44 [info] [Stream] opening /home/harley/test/WAR - Heaven Pierce Her.mp3
+08:23:44 [info] [LocalFileStream] opening file: /home/harley/test/WAR - Heaven Pierce Her.mp3
+08:23:44 [info] [ffmpegdecoder] parsing data stream...
+08:23:44 [info] [ffmpegdecoder] found audio stream!
+08:23:44 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+08:23:44 [info] [Streams] found a decoder for /home/harley/test/WAR - Heaven Pierce Her.mp3
+08:24:02 [info] [LocalLibrary] query 'PersistedPlayQueueQuery' enqueued
+08:24:02 [info] [LocalLibrary] query 'PersistedPlayQueueQuery' running
+08:24:02 [info] [LocalLibrary] query 'PersistedPlayQueueQuery' finished with status=4
+08:24:02 [info] [GaplessTransport] stop
