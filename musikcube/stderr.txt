@@ -2,19 +2,21 @@ AlsaOut::AlsaOut() called
 SndioOut Info: ---------- sndout.ctor ----------
 PulseOut::PulseOut() called
 AlsaOut: destructor
-AlsaOut: joining...
 AlsaOut: thread finished
+AlsaOut: joining...
 AlsaOut: closing device...
 AlsaOut: destroyed.
 SndioOut Info: joining thread
-[2024-08-12 20:59:07] [info] asio async_connect error: system:111 (Connection refused)
-[2024-08-12 20:59:07] [info] Error getting remote endpoint: system:107 (Transport endpoint is not connected)
-[2024-08-12 20:59:07] [error] handle_connect error: Underlying Transport Error
+[2024-08-13 15:56:41] [info] asio async_connect error: system:111 (Connection refused)
+[2024-08-13 15:56:41] [info] Error getting remote endpoint: system:107 (Transport endpoint is not connected)
+[2024-08-13 15:56:41] [error] handle_connect error: Underlying Transport Error
 ALSA lib confmisc.c:165:(snd_config_get_card) Cannot get card index for 0
 couldn't open play stream: No such file or directory
 SndioOut Info: failed to init device
 SndioOut Info: thread finished
-[mp3 @ 0x7efc6c0024f0] Estimating duration from bitrate, this may be inaccurate
+[mp3 @ 0x7fb344002620] Estimating duration from bitrate, this may be inaccurate
+[mp3 @ 0x7fb354001460] Estimating duration from bitrate, this may be inaccurate
+[opus @ 0x7fb348043530] Could not update timestamps for skipped samples.
 PulseOut: opening device RDPSink
 pulse_blocking_stream: CHECK_VALIDITY server
 pulse_blocking_stream: CHECK_VALIDITY dir

@@ -2,8 +2,16 @@ starship init fish | source
 zoxide init fish | source
 atuin init fish | source
 thefuck --alias | source
-if status is-interactive
-    # Commands to run in interactive sessions can go here
+if not set -q ZELLIJ                                                                                                                                                           
+    if test "$ZELLIJ_AUTO_ATTACH" = "true"                                                                                                                                     
+        zellij attach -c                                                                                                                                                       
+    else                                                                                                                                                                       
+        zellij                                                                                                                                                                 
+    end                                                                                                                                                                        
+                                                                                                                                                                               
+    if test "$ZELLIJ_AUTO_EXIT" = "true"                                                                                                                                       
+        kill $fish_pid                                                                                                                                                         
+    end                                                                                                                                                                        
 end
 alias ce="clear && exec bash"
 alias gc="git commit -a"
