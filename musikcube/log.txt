@@ -454,3 +454,60 @@
 19:33:26 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' enqueued
 19:33:26 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' running
 19:33:26 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' finished with status=4
+19:35:02 [info] [ffmpegdecoder] finished decoding.
+19:35:05 [info] [GaplessTransport] stop
+19:35:05 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
+19:35:05 [info] [LocalLibrary] query 'TrackMetadataQuery' running
+19:35:05 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
+19:35:05 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+19:35:05 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+19:35:05 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+19:35:05 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
+19:35:05 [info] [LocalLibrary] query 'TrackMetadataQuery' running
+19:35:05 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
+19:35:05 [info] [Player] new instance created
+19:35:05 [info] [Stream] opening /home/harley/test/the forever storm.mp3
+19:35:05 [info] [LocalFileStream] opening file: /home/harley/test/the forever storm.mp3
+19:35:05 [info] [ffmpegdecoder] parsing data stream...
+19:35:05 [info] [ffmpegdecoder] found audio stream!
+19:35:05 [info] [ffmpegdecoder] resolved codec: Opus
+19:35:05 [info] [Streams] found a decoder for /home/harley/test/the forever storm.mp3
+19:36:10 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' enqueued
+19:36:10 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' running
+19:36:10 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' finished with status=4
+19:39:23 [info] [ffmpegdecoder] finished decoding.
+19:39:25 [info] [GaplessTransport] stop
+19:39:25 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+19:39:25 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+19:39:25 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+19:39:25 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
+19:39:25 [info] [LocalLibrary] query 'TrackMetadataQuery' running
+19:39:25 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
+19:39:25 [info] [Player] new instance created
+19:39:25 [info] [Stream] opening /home/harley/test/deadlock.mp3
+19:39:25 [info] [LocalFileStream] opening file: /home/harley/test/deadlock.mp3
+19:39:25 [info] [ffmpegdecoder] parsing data stream...
+19:39:25 [info] [ffmpegdecoder] found audio stream!
+19:39:25 [info] [ffmpegdecoder] resolved codec: Opus
+19:39:25 [info] [Streams] found a decoder for /home/harley/test/deadlock.mp3
+19:39:40 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' enqueued
+19:39:40 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' running
+19:39:40 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' finished with status=4
+19:40:23 [info] [ffmpegdecoder] finished decoding.
+19:40:26 [info] [GaplessTransport] stop
+19:40:26 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+19:40:26 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+19:40:26 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+19:40:26 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
+19:40:26 [info] [LocalLibrary] query 'TrackMetadataQuery' running
+19:40:26 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
+19:40:26 [info] [Player] new instance created
+19:40:26 [info] [Stream] opening /home/harley/test/Saika.mp3
+19:40:26 [info] [LocalFileStream] opening file: /home/harley/test/Saika.mp3
+19:40:26 [info] [ffmpegdecoder] parsing data stream...
+19:40:26 [info] [ffmpegdecoder] found audio stream!
+19:40:26 [info] [ffmpegdecoder] resolved codec: AAC (Advanced Audio Coding)
+19:40:26 [info] [Streams] found a decoder for /home/harley/test/Saika.mp3
+19:41:04 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' enqueued
+19:41:04 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' running
+19:41:04 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' finished with status=4
