@@ -511,3 +511,19 @@
 19:41:04 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' enqueued
 19:41:04 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' running
 19:41:04 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' finished with status=4
+19:42:57 [info] [ffmpegdecoder] finished decoding.
+19:42:59 [info] [GaplessTransport] stop
+19:43:00 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
+19:43:00 [info] [LocalLibrary] query 'TrackMetadataQuery' running
+19:43:00 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
+19:43:00 [info] [Player] new instance created
+19:43:00 [info] [Stream] opening /home/harley/test/At the Speed of Light.mp3
+19:43:00 [info] [LocalFileStream] opening file: /home/harley/test/At the Speed of Light.mp3
+19:43:00 [info] [ffmpegdecoder] parsing data stream...
+19:43:00 [info] [ffmpegdecoder] found audio stream!
+19:43:00 [info] [ffmpegdecoder] resolved codec: Opus
+19:43:00 [info] [Streams] found a decoder for /home/harley/test/At the Speed of Light.mp3
+19:43:13 [info] [GaplessTransport] pause
+19:43:35 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' enqueued
+19:43:35 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' running
+19:43:35 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' finished with status=4
