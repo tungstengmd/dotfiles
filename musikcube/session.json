@@ -1,13 +1,13 @@
 {
-  "LastBrowseCategoryId": 3.0,
+  "LastBrowseCategoryId": 1.0,
   "LastBrowseCategoryType": "artist",
   "LastBrowseFilter": "",
   "LastBrowseFilterVisible": false,
   "LastCategoryFilter": "",
   "LastCategoryFilterMatchType": 1,
-  "LastLibraryView": "TrackFilter",
+  "LastLibraryView": "Browse",
   "LastPlayQueueIndex": 0,
-  "LastPlayQueueTime": 470.0,
-  "LastTrackFilter": "come ",
+  "LastPlayQueueTime": 108.0,
+  "LastTrackFilter": "",
   "LastTrackFilterMatchType": 1
 }
