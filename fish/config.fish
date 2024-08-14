@@ -20,6 +20,5 @@ end
 alias ce="clear && exec fish"
 alias gc="git commit -a"
 alias cave="/mnt/c/winscap.exe 2 48000 16 > /tmp/cava.fifo & cava"
-alias ll="ls -la --color=auto"
 alias cd="z"
 alias git="hub"
