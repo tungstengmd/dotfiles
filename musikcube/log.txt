@@ -1625,3 +1625,35 @@
 17:22:12 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
 17:22:12 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
 17:22:12 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+17:25:15 [info] [GaplessTransport] pause
+17:25:38 [info] [GaplessTransport] starting track at /home/harley/test/Bfg Division.mp3
+17:25:38 [info] [Player] new instance created
+17:25:38 [info] [GaplessTransport] stop
+17:25:38 [info] [Stream] opening /home/harley/test/Bfg Division.mp3
+17:25:38 [info] [LocalFileStream] opening file: /home/harley/test/Bfg Division.mp3
+17:25:38 [info] [ffmpegdecoder] parsing data stream...
+17:25:38 [info] [ffmpegdecoder] found audio stream!
+17:25:38 [info] [ffmpegdecoder] resolved codec: Opus
+17:25:38 [info] [Streams] found a decoder for /home/harley/test/Bfg Division.mp3
+17:25:38 [info] [Player] new instance created
+17:25:38 [info] [Stream] opening /home/harley/test/Bfg Division.mp3
+17:25:38 [info] [LocalFileStream] opening file: /home/harley/test/Bfg Division.mp3
+17:25:38 [info] [ffmpegdecoder] parsing data stream...
+17:25:38 [info] [ffmpegdecoder] found audio stream!
+17:25:38 [info] [ffmpegdecoder] resolved codec: Opus
+17:25:38 [info] [Streams] found a decoder for /home/harley/test/Bfg Division.mp3
+17:25:41 [info] [GaplessTransport] pause
+17:25:49 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
+17:25:49 [info] [LocalLibrary] query 'TrackMetadataQuery' running
+17:25:49 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
+17:25:49 [info] [Player] new instance created
+17:25:49 [info] [Stream] opening /home/harley/test/Bfg Division.mp3
+17:25:49 [info] [LocalFileStream] opening file: /home/harley/test/Bfg Division.mp3
+17:25:49 [info] [ffmpegdecoder] parsing data stream...
+17:25:49 [info] [ffmpegdecoder] found audio stream!
+17:25:49 [info] [ffmpegdecoder] resolved codec: Opus
+17:25:49 [info] [Streams] found a decoder for /home/harley/test/Bfg Division.mp3
+17:25:50 [info] [GaplessTransport] resume
+17:27:44 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' enqueued
+17:27:44 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' running
+17:27:44 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' finished with status=4
