@@ -1,3 +1,7 @@
+set DISPLAY=:0.0
+set BUN_INSTALL="$HOME/.bun"
+set PATH=$BUN_INSTALL/bin:$PATH
+eval "(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 starship init fish | source
 zoxide init fish | source
 atuin init fish | source
