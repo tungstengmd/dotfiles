@@ -25,7 +25,7 @@ show_always = true
 disabled = false
 
 [cmd_duration]
-format = "[](fg:#232323 bg:none)[$duration]($style)[](fg:#a3ca5c bg:#232323)[](fg:#000000 bg:#a3ca5c)[ ](fg:#a3ca5c bg:none)"
+format = "[](fg:#232323 bg:none)[$duration]($style)[ ](fg:#a3ca5c bg:#232323)[](fg:#000000 bg:#a3ca5c)[ ](fg:#a3ca5c bg:none)"
 style = "fg:#e5e5e5 bg:#232323"
 min_time = 0
 disabled = false
