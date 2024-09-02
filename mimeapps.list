@@ -1,7 +1,29 @@
-
 [Default Applications]
-text/html=firefox_firefox.desktop
-x-scheme-handler/http=firefox_firefox.desktop
-x-scheme-handler/https=firefox_firefox.desktop
+text/html=firefox.desktop
+x-scheme-handler/http=firefox.desktop
+x-scheme-handler/https=firefox.desktop
 x-scheme-handler/about=firefox_firefox.desktop
 x-scheme-handler/unknown=firefox_firefox.desktop
+application/x-msdownload=wine.desktop
+text/plain=nvim.desktop
+application/xhtml+xml=firefox.desktop
+x-scheme-handler/chrome=firefox.desktop
+application/x-extension-htm=firefox.desktop
+application/x-extension-html=firefox.desktop
+application/x-extension-shtml=firefox.desktop
+application/x-extension-xhtml=firefox.desktop
+application/x-extension-xht=firefox.desktop
+
+[Added Associations]
+application/x-msdownload=wine.desktop;
+text/plain=nvim.desktop;
+x-scheme-handler/http=org.gnome.Epiphany.desktop;firefox.desktop;
+x-scheme-handler/https=org.gnome.Epiphany.desktop;firefox.desktop;
+text/html=org.gnome.Epiphany.desktop;firefox.desktop;
+application/xhtml+xml=org.gnome.Epiphany.desktop;firefox.desktop;
+x-scheme-handler/chrome=firefox.desktop;
+application/x-extension-htm=firefox.desktop;
+application/x-extension-html=firefox.desktop;
+application/x-extension-shtml=firefox.desktop;
+application/x-extension-xhtml=firefox.desktop;
+application/x-extension-xht=firefox.desktop;
