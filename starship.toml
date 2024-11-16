@@ -7,7 +7,7 @@ right_format = """$git_branch$git_state$git_status$cmd_duration$time"""
 
 [character]
 success_symbol = '[╰─>](bold green)'
-error_symbol = '[╰─>](bold red)'
+error_symbol = '[x >](bold red)'
 
 [git_branch]
 format = '[ $symbol$branch]($style) '
