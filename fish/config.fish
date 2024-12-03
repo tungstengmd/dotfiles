@@ -19,3 +19,5 @@ alias yeet="yay -Rcns"
 alias ce="clear && exec fish"
 alias cave="/mnt/c/winscap.exe 2 48000 16 > /tmp/cava.fifo & cava"
 alias cd="z"
+alias nerdfetch="nerdfetch -c" # comment out if you don't use cozette
+alias cbl="cbonsai -l"
