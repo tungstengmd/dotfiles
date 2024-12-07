@@ -12,6 +12,7 @@ alias gl="git log --oneline --all --graph --decorate $argv"
 alias gf="git pull"
 alias gp="git push"
 alias gco="git checkout"
+alias gs="git stash"
 #---General aliases---#
 alias ls="eza -a"
 alias man="batman $argv"
