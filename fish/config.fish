@@ -1,3 +1,4 @@
+cd
 eval (/home/linuxbrew/.linuxbrew/bin/brew shellenv)
 starship init fish | source
 zoxide init fish | source
@@ -25,3 +26,6 @@ alias ce="clear && exec fish"
 alias cd="z"
 alias nerdfetch="nerdfetch -c" # comment out if you don't use cozette
 alias cbl="cbonsai -l"
+alias shit="fuck -y"
+alias whatbroke="sudo systemctl list-units --failed"
+alias huh="echo yeah..."
