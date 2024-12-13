@@ -4,8 +4,6 @@ starship init fish | source
 zoxide init fish | source
 atuin init fish | source
 thefuck --alias | source
-wal -R > meow.txt
-rm meow.txt
 #---Git aliases---#
 alias gc="git commit -a"
 alias git="hub"
@@ -29,3 +27,4 @@ alias cbl="cbonsai -l"
 alias shit="fuck -y"
 alias whatbroke="sudo systemctl list-units --failed"
 alias huh="echo yeah..."
+alias mkexec="chmod -x"

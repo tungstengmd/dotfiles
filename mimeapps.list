@@ -19,7 +19,7 @@ application/x-wayland-gnome-saved-search=thunar.desktop
 text/x-csrc=nvim.desktop
 
 [Added Associations]
-application/x-msdownload=wine.desktop;
+application/x-msdownload=protontricks-launch.desktop;wine.desktop;
 text/plain=nvim.desktop;
 x-scheme-handler/http=org.gnome.Epiphany.desktop;firefox.desktop;
 x-scheme-handler/https=org.gnome.Epiphany.desktop;firefox.desktop;
