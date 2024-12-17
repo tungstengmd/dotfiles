@@ -15,7 +15,7 @@ alias gs="git stash"
 alias gd="git diff"
 alias gr="git reset --hard HEAD"
 #---General aliases---#
-alias ls="eza -a"
+alias ls="lsd -A"
 alias man="batman $argv"
 alias vifish="vi ~/.config/fish/config.fish"
 alias vifoot="vi ~/.config/foot/foot.ini"
