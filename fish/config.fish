@@ -13,6 +13,7 @@ alias gp="git push"
 alias gco="git checkout"
 alias gs="git stash"
 alias gd="git diff"
+alias gr="git reset --hard HEAD"
 #---General aliases---#
 alias ls="eza -a"
 alias man="batman $argv"
