@@ -1,6 +1,7 @@
 cd
 eval (starship init elvish)
 eval (zoxide init elvish --cmd cd | slurp)
+echo "Welcome to Elvish!\nEnjoy your stay :3"
 #---Git aliases---#
 fn gc {|@a| e:git commit -a $@a }
 fn git {|@a| e:hub $@a }
@@ -10,6 +11,7 @@ fn gp {|@a| e:git push $@a }
 fn gco {|@a| e:git checkout $@a }
 fn gs {|@a| e:git stash $@a }
 fn gd {|@a| e:git diff $@a }
+fn gr {|@a| e:git reset --hard HEAD $@a}
 #---General aliases---#
 fn ls {|@a| e:lsd -A $@a }
 fn brew {|@a| e:/home/linuxbrew/.linuxbrew/bin/brew $@a }

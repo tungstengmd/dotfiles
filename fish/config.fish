@@ -1,7 +1,7 @@
 cd
 eval (/home/linuxbrew/.linuxbrew/bin/brew shellenv)
 starship init fish | source
-zoxide init fish | source
+zoxide init fish --cmd cd | source
 atuin init fish | source
 thefuck --alias | source
 #---Git aliases---#
@@ -22,11 +22,10 @@ alias vifoot="vi ~/.config/foot/foot.ini"
 alias yeet="yay -Rcns"
 alias ce="clear && exec fish"
 # alias cave="/mnt/c/winscap.exe 2 48000 16 > /tmp/cava.fifo & cava" #
-alias cd="z"
 alias nerdfetch="nerdfetch -c" # comment out if you don't use cozette
 alias cbl="cbonsai -l"
 alias shit="fuck -y"
 alias whatbroke="sudo systemctl list-units --failed"
 alias huh="echo yeah..."
 alias mkexec="chmod +x"
-alias lookfor="yay -Q | grep "
+alias lookfor="yay -Q | rg"
