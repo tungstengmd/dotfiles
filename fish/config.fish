@@ -1,7 +1,6 @@
 fish_vi_key_bindings
 cd
 eval (/home/linuxbrew/.linuxbrew/bin/brew shellenv)
-starship init fish | source
 zoxide init fish --cmd cd | source
 atuin init fish | source
 thefuck --alias | source
@@ -30,3 +29,5 @@ alias whatbroke="sudo systemctl list-units --failed"
 alias huh="echo yeah..."
 alias mkexec="chmod +x"
 alias lookfor="yay -Q | rg"
+alias visudo="vi /etc/doas.conf"
+alias rr="rm -rf"

@@ -17,6 +17,7 @@ x-scheme-handler/msteams=teams.desktop
 inode/directory=thunar.desktop
 application/x-wayland-gnome-saved-search=thunar.desktop
 text/x-csrc=nvim.desktop
+application/zip=gzdoom.desktop
 
 [Added Associations]
 application/x-msdownload=protontricks-launch.desktop;wine.desktop;
@@ -32,3 +33,4 @@ application/x-extension-shtml=firefox.desktop;
 application/x-extension-xhtml=firefox.desktop;
 application/x-extension-xht=firefox.desktop;
 text/x-csrc=nvim.desktop;
+application/zip=org.zdoom.GZDoom.desktop;gzdoom.desktop;
