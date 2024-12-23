@@ -1,6 +1,7 @@
 fish_vi_key_bindings
 cd
 eval (/home/linuxbrew/.linuxbrew/bin/brew shellenv)
+starship init fish | source
 zoxide init fish --cmd cd | source
 atuin init fish | source
 thefuck --alias | source
