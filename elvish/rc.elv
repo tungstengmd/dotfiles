@@ -29,3 +29,4 @@ fn lookfor {|@a| e:yay -Q | rg $@a }
 fn visudo {|@a| e:sudo vi /etc/doas.conf $@a }
 fn pow {|@a| e:math:pow $@a}
 fn rr {|@a| e:rm -rf $@a}
+fn update {|@a| e:yay --noconfirm; flatpak update $@a}
