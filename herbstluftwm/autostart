@@ -82,6 +82,9 @@ done
 hc keybind $Mod-period use_index +1 --skip-visible
 hc keybind $Mod-comma  use_index -1 --skip-visible
 
+# run apps
+hc keybind $Mod-d spawn xfce4-appfinder
+
 # layouting
 hc keybind $Mod-r remove
 hc keybind $Mod-s floating toggle
