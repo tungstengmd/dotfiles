@@ -16,14 +16,11 @@ hc keyunbind --all
 # keybindings
 Mod=Mod4   # Use the super key as the main modifier
 
-hc keybind $Mod-Shift-q quit
 hc keybind $Mod-Shift-r reload
 hc keybind $Mod-Shift-c close
 hc keybind $Mod-Return spawn "${TERMINAL:-contour}" # use your $TERMINAL with contour as fallback
 
 hc set frame_bg_transparent    true
-hc set frame_padding           0
-hc set frame_border_width      0
 
 # basic movement in tiling and floating mode
 # focusing clients
@@ -71,6 +68,7 @@ tag_keys=( {1..9} 0 )
 hc rename default "${tag_names[0]}" || true
 for i in "${!tag_names[@]}" ; do
     hc add "${tag_names[$i]}"
+    hc set_layout grid
     key="${tag_keys[$i]}"
     if [ -n "$key" ] ; then
         hc keybind "$Mod-$key" use_index "$i"
@@ -84,6 +82,8 @@ hc keybind $Mod-comma  use_index -1 --skip-visible
 
 # run apps
 hc keybind $Mod-d spawn xfce4-appfinder
+hc keybind $Mod-e spawn thunar
+hc keybind $Mod spawn xfce4-popup-applicationsmenu
 
 # layouting
 hc keybind $Mod-r remove
@@ -124,15 +124,8 @@ hc set frame_bg_normal_color '#565656aa'
 hc set frame_bg_active_color '#345F0Caa'
 hc set frame_border_width 0
 hc set show_frame_decorations 'none'
-
 hc set frame_transparent_width 0
 hc set frame_gap 4
-
-hc attr theme.title_height 0
-hc attr theme.title_when never
-hc attr theme.title_font 'Dejavu Sans:pixelsize=12'  # example using Xft
-# hc attr theme.title_font '-*-fixed-medium-r-*-*-13-*-*-*-*-*-*-*'
-hc attr theme.title_depth 0  # space below the title's baseline
 hc attr theme.active.color '#345F0Cef'
 hc attr theme.title_color '#ffffff'
 hc attr theme.normal.color '#323232dd'
@@ -151,9 +144,6 @@ hc attr theme.floating.outer_color black
 hc attr theme.active.inner_color '#789161'
 hc attr theme.urgent.inner_color '#9A65B0'
 hc attr theme.normal.inner_color '#606060'
-
-# layout
-hc set_layout grid
 
 # copy inner color to outer_color
 for state in active urgent normal ; do
