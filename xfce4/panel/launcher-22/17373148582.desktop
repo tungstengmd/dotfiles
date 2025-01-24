@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Contour
+Comment=Command line access
+Exec=contour
+Icon=org.xfce.terminalemulator
+Path=
+Terminal=false
+StartupNotify=false
