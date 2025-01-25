@@ -15,6 +15,7 @@ hc() {
     herbstclient "$@"
 }
 
+feh --bg-fill ~/Pictures/image.png
 hc spawn xfce4-panel
 
 hc emit_hook reload
