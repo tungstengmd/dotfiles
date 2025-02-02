@@ -102,6 +102,8 @@
     </property>
     <property name="plugin-6" type="string" value="systray">
       <property name="known-legacy-items" type="array">
+        <value type="string" value="preparing wi-fi network connection “ee-983jsf”…"/>
+        <value type="string" value="wi-fi network connection “ee-983jsf” active: ee-983jsf (89%)"/>
         <value type="string" value="no network connection"/>
         <value type="string" value="wi-fi network connection “ee-983jsf” active: ee-983jsf (97%)"/>
         <value type="string" value="wi-fi network connection “ee-983jsf” active: ee-983jsf (88%)"/>
@@ -114,6 +116,8 @@
         <value type="string" value="wi-fi network connection “ee-983jsf” active: ee-983jsf (99%)"/>
       </property>
       <property name="known-items" type="array">
+        <value type="string" value="tray-icon tray app"/>
+        <value type="string" value="psensor"/>
         <value type="string" value="obs"/>
         <value type="string" value="chrome_status_icon_1"/>
       </property>

@@ -9,6 +9,8 @@ application/x-extension-shtml=userapp-Firefox-8NY7Z2.desktop
 application/xhtml+xml=userapp-Firefox-8NY7Z2.desktop
 application/x-extension-xhtml=userapp-Firefox-8NY7Z2.desktop
 application/x-extension-xht=userapp-Firefox-8NY7Z2.desktop
+application/octet-stream=org.contourterminal.Contour.desktop
+application/x-msdownload=wine.desktop
 
 [Added Associations]
 x-scheme-handler/http=userapp-Firefox-8NY7Z2.desktop;userapp-Firefox-SZWZ02.desktop;
@@ -23,3 +25,6 @@ application/x-extension-xhtml=userapp-Firefox-8NY7Z2.desktop;userapp-Firefox-SZW
 application/x-extension-xht=userapp-Firefox-8NY7Z2.desktop;userapp-Firefox-SZWZ02.desktop;
 text/plain=org.xfce.mousepad.desktop;
 application/vnd.flatpak.repo=org.gnome.FileRoller.desktop;
+application/octet-stream=org.contourterminal.Contour.desktop;
+application/vnd.microsoft.portable-executable=wine.desktop;
+application/x-msdownload=wine.desktop;

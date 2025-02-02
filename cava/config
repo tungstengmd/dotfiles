@@ -84,7 +84,7 @@
  method = pulse
  source = auto
 
- method = pipewire
+ method = pulse
  source = auto
 
 ; method = alsa
