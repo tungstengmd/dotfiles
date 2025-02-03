@@ -4,6 +4,7 @@
   <property name="applications" type="empty">
     <property name="known_applications" type="array">
       <value type="string" value="balenaEtcher"/>
+      <value type="string" value="cinny"/>
       <value type="string" value="com.github.IsmaelMartinez.teams_for_linux"/>
       <value type="string" value="com.spotify.Client"/>
       <value type="string" value="dev.vencord.Vesktop"/>

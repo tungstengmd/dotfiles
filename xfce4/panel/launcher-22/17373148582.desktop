@@ -1,7 +1,7 @@
 [Desktop Entry]
 Version=1.0
 Type=Application
-Name=Contour
+Name=Terminal Emulator
 Comment=Command line access
 Exec=contour
 Icon=org.xfce.terminalemulator
