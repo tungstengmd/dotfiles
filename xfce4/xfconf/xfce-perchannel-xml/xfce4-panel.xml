@@ -102,6 +102,7 @@
     </property>
     <property name="plugin-6" type="string" value="systray">
       <property name="known-legacy-items" type="array">
+        <value type="string" value="wi-fi network connection “ee-983jsf” active: ee-983jsf (91%)"/>
         <value type="string" value="preparing wi-fi network connection “ee-983jsf”…"/>
         <value type="string" value="wi-fi network connection “ee-983jsf” active: ee-983jsf (89%)"/>
         <value type="string" value="no network connection"/>
