@@ -36,7 +36,7 @@
     <property name="plugin-1" type="string" value="applicationsmenu">
       <property name="button-title" type="string" value=""/>
       <property name="button-icon" type="string" value="void-logo-notext"/>
-      <property name="show-generic-names" type="bool" value="false"/>
+      <property name="show-generic-names" type="bool" value="true"/>
       <property name="custom-menu" type="bool" value="false"/>
       <property name="show-tooltips" type="bool" value="false"/>
     </property>
@@ -48,7 +48,7 @@
     <property name="plugin-8" type="string" value="pulseaudio">
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
       <property name="show-notifications" type="bool" value="true"/>
-      <property name="known-players" type="string" value="firefox;Firefox Web Browser;spotify"/>
+      <property name="known-players" type="string" value="Firefox;firefox;Firefox Web Browser;spotify"/>
     </property>
     <property name="plugin-9" type="string" value="power-manager-plugin"/>
     <property name="plugin-10" type="string" value="notification-plugin"/>
@@ -117,6 +117,7 @@
         <value type="string" value="wi-fi network connection “ee-983jsf” active: ee-983jsf (99%)"/>
       </property>
       <property name="known-items" type="array">
+        <value type="string" value="flameshot"/>
         <value type="string" value="tray-icon tray app"/>
         <value type="string" value="psensor"/>
         <value type="string" value="obs"/>
