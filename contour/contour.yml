@@ -111,7 +111,7 @@ mouse_block_selection_modifier: Control
 #                               This is not supported on all platforms.
 #
 # Default: CopyToSelectionClipboard
-on_mouse_select: CopyToSelectionClipboard
+on_mouse_select: CopyToClipboard
 
 # Determines whether the instance is reloading the configuration files whenever it is changing or not.
 #

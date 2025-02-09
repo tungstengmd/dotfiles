@@ -11,6 +11,13 @@ configs:
       y: 0
       width: 1920
       height: 1080
+  - id: "b212be7ce703277ff7caf5a69fecb7c0f7d7ecd5"
+    display_name: "AU Optronics 0x61ED (eDP-1)"
+    geometry:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
   icons:
     "/":
       row: 1
