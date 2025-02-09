@@ -17,7 +17,7 @@ hc() {
 
 feh --bg-fill ~/Pictures/image.png
 hc spawn xfce4-panel
-hc spawn picom
+picom &
 
 hc emit_hook reload
 
