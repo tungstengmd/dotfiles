@@ -30,6 +30,10 @@
       <property name="autohide-behavior" type="uint" value="0"/>
       <property name="mode" type="uint" value="0"/>
       <property name="border-width" type="uint" value="0"/>
+      <property name="enter-opacity" type="uint" value="100"/>
+      <property name="leave-opacity" type="uint" value="100"/>
+      <property name="background-style" type="uint" value="0"/>
+      <property name="background-image" type="string" value="file:///home/harley/Pictures/image.png"/>
     </property>
   </property>
   <property name="plugins" type="empty">
@@ -102,6 +106,12 @@
     </property>
     <property name="plugin-6" type="string" value="systray">
       <property name="known-legacy-items" type="array">
+        <value type="string" value="wi-fi network connection “ee-983jsf” active: ee-983jsf (83%)"/>
+        <value type="string" value="wi-fi network connection “ee-983jsf” active: ee-983jsf (93%)"/>
+        <value type="string" value="wi-fi network connection “ee-983jsf” active: ee-983jsf (84%)"/>
+        <value type="string" value="wi-fi network connection “ee-983jsf” active: ee-983jsf (80%)"/>
+        <value type="string" value="psensor"/>
+        <value type="string" value="configuring wi-fi network connection “ee-983jsf”…"/>
         <value type="string" value="wi-fi network connection “ee-983jsf” active: ee-983jsf (96%)"/>
         <value type="string" value="wi-fi network connection “ee-983jsf” active: ee-983jsf (75%)"/>
         <value type="string" value="wi-fi network connection “ee-983jsf” active: ee-983jsf (85%)"/>
