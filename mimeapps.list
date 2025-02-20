@@ -11,6 +11,7 @@ application/x-extension-xhtml=userapp-Firefox-V35H22.desktop
 application/x-extension-xht=userapp-Firefox-V35H22.desktop
 application/octet-stream=org.contourterminal.Contour.desktop
 application/x-msdownload=wine.desktop
+application/java-archive=userapp-java -jar-PB8Z12.desktop
 
 [Added Associations]
 x-scheme-handler/http=userapp-Firefox-8NY7Z2.desktop;userapp-Firefox-SZWZ02.desktop;userapp-Firefox-V35H22.desktop;
@@ -28,3 +29,4 @@ application/vnd.flatpak.repo=org.gnome.FileRoller.desktop;
 application/octet-stream=org.contourterminal.Contour.desktop;
 application/vnd.microsoft.portable-executable=wine.desktop;
 application/x-msdownload=wine.desktop;
+application/java-archive=userapp-java-AMLH22.desktop;userapp-java -jar-PB8Z12.desktop;
