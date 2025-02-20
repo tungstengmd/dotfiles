@@ -40,13 +40,19 @@
       <property name="expand" type="bool" value="true"/>
       <property name="style" type="uint" value="0"/>
     </property>
-    <property name="plugin-4" type="string" value="pager"/>
+    <property name="plugin-4" type="string" value="pager">
+      <property name="rows" type="uint" value="1"/>
+      <property name="wrap-workspaces" type="bool" value="false"/>
+      <property name="miniature-view" type="bool" value="true"/>
+      <property name="numbering" type="bool" value="false"/>
+    </property>
     <property name="plugin-5" type="string" value="separator">
       <property name="style" type="uint" value="0"/>
     </property>
     <property name="plugin-6" type="string" value="systray">
       <property name="square-icons" type="bool" value="true"/>
       <property name="known-legacy-items" type="array">
+        <value type="string" value="wi-fi network connection “ee-983jsf” active: ee-983jsf (71%)"/>
         <value type="string" value="wi-fi network connection “ee-983jsf” active: ee-983jsf (98%)"/>
         <value type="string" value="wi-fi network connection “ee-983jsf” active: ee-983jsf (89%)"/>
         <value type="string" value="wi-fi network connection “ee-983jsf” active: ee-983jsf (90%)"/>
