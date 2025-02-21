@@ -21,4 +21,5 @@
     </property>
   </property>
   <property name="log-max-size-enabled" type="bool" value="true"/>
+  <property name="do-not-disturb" type="bool" value="true"/>
 </channel>
