@@ -53,6 +53,7 @@
     <property name="plugin-6" type="string" value="systray">
       <property name="square-icons" type="bool" value="true"/>
       <property name="known-legacy-items" type="array">
+        <value type="string" value="networking disabled"/>
         <value type="string" value="wi-fi network connection “ee-983jsf” active: ee-983jsf (97%)"/>
         <value type="string" value="wi-fi network connection “ee-983jsf” active: ee-983jsf (75%)"/>
         <value type="string" value="flameshot"/>
