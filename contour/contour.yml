@@ -355,7 +355,7 @@ profiles:
         # Font related configuration (font face, styles, size, rendering mode).
         font:
             # Initial font size in pixels.
-            size: 10
+            size: 15
 
             # Font Locator API
             # Selects an engine to use for locating font files on the system.
@@ -404,7 +404,7 @@ profiles:
             regular:
                 # Font family defines the font family name, such as:
                 # Fira Code", "Courier New", or "monospace" (default).
-                family: "Space Mono Nerd Font"
+                family: "CozetteVector"
 
                 # Font weight can be one of:
                 #   thin, extra_light, light, demilight, book, normal,
