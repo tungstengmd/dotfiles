@@ -425,9 +425,13 @@ profiles:
 
             # If bold/italic/bold_italic are not explicitly specified, the regular font with
             # the respective weight and slant will be used.
-            #bold: "Hack"
-            #italic: "Hack"
-            #bold_italic: "Hack"
+            bold: "CozetteVectorBold"
+            italic: 
+                family: "CozetteVector"
+                slant: "italic"
+            bold_italic: 
+                family: "CozetteVectorBold"
+                slant: "italic"
 
             # This is a special font to be used for displaying unicode symbols
             # that are to be rendered in emoji presentation.
