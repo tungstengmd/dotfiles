@@ -122,7 +122,7 @@ live_config: false
 # -----------------------------------------------------
 images:
     # Enable or disable sixel scrolling (SM/RM ?80 default)
-    sixel_scrolling: true
+    sixel_scrolling: disable
     # Configures the maximum number of color registers available when rendering Sixel graphics.
     sixel_register_count: 4096
     # maximum width in pixels of an image to be accepted (0 defaults to system screen pixel width)
@@ -365,7 +365,7 @@ profiles:
             # - fontconfig      : uses fontconfig to select fonts
             # - CoreText        : uses OS/X CoreText to select fonts.
             # - DirectWrite     : selects DirectWrite engine (Windows only)
-            locator: native
+            locator: fontconfig
 
             # Text shaping related settings
             text_shaping:
@@ -859,5 +859,5 @@ input_mapping:
 
 #   - { mods: [Control, Meta],  key: 'E',           action: TraceEnter,             mode: "~Trace" }
 #   - { mods: [Control, Meta],  key: 'E',           action: TraceLeave,             mode: "Trace" }
-#   - { mods: [Control, Meta],  key: 'N',           action: TraceStep,              mode: "Trace" }
+#   - { mods: [Control, Meta],  key: 'N',           action: TraceStep,       <      mode: "Trace" }
 #   - { mods: [Control, Meta],  key: 'F',           action: TraceBreakAtEmptyQueue, mode: "Trace" }
