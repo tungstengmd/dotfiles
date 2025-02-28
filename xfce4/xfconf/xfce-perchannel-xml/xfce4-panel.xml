@@ -53,6 +53,10 @@
     <property name="plugin-6" type="string" value="systray">
       <property name="square-icons" type="bool" value="true"/>
       <property name="known-legacy-items" type="array">
+        <value type="string" value="wi-fi network connection “ee-983jsf” active: ee-983jsf (72%)"/>
+        <value type="string" value="wi-fi network connection “ee-983jsf” active: ee-983jsf (73%)"/>
+        <value type="string" value="wi-fi network connection “ee-983jsf” active: ee-983jsf (74%)"/>
+        <value type="string" value="configuring wi-fi network connection “ee-983jsf”…"/>
         <value type="string" value="wi-fi network connection “ee-983jsf” active: ee-983jsf (70%)"/>
         <value type="string" value="wi-fi network connection “ee-983jsf” active: ee-983jsf (61%)"/>
         <value type="string" value="wi-fi network connection “ee-983jsf” active: ee-983jsf (91%)"/>
@@ -75,6 +79,7 @@
         <value type="string" value="networkmanager applet"/>
       </property>
       <property name="known-items" type="array">
+        <value type="string" value="steam"/>
         <value type="string" value="psensor"/>
         <value type="string" value="flameshot"/>
         <value type="string" value="chrome_status_icon_1"/>
@@ -85,7 +90,10 @@
       <property name="show-notifications" type="bool" value="true"/>
       <property name="known-players" type="string" value="Firefox;spotify"/>
     </property>
-    <property name="plugin-12" type="string" value="clock"/>
+    <property name="plugin-12" type="string" value="clock">
+      <property name="digital-layout" type="uint" value="3"/>
+      <property name="digital-time-format" type="string" value="%T"/>
+    </property>
     <property name="plugin-13" type="string" value="separator">
       <property name="style" type="uint" value="0"/>
     </property>

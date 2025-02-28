@@ -28,5 +28,5 @@ text/plain=org.xfce.mousepad.desktop;
 application/vnd.flatpak.repo=org.gnome.FileRoller.desktop;
 application/octet-stream=org.contourterminal.Contour.desktop;
 application/vnd.microsoft.portable-executable=wine.desktop;
-application/x-msdownload=wine.desktop;
+application/x-msdownload=userapp-proton-176G22.desktop;wine.desktop;
 application/java-archive=userapp-java-AMLH22.desktop;userapp-java -jar-PB8Z12.desktop;
