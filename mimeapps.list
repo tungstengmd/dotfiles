@@ -12,6 +12,7 @@ application/x-extension-xht=userapp-Firefox-V35H22.desktop
 application/octet-stream=org.contourterminal.Contour.desktop
 application/x-msdownload=wine.desktop
 application/java-archive=userapp-java -jar-PB8Z12.desktop
+audio/vnd.wave=org.xfce.Parole.desktop
 
 [Added Associations]
 x-scheme-handler/http=userapp-Firefox-8NY7Z2.desktop;userapp-Firefox-SZWZ02.desktop;userapp-Firefox-V35H22.desktop;
@@ -28,5 +29,11 @@ text/plain=org.xfce.mousepad.desktop;
 application/vnd.flatpak.repo=org.gnome.FileRoller.desktop;
 application/octet-stream=org.contourterminal.Contour.desktop;
 application/vnd.microsoft.portable-executable=wine.desktop;
-application/x-msdownload=userapp-proton-176G22.desktop;wine.desktop;
+application/x-msdownload=userapp-proton-176G22.desktop;wine.desktop;userapp-wine -force-opengl-F0SN22.desktop;
 application/java-archive=userapp-java-AMLH22.desktop;userapp-java -jar-PB8Z12.desktop;
+image/png=krita_png.desktop;
+audio/mp4=easytag.desktop;
+audio/vnd.wave=easytag.desktop;org.xfce.Parole.desktop;
+
+[Removed Associations]
+audio/vnd.wave=im.riot.Riot.desktop;
