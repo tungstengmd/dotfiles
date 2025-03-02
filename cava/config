@@ -1,8 +1,6 @@
-# /* ---- 💫 https://github.com/JaKooLit 💫 ---- */  #
-# /* wallust template - colors-cava */
-
 ## Configuration file for CAVA.
 # Remove the ; to change parameters.
+
 
 [general]
 
@@ -10,7 +8,7 @@
 ; mode = normal
 
 # Accepts only non-negative values.
-; framerate = 60
+framerate = 24
 
 # 'autosens' will attempt to decrease sensitivity if the bars peak. 1 = on, 0 = off
 # new as of 0.6.0 autosens of low values (dynamic range)
@@ -81,33 +79,8 @@
 # For jack 'source' will be the name of the JACK server to connect to, e.g. 'foobar'. Default: 'default'.
 # README.md contains further information on how to setup CAVA for JACK.
 #
- method = pulse
- source = auto
-
- method = pulse
- source = auto
-
-; method = alsa
-; source = hw:Loopback,1
-
-; method = fifo
-; source = /tmp/mpd.fifo
-
-; method = shmem
-; source = /squeezelite-AA:BB:CC:DD:EE:FF
-
-; method = portaudio
-; source = auto
-
-; method = sndio
-; source = default
-
-; method = oss
-; source = /dev/dsp
-
-; method = jack
-; source = default
-
+method = pulse
+source = auto
 # The options 'sample_rate', 'sample_bits', 'channels' and 'autoconnect' can be configured for some input methods:
 #   sample_rate: fifo, pipewire, sndio, oss
 #   sample_bits: fifo, pipewire, sndio, oss
@@ -225,33 +198,16 @@
 ; background = '#111111'
 ; foreground = '#33ffff'
 
-# these are default
+
 # Gradient mode, only hex defined colors are supported,
 # background must also be defined in hex or remain commented out. 1 = on, 0 = off.
 # You can define as many as 8 different colors. They range from bottom to top of screen
-; gradient = 0
-; gradient_count = 8
-; gradient_color_1 = '#59cc33'
-; gradient_color_2 = '#80cc33'
-; gradient_color_3 = '#a6cc33'
-; gradient_color_4 = '#cccc33'
-; gradient_color_5 = '#cca633'
-; gradient_color_6 = '#cc8033'
-; gradient_color_7 = '#cc5933'
-; gradient_color_8 = '#cc3333'
-
-# for wallust
 gradient = 1
 gradient_count = 8
-gradient_color_1 = '#060002'
-gradient_color_2 = '#2A3433'
-gradient_color_3 = '#601230'
-gradient_color_4 = '#004F36'
-gradient_color_5 = '#A8CEB4'
-gradient_color_6 = '#086447'
-gradient_color_7 = '#006948'
-gradient_color_8 = '#A8CEB4'
-
+gradient_color_1 = '#191c25'
+gradient_color_2 = '#5b5f71'
+gradient_color_3 = '#76a065'
+gradient_color_4 = '#92c47e'
 
 [smoothing]
 
