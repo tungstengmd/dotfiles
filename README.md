@@ -1,2 +1,2 @@
 # dotfiles
-these are my dotfiles for fastfetch, btop and more. enjoy :3
+these are my dotfiles for herbstluftwm, cava and more. enjoy :3
