@@ -37,6 +37,8 @@
     <property name="plugin-1" type="string" value="applicationsmenu">
       <property name="button-icon" type="string" value="void-logo-notext"/>
       <property name="show-button-title" type="bool" value="false"/>
+      <property name="show-tooltips" type="bool" value="false"/>
+      <property name="show-menu-icons" type="bool" value="true"/>
     </property>
     <property name="plugin-2" type="string" value="tasklist">
       <property name="grouping" type="uint" value="1"/>

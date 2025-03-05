@@ -1,1 +1,7 @@
-{}
+{
+	"lsp.server": "shell=bash-lsp",
+	"lsp.formatOnSave": true,
+	"lsp.tabcompletion": true,
+	"lsp.ignoreTriggerCharacters": "completion,signature",
+	"lsp.autocompleteDetails": false
+}

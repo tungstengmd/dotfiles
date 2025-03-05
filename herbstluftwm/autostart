@@ -72,8 +72,10 @@ for i in "${!tag_names[@]}" ; do
 done
 
 # cycle through tags
-hc keybind $Mod-period use_index +1 --skip-visible
-hc keybind $Mod-comma  use_index -1 --skip-visible
+hc keybind $Mod-period       use_index +1 --skip-visible
+hc keybind $Mod-comma        use_index -1 --skip-visible
+hc keybind $Mod-shift-period move_index +1
+hc keybind $Mod-shift-comma  move_index -1
 
 # run apps
 hc keybind $Mod-d spawn xfce4-appfinder
