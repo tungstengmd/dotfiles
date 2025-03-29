@@ -1,0 +1,7 @@
+shell
+procs:
+  "shell 1":
+    autostart: true
+  "shell 2":
+    autostart: true
+

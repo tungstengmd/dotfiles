@@ -1,0 +1,8 @@
+ls
+ls -A
+ls -a
+ls -la
+ce
+clear
+ls -la
+exit

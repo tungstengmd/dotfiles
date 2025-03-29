@@ -1,0 +1,25 @@
+[Desktop Entry]
+Type=Application
+TryExec=contour
+Exec=/usr/sbin/rio
+Icon=org.xfce.terminalemulator
+Terminal=false
+Categories=Qt;System;TerminalEmulator;
+Actions=NewWindow;
+X-KDE-AuthorizeAction=shell_access
+StartupWMClass=contour
+MimeType=inode/directory;
+Keywords=File;Manager;Browser;Explorer;Launcher;Vi;Vim;Python
+Name=Terminal Emulator
+GenericName=Terminal
+GenericName[en_GB]=Terminal
+Comment=Command line access
+Comment[en_GB]=Command line access
+X-XFCE-Source=file:///usr/share/applications/org.contourterminal.Contour.desktop
+Path=
+StartupNotify=false
+
+[Desktop Action NewWindow]
+Exec=contour
+Name=Open a New Window
+Name[en_GB]=Open a New Window

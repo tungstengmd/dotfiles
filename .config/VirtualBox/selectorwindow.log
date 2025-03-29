@@ -1,0 +1,24 @@
+00:00:00.390422 VirtualBox GUI VM Selector Window 7.1.6 r167084 linux.amd64 (Feb  3 2025 19:36:29) release log
+00:00:00.390423 Log opened 2025-03-02T16:08:30.204328000Z
+00:00:00.390423 Build Type: release
+00:00:00.390427 OS Product: Linux
+00:00:00.390428 OS Release: 6.12.16_1
+00:00:00.390428 OS Version: #1 SMP PREEMPT_DYNAMIC Fri Feb 21 16:28:15 UTC 2025
+00:00:00.390445 DMI Product Name: VivoBook_ASUSLaptop X515EA_X1500EA
+00:00:00.390449 DMI Product Version: 1.0       
+00:00:00.390454 Firmware type: UEFI
+00:00:00.390612 Secure Boot: Disabled
+00:00:00.390641 Host RAM: 7641MB (7.4GB) total, 3060MB (2.9GB) available
+00:00:00.390644 Executable: /usr/lib/virtualbox/VirtualBox
+00:00:00.390644 Process ID: 8256
+00:00:00.390644 Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.390665 Qt version: 6.8.2
+00:00:00.391004 GUI: UIMediumEnumerator: Initial medium-enumeration finished!
+00:00:00.398941 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:00.398972 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:01.029157 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 0 work area is actually resized to: 12x12 x 1886x497
+00:06:19.299762 GUI: UIMediumEnumerator: Medium with key={{03ac113f-0264-412a-91ee-b6eb3755ad22}} created
+00:06:19.551228 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:06:23.298189 ERROR [COM]: aRC=NS_ERROR_UNEXPECTED (0x8000ffff) aIID={c0447716-ff5a-4795-b57a-ecd5fffa18a4} aComponent={SessionWrap} aText={The session is not locked (session state: Unlocked)}, preserve=false aResultDetail=0
+00:07:18.100841 GUI: UICommon: Handling aboutToQuit request..
+00:07:18.945662 GUI: UICommon: aboutToQuit request handled!

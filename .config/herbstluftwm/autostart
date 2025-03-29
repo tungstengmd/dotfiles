@@ -1,0 +1,136 @@
+#!/usr/bin/env ksh
+
+
+#                                                           #
+#   |                  |            |    |          _|  |   #
+#   __ \    _ \   __|  __ \    __|  __|  |  |   |  |    __| #
+#   | | |   __/  |     |   | \__ \  |    |  |   |  __|  |   #
+#  _| |_| \___| _|    _.__/  ____/ \__| _| \__,_| _|   \__| #
+#                                                           #
+#   welcome! this is my config for herbstluftwm which i've  #
+#  been modifying slowly to the point where it's become its #
+#                own little thing. enjoy <3                 #
+
+hc() {
+    herbstclient "$@"
+}
+
+feh --bg-fill ~/Pictures/image.png
+flameshot
+xfce4-panel -r
+picom &
+
+hc emit_hook reload
+
+# remove all existing keybindings
+hc keyunbind --all
+
+# keybindings
+Mod=Mod4   # Use the super key as the main modifier
+
+hc keybind $Mod-Shift-r reload
+hc keybind $Mod-q close
+hc keybind $Mod-Return spawn "${TERMINAL:-rio}" # use your $TERMINAL with rio as fallback
+hc keybind Print spawn flameshot gui
+hc keybind Mod1-Print spawn flameshot screen -c
+hc keybind Shift-Print spawn flameshot full -c
+
+hc set frame_bg_transparent    true
+
+# basic movement in tiling and floating mode
+# focusing clients
+hc keybind $Mod-Left  focus left
+hc keybind $Mod-Down  focus down
+hc keybind $Mod-Up    focus up
+hc keybind $Mod-Right focus right
+
+# moving clients in tiling and floating mode
+hc keybind $Mod-Shift-Left  shift left
+hc keybind $Mod-Shift-Down  shift down
+hc keybind $Mod-Shift-Up    shift up
+hc keybind $Mod-Shift-Right shift right
+
+# resizing frames and floating clients
+resizestep=0.02
+hc keybind $Mod-Control-Left    resize left +$resizestep
+hc keybind $Mod-Control-Down    resize down +$resizestep
+hc keybind $Mod-Control-Up      resize up +$resizestep
+hc keybind $Mod-Control-Right   resize right +$resizestep
+
+# tags
+tag_names=( {1..9} )
+tag_keys=( {1..9} 0 )
+
+hc rename default "${tag_names[0]}" || true
+for i in "${!tag_names[@]}" ; do
+    hc add "${tag_names[$i]}"
+    key="${tag_keys[$i]}"
+    if [ -n "$key" ] ; then
+        hc keybind "$Mod-$key" use_index "$i"
+        hc keybind "$Mod-Shift-$key" move_index "$i"
+    fi
+done
+
+# cycle through tags
+hc keybind $Mod-period       use_index +1 --skip-visible
+hc keybind $Mod-comma        use_index -1 --skip-visible
+hc keybind $Mod-Shift-period move_index +1
+hc keybind $Mod-Shift-comma  move_index -1
+
+# run apps
+hc keybind $Mod-d spawn xfce4-appfinder
+hc keybind $Mod-e spawn rio -e mc
+
+# layouting
+hc keybind $Mod-s floating toggle
+hc keybind $Mod-f fullscreen toggle
+hc keybind $Mod-Shift-f set_attr clients.focus.floating toggle
+hc keybind $Mod-Shift-m set_attr clients.focus.minimized true
+hc keybind $Mod-Control-m jumpto last-minimized
+hc keybind $Mod-p pseudotile toggle
+# The following cycles through the available layouts within a frame, but skips
+# layouts, if the layout change wouldn't affect the actual window positions.
+# I.e. if there are two windows within a frame, the grid layout is skipped.
+hc keybind $Mod-space                                                           \
+            or , and . compare tags.focus.curframe_wcount = 2                   \
+                     . cycle_layout +1 vertical horizontal max vertical grid    \
+               , cycle_layout +1
+
+# mouse
+hc mouseunbind --all
+hc mousebind $Mod-Button1 move
+
+# focus
+hc keybind Mod1-Tab         cycle_all +1
+hc keybind Mod1-Shift-Tab   cycle_all -1
+
+# window decorations
+hc set frame_border_active_color '#76a065cc'
+hc set frame_border_normal_color '#5b5f71cc'
+hc set frame_gap 4
+hc attr theme.border_width 5
+hc attr theme.floating.outer_width 5
+hc attr theme.floating.border_width 5
+hc attr theme.active.inner_color '#76a065'
+hc attr theme.normal.inner_color '#5b5f71'
+
+# copy inner color to outer_color
+for state in active urgent normal ; do
+    hc substitute C theme.${state}.inner_color attr theme.${state}.outer_color C
+done
+hc attr theme.tiling.outer_width 5
+hc attr theme.background_color '#191c25'
+
+hc set window_gap 10
+hc set frame_padding 2
+hc set smart_frame_surroundings on
+hc set mouse_recenter_gap 0
+
+# rules
+hc unrule -F
+hc rule focus=on # normally focus new clients
+hc rule windowtype~'_NET_WM_WINDOW_TYPE_(DIALOG|UTILITY|SPLASH)' floating=on
+hc rule windowtype='_NET_WM_WINDOW_TYPE_DIALOG' focus=on
+hc rule windowtype~'_NET_WM_WINDOW_TYPE_(NOTIFICATION|DOCK|DESKTOP)' manage=off
+hc rule fixedsize floating=on
+hc unlock

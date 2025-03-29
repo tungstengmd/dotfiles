@@ -1,0 +1,6 @@
+[History]
+CompletionItems=unused
+
+[Location Bar]
+ComboContents[$e]=https://duckduckgo.com/?q=meow&t=kde,https://duckduckgo.com/?q=dark reader&t=kde,https://www.google.com/,https://google.con,$HOME
+ComboIconCache[$e]=https://duckduckgo.com/?q=meow&t=kde,$HOME/.cache/favicons/duckduckgo.com.png,https://duckduckgo.com/?q=dark reader&t=kde,$HOME/.cache/favicons/duckduckgo.com.png,https://www.google.com/,$HOME/.cache/favicons/www.google.com.png,https://google.con,text-html,file:$HOME,user-home

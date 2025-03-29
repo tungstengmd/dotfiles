@@ -1,0 +1,94 @@
+00:00:00.000223 main     VirtualBox XPCOM Server 7.1.6 r167084 linux.amd64 (Feb  3 2025 19:36:29) release log
+00:00:00.000228 main     Log opened 2025-03-02T16:08:30.030804000Z
+00:00:00.000229 main     Build Type: release
+00:00:00.000233 main     OS Product: Linux
+00:00:00.000234 main     OS Release: 6.12.16_1
+00:00:00.000235 main     OS Version: #1 SMP PREEMPT_DYNAMIC Fri Feb 21 16:28:15 UTC 2025
+00:00:00.000256 main     DMI Product Name: VivoBook_ASUSLaptop X515EA_X1500EA
+00:00:00.000259 main     DMI Product Version: 1.0       
+00:00:00.000265 main     Firmware type: UEFI
+00:00:00.000641 main     Secure Boot: Disabled
+00:00:00.000741 main     Host RAM: 7641MB (7.4GB) total, 3077MB (3.0GB) available
+00:00:00.000750 main     Executable: /usr/lib/virtualbox/VBoxSVC
+00:00:00.000750 main     Process ID: 8283
+00:00:00.000750 main     Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.005950 main     IPC socket path: /tmp/.vbox-harley-ipc/ipcd
+00:00:00.011688 DCon01   VirtualBox: object creation starts
+00:00:00.011747 DCon01   Home directory: '/home/harley/.config/VirtualBox'
+00:00:00.020343 DCon01   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlo1: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:00.020834 DCon01   HostDnsMonitor: initializing
+00:00:00.021644 DCon01   NAT: resolv.conf: nameserver 192.168.1.254
+00:00:00.021689 DCon01   HostDnsMonitor: updating information
+00:00:00.021723 DCon01   HostDnsMonitor: old information
+00:00:00.021727 DCon01     no server entries
+00:00:00.021729 DCon01     no domain set
+00:00:00.021732 DCon01     no search string entries
+00:00:00.021737 DCon01   HostDnsMonitor: new information
+00:00:00.021743 DCon01     server 1: 192.168.1.254
+00:00:00.021747 DCon01     domain: lan
+00:00:00.021749 DCon01     search string 1: lan
+00:00:00.022881 DCon01   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:00:00.023058 DCon01   VD: VDInit finished with VINF_SUCCESS
+00:00:00.023136 DCon01   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={925084b0-625f-422f-a67d-0ede1880a56c} aComponent={SystemPropertiesWrap} aText={Cannot determine default Guest Additions ISO location. Most likely they are not available}, preserve=false aResultDetail=0
+00:00:00.023904 DCon01   VirtualBox: object created
+00:00:00.636811 DCon02   Saving settings file "/home/harley/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:00.646141 DCon02   Finished saving settings file "/home/harley/.config/VirtualBox/VirtualBox.xml"
+00:00:00.683031 DCon03   Saving settings file "/home/harley/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:00.697616 DCon03   Finished saving settings file "/home/harley/.config/VirtualBox/VirtualBox.xml"
+00:00:00.736791 DCon03   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=false aResultDetail=0
+00:00:01.221601 DCon03   Saving settings file "/home/harley/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:01.233105 DCon03   Finished saving settings file "/home/harley/.config/VirtualBox/VirtualBox.xml"
+00:02:35.901122 DCon12   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={925084b0-625f-422f-a67d-0ede1880a56c} aComponent={SystemPropertiesWrap} aText={Cannot determine default Guest Additions ISO location. Most likely they are not available}, preserve=false aResultDetail=0
+00:02:36.395808 DCon12   Saving settings file "/home/harley/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:02:36.407552 DCon12   Finished saving settings file "/home/harley/.config/VirtualBox/VirtualBox.xml"
+00:04:39.528505 DCon16   Unattended: RTVfsQueryPathInfo(, '\OS2IMAGE/DISK_0/OS2LDR' (from OS2SE20.SRC),) -> VERR_PATH_NOT_FOUND, fMode=0x0
+00:04:39.536914 DCon16   Saving settings file "/home/harley/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:04:39.546841 DCon16   Finished saving settings file "/home/harley/.config/VirtualBox/VirtualBox.xml"
+00:04:39.553645 DCon12   Saving settings file "/home/harley/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:04:39.563387 DCon12   Finished saving settings file "/home/harley/.config/VirtualBox/VirtualBox.xml"
+00:06:19.066877 createBase Saving settings file "/home/harley/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:06:19.078339 createBase Finished saving settings file "/home/harley/.config/VirtualBox/VirtualBox.xml"
+00:06:19.083292 DCon15   Platform architecture set to 'x86'
+00:06:19.083382 DCon15   Platform architecture set to 'x86'
+00:06:19.083389 DCon15   Platform architecture set to 'x86'
+00:06:19.083840 DCon15   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:06:19.083898 DCon15   Platform architecture set to 'x86'
+00:06:19.084814 DCon20   Saving settings file "/home/harley/VirtualBox VMs/slackware/slackware.vbox" with version "1.19-linux"
+00:06:19.111946 DCon20   Finished saving settings file "/home/harley/VirtualBox VMs/slackware/slackware.vbox"
+00:06:19.112144 DCon20   Saving settings file "/home/harley/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:06:19.122368 DCon20   Finished saving settings file "/home/harley/.config/VirtualBox/VirtualBox.xml"
+00:06:19.126587 DCon16   Platform architecture set to 'x86'
+00:06:19.130314 DCon16   Saving settings file "/home/harley/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:06:19.141587 DCon16   Finished saving settings file "/home/harley/.config/VirtualBox/VirtualBox.xml"
+00:06:19.143404 DCon15   Saving settings file "/home/harley/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:06:19.152387 DCon15   Finished saving settings file "/home/harley/.config/VirtualBox/VirtualBox.xml"
+00:06:19.152846 DCon16   Saving settings file "/home/harley/VirtualBox VMs/slackware/slackware.vbox" with version "1.19-linux"
+00:06:19.162754 DCon16   Finished saving settings file "/home/harley/VirtualBox VMs/slackware/slackware.vbox"
+00:06:19.210965 DCon19   Saving settings file "/home/harley/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:06:19.220825 DCon19   Finished saving settings file "/home/harley/.config/VirtualBox/VirtualBox.xml"
+00:06:19.596281 DCon21   Saving settings file "/home/harley/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:06:19.606205 DCon21   Finished saving settings file "/home/harley/.config/VirtualBox/VirtualBox.xml"
+00:06:19.664217 DCon21   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:06:19.715684 DCon22   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:06:19.717678 DCon22   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:06:19.828484 DCon15   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:06:19.927827 DCon22   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:06:19.928757 DCon22   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:06:22.564055 DCon22   Launched VM: 3416745776 pid: 11201 (0x2bc1) frontend: GUI/Qt name: slackware
+00:06:22.643326 DCon15   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:06:22.644262 DCon15   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:06:22.666661 DCon21   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:06:22.722384 DCon15   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:06:22.723156 DCon15   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:06:23.064771 Watcher  ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The virtual machine 'slackware' has terminated unexpectedly during startup with exit code 1 (0x1)}, preserve=false aResultDetail=0
+00:06:23.141800 DCon22   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:06:23.143700 DCon22   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:06:23.160289 DCon16   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:06:23.197986 DCon16   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:06:23.199096 DCon16   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:07:23.716347 main     VirtualBox: object deletion starts
+00:07:23.716424 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Medium '/home/harley/VirtualBox VMs/slackware/slackware.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:07:23.717400 main     HostDnsMonitor: shutting down ...
+00:07:23.721793 main     HostDnsMonitor: shut down
+00:07:23.733110 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={d644ad1e-c501-4fc7-9ab6-aa6d763bc540} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+00:07:23.733252 main     VirtualBox: object deleted
