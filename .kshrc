@@ -43,7 +43,7 @@ function crap {
     su -c "$(history -p !!)" root
 }
 function nhp {
-    nohup "$*" &
+    nohup "$0" 2>&1 >/dev/null &
 }
 function rmbut {
 	\ls -1 | egrep -v "("$@")" | xargs rm -rf
