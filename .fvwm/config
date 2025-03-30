@@ -79,7 +79,6 @@ AddToFunc   StartFunction
 + I Module FvwmButtons RightPanel
 + I Module FvwmEvent EventNewDesk
 + I Style * !Title
-+ I Exec ~home/harley/desk.sh
 + I Exec exec flameshot
 + I *FvwmButtons: (64x64 Swallow (NoClose) 'Module FvwmClock' 'Exec exec wmclock')
 + I *FvwmButtons: (64x64 Swallow (NoClose) 'Module FvwmCava' 'Exec exec xterm -e cava')
