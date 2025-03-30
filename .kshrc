@@ -45,7 +45,4 @@ function crap {
 function nhp {
     nohup "$0" 2>&1 >/dev/null &
 }
-function rmbut {
-	\ls -1 | egrep -v "("$@")" | xargs rm -rf
-}
 trap 't="$(date +%s)"' DEBUG
