@@ -11,5 +11,5 @@ case $gitstat in
     *"renamed"*) symb+="R" ;&
     *"Untracked"*) symb+="U" ;&
 esac
-printf "\033[92m╭─{owo}─{"$(date +%H):$(date +%M)"}$([ $USER = root ] && echo "\033[91m" || echo "\033[93m") ${USER} \033[92min \033[30m\033[102m$(pwd | sed "s|$HOME|~|")\033[49m\033[92m $([ "$(git status >/dev/null 2>&1; echo $?)" = 0 ] && echo "($(git branch --show-current))") $([ "$symb" = "" ] || echo "[$symb] ")${t}\n${exitcolor}> \033[0m"
+printf "\033[92m╭─{owo}─{"$(date +%H):$(date +%M)"}$([ $USER = root ] && echo "\033[91m" || echo "\033[93m") ${USER} \033[92min \033[30m\033[102m$(pwd | sed "s|$HOME|~|")\033[49m\033[92m $([ "$(git status >/dev/null 2>&1; echo $?)" = 0 ] && echo "($(git branch --show-current))") $([ "$symb" = "" ] || echo "[$symb] ")\n${exitcolor}> \033[0m$(tput sc; printf "%$((${COLUMNS:-$(tput cols)} - $((${#t}-2))))s" "$t"; tput rc)"
 )'
