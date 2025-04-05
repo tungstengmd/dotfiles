@@ -97,6 +97,7 @@
     </property>
     <property name="plugin-8" type="string" value="systray">
       <property name="known-legacy-items" type="array">
+        <value type="string" value="wi-fi network connection “ee-983jsf” active: ee-983jsf (84%)"/>
         <value type="string" value="networking disabled"/>
         <value type="string" value="wi-fi network connection “ee-983jsf” active: ee-983jsf (85%)"/>
         <value type="string" value="configuring wi-fi network connection “ee-983jsf”…"/>

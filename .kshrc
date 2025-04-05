@@ -1,3 +1,6 @@
+export DOTNET_ROOT=$HOME/.dotnet
+export PLAN9=$HOME/plan9port
+export PATH=$PATH:$DOTNET_ROOT/tools:$DOTNET_ROOT:$PLAN9/bin
 export FCEDIT=micro
 eval "$(thefuck --alias)"
 for FILE in ~/kshScripts/*
@@ -43,6 +46,6 @@ function crap {
     su -c "$(history -p !!)" root
 }
 function nhp {
-    nohup "$0" 2>&1 >/dev/null &
+	nohup "$(awk '{$1=""; print $0}')" 2>&1 >/dev/null &
 }
 trap 't="$(date +%s)"' DEBUG
