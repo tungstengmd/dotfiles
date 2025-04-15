@@ -1,6 +1,5 @@
-export DOTNET_ROOT=$HOME/.dotnet
 export PLAN9=$HOME/plan9port
-export PATH=$PATH:$DOTNET_ROOT/tools:$DOTNET_ROOT:$PLAN9/bin
+export PATH=$PATH:$PLAN9/bin
 export FCEDIT=micro
 eval "$(thefuck --alias)"
 for FILE in ~/kshScripts/*
@@ -36,7 +35,7 @@ alias rr="rm -rf"
 alias eshell="emacs -nw --no-splash -f eshell"
 alias update="doas xbps-install -Su && flatpak update && brew upgrade"
 alias scug='echo "(\_/)" && echo "|OxO|" && echo "(___)"'
-alias birthday="stat --format=%w / | cut -b -10"
+alias birth="stat --format=%w / | cut -b -10"
 alias sudo="doas "
 alias rm="gomi"
 alias doas="doas "
@@ -47,3 +46,4 @@ function crap {
     su -c "$(history -p !!)" root
 }
 trap 't="$(date +%s)"' DEBUG
+trap 'notify-send -i terminal "Terminal" "Resized."; echo ""' WINCH

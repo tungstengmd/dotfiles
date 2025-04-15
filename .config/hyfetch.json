@@ -8,9 +8,9 @@
         "custom_colors": [],
         "fore_back": null
     },
-    "backend": "neofetch",
+    "backend": "fastfetch",
     "args": null,
-    "distro": null,
-    "pride_month_shown": [],
+    "distro": "xenia2",
+    "pride_month_shown": ["happy pride month <3"],
     "pride_month_disable": false
 }
