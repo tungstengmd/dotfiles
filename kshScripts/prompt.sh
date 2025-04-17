@@ -9,7 +9,6 @@ case $gitstat in
     *"ahead of"*) symb+=">" ;&
     *"new file:"*) symb+="A" ;&
     *"deleted:"*) symb+="D" ;&
-    *"renamed"*) symb+="R" ;&
     *"Untracked"*) symb+="U" ;&
     *"detached"*) brnch="$(git branch | head -1 | sed "s/)//")"; brnch="(${brnch##* })"
 esac
