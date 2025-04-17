@@ -47,4 +47,3 @@ function crap {
     su -c "$(history -p !!)" root
 }
 trap 't="$(date +%s)"' DEBUG
-trap 'notify-send -i terminal "Terminal" "Resized."; echo ""' WINCH
