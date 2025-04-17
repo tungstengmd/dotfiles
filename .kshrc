@@ -1,5 +1,6 @@
+export DOTNET_ROOT=$HOME/.dotnet
 export PLAN9=$HOME/plan9port
-export PATH=$PATH:$PLAN9/bin
+export PATH=$PATH:$PLAN9/bin:$DOTNET_ROOT:$DOTNET_ROOT/tools
 export FCEDIT=micro
 eval "$(thefuck --alias)"
 for FILE in ~/kshScripts/*
