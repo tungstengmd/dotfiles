@@ -1,6 +1,7 @@
+export PULSE_LATENCY_MSEC=60
 export DOTNET_ROOT=$HOME/.dotnet
 export PLAN9=$HOME/plan9port
-export PATH=$PATH:$PLAN9/bin:$DOTNET_ROOT:$DOTNET_ROOT/tools
+export PATH=$PATH:$PLAN9/bin:$DOTNET_ROOT:$DOTNET_ROOT/tools:$HOME/.cargo/bin
 export FCEDIT=micro
 eval "$(thefuck --alias)"
 for FILE in ~/kshScripts/*
@@ -24,7 +25,7 @@ alias gr="git reset --hard HEAD"
 alias ls="g -A --git --icon"
 alias la="g -l -A --git --icon --table"
 alias viksh="vim ~/.kshrc"
-alias ce="clear && exec ksh"
+alias ce="clear; . ~/.kshrc"
 alias nerdfetch="nerdfetch -c"
 alias cbl="cbonsai -l"
 alias shit="fuck -y"
@@ -43,6 +44,7 @@ alias doas="doas "
 alias sftrbt="pkill xinit"
 alias wtf="netbsd-wtf"
 alias wttr="curl wttr.in/?format=1 2>/dev/null | sed 's/\ \ \ /\ /'"
+alias petpet='printf "pu"; for i in {3.."$(shuf -i 3-30 | head -1)"}; do printf "r"; done; echo'
 function crap {
     su -c "$(history -p !!)" root
 }
