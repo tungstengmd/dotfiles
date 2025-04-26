@@ -29,7 +29,7 @@
 #
 # The following is used in various menus and also sets the terminal
 # that FvwmConsole uses. Change this to your terminal of choice
-InfoStoreAdd terminal xterm
+InfoStoreAdd terminal "xterm -ti 340"
 
 # This is used for "Run Command" and the Meta+Space key-binding.
 # runcmd is the binary name and runcmdopt contains additional
@@ -505,7 +505,7 @@ Silent Key Return	A 4 Exec exec $[infostore.terminal]
 Silent Key Q		A 4 Close
 Silent Key F		A 4 Maximize
 Test (x $[infostore.runcmd]) Silent Key D A 4 Exec exec $[infostore.runcmd]
-Silent Key E		A 4 Exec exec xterm -e "exec mc"
+Silent Key E		A 4 Exec exec $[infostore.terminal] -e "exec mc"
 Silent Key Print	A N Exec exec flameshot gui -c
 Silent Key Print	A 4 Exec exec flameshot screen -c
 Silent Key Print	A M Exec exec flameshot full -c

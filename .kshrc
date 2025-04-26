@@ -1,4 +1,4 @@
-export PULSE_LATENCY_MSEC=60
+cd
 export DOTNET_ROOT=$HOME/.dotnet
 export PLAN9=$HOME/plan9port
 export PATH=$PATH:$PLAN9/bin:$DOTNET_ROOT:$DOTNET_ROOT/tools:$HOME/.cargo/bin
@@ -43,7 +43,7 @@ alias rm="gomi"
 alias doas="doas "
 alias sftrbt="pkill xinit"
 alias wtf="netbsd-wtf"
-alias wttr="curl wttr.in/?format=1 2>/dev/null | sed 's/\ \ \ /\ /'"
+alias wttr="curl wttr.in/?format=1 2>/dev/null | sed 's/   / /'"
 alias petpet='printf "pu"; for (( i=3; i<"`shuf -i 3-30 | head -1`"; i++ )); do printf "r"; done; echo'
 function crap {
     su -c "$(history -p !!)" root
