@@ -5,7 +5,7 @@ symb=''
 [ "$(git status 2>&1; echo $?)" = 0 ] && brnch="$(echo "($(git branch --show-current))")"
 case $gitstat in
     *"has diverged"*) symb+="%" ;&
-    *"branch is behind"*) symb+="<" ;& 
+    *"branch is behind"*) symb+="<" ;&
     *"ahead of"*) symb+=">" ;&
     *"new file:"*) symb+="A" ;&
     *"deleted:"*) symb+="D" ;&
