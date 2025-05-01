@@ -1,12 +1,13 @@
+trap 't="$(date +%s)"' DEBUG
+PS1='$(debug_hook_on=1)'
 cd
 export DOTNET_ROOT=$HOME/.dotnet
 export PLAN9=$HOME/plan9port
 export PATH=$PATH:$PLAN9/bin:$DOTNET_ROOT:$DOTNET_ROOT/tools:$HOME/.cargo/bin
 export FCEDIT=micro
 eval "$(thefuck --alias)"
-for FILE in ~/kshScripts/*
-do
-    source $FILE
+for FILE in ~/kshScripts/*; do
+    . $FILE
 done
 echo "Welcome to the Korn shell!"
 echo "Enjoy your stay :3"
@@ -50,4 +51,3 @@ alias petpet='printf "pu"; for (( i=3; i<`shuf -i 3-30 | head -1`; i++ )); do pr
 function crap {
     su -c "$(history -p !!)" root
 }
-trap 't="$(date +%s)"' DEBUG

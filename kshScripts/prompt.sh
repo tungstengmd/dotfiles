@@ -1,4 +1,5 @@
 PS1='$([ $? = 0 ] && exc="\033[92m╰──" || exc="\033[91mx  "
+ps0=0
 [[ $t != "" ]] && t="took $(($(date +%s) - ${t}))s"
 gitstat="$(git status 2>&1)"
 symb=''
