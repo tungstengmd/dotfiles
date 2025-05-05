@@ -8,10 +8,10 @@ case $gitstat in
     *"has diverged"*) symb+="%" ;&
     *"branch is behind"*) symb+="<" ;&
     *"ahead of"*) symb+=">" ;&
-    *"new file:"*) symb+="A" ;&
-    *"deleted"*) symb+="D" ;&
-    *"renamed"*) symb+="R" ;&
-    *"Untracked"*) symb+="U" ;&
+    *"new file:"*) symb+="A" ;;&
+    *"deleted"*) symb+="D" ;;&
+    *"renamed"*) symb+="R" ;;&
+    *"Untracked"*) symb+="U" ;;&
     *"modified"*) symb+="M" ;&
     *"detached"*) brnch="$(git branch | head -1 | sed "s/)//")"; brnch="(${brnch##* })"
 esac
