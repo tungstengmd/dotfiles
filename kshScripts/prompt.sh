@@ -7,7 +7,7 @@ brnch="$(echo "$(git branch --show-current)")"
 case $gitstat in
     *"has diverged"*) symb+="%" ;&
     *"branch is behind"*) symb+="<" ;&
-    *"ahead of"*) symb+=">" ;&
+    *"ahead of"*) symb+=">" ;;&
     *"new file:"*) symb+="A" ;;&
     *"deleted"*) symb+="D" ;;&
     *"renamed"*) symb+="R" ;;&
