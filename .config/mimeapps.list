@@ -62,6 +62,7 @@ image/x-portable-pixmap=org.xfce.ristretto.desktop;
 image/x-tga=org.xfce.ristretto.desktop;
 image/x-xbitmap=org.xfce.ristretto.desktop;
 audio/mpeg=easytag.desktop;
+application/zip=gzdoom.desktop;
 
 [Removed Associations]
 audio/vnd.wave=im.riot.Riot.desktop;

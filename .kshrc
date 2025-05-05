@@ -1,6 +1,5 @@
 trap 'echo' SIGINT
 trap 't="$(date +%s)"' DEBUG
-PS1='$(debug_hook_on=1)'
 cd
 export DOTNET_ROOT=$HOME/.dotnet
 export PLAN9=$HOME/plan9port
