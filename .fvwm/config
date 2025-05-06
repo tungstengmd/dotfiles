@@ -188,10 +188,8 @@ DesktopSize 2x2
 # for how long the mouse as at the edge before it scrolls.
 #
 # Set EdgeScroll 0 0 and/or EdgeResistance -1 to disable.
-EdgeScroll 100 100
-EdgeResistance 450
-EdgeThickness -1
-Style * EdgeMoveDelay 350, EdgeMoveResistance 350
+EdgeScroll 0 0
+EdgeResistance -1 
 
 # EwmhBaseStruts [screen name] [left] [right] [top] [bottom]
 # Reserves space along the edge(s) of the Screen that will not
@@ -619,88 +617,6 @@ DestroyModuleConfig FvwmIdent:*
 #     quitting fvwm.
 DestroyModuleConfig FvwmScript:*
 *FvwmScript: DefaultColorset 10
-
-# FvwmButtons - RightPanel
-#
-# FvwmButtons is a powerful module that can be used to build custom
-# panels and docks. This config uses FvwmButtons to build the RightPanel.
-# The panel contains buttons to switch desks, FvwmPager, a system tray,
-# FvwmIconMan (list of running windows), and a clock.
-#
-# Note - To use the system tray you must have "stalonetray" installed.
-DestroyModuleConfig RightPanel:*
-*RightPanel: Geometry 120x$[monitor.$[monitor.primary].height]-0+0@p
-*RightPanel: Colorset 10
-*RightPanel: Rows $[monitor.$[monitor.primary].height]
-*RightPanel: Columns 120
-*RightPanel: Frame 0
-*RightPanel: Font "xft:CozetteVector:Bold:size=10:antialias=True"
-*RightPanel: (120x45, Icon "fvwm-logo-small.png", Frame 0)
-*RightPanel: (120x5, Frame 0)
-*RightPanel: (10x25, Frame 0)
-*RightPanel: (25x25, Id desk0, Title "1", Action (Mouse 1) GotoDesk 0 0, ActiveColorset 12, Frame 0)
-*RightPanel: (25x25, Id desk1, Title "2", Action (Mouse 1) GotoDesk 0 1, ActiveColorset 12, Frame 0)
-*RightPanel: (25x25, Id desk2, Title "3", Action (Mouse 1) GotoDesk 0 2, ActiveColorset 12, Frame 0)
-*RightPanel: (25x25, Id desk3, Title "4", Action (Mouse 1) GotoDesk 0 3, ActiveColorset 12, Frame 0)
-*RightPanel: (10x25, Frame 0)
-*RightPanel: (5x80, Frame 0)
-*RightPanel: (110x80, Swallow FvwmPager 'Module FvwmPager *', Frame 0)
-*RightPanel: (5x80, Frame 0)
-*RightPanel: (120x5, Frame 0)
-Test (x stalonetray) *RightPanel: (120x20, Swallow(NoClose,UseOld) \
-    stalonetray 'Exec exec stalonetray --config \
-    "$[FVWM_DATADIR]/default-config/stalonetrayrc"', Frame 0)
-Test (x stalonetray) *RightPanel: (120x$[math.-.$[monitor.$[monitor.primary].height],230], \
-    Top, Swallow FvwmIconMan 'Module FvwmIconMan', Frame 0)
-Test (!x stalonetray) *RightPanel: (120x$[math.-.$[monitor.$[monitor.primary].height],210], \
-    Top, Swallow FvwmIconMan 'Module FvwmIconMan', Frame 0)
-*RightPanel: (120x45, Swallow DateTime 'Module FvwmScript FvwmScript-DateTime',\
-    Frame 0)
-*RightPanel: (120x5, Frame 0)
-
-# FvwmPager
-#
-# This module displays the location of the windows on the various Pages
-# and Desks. This is setup to show only the Pages on the current Desk.
-DestroyModuleConfig FvwmPager:*
-*FvwmPager: Geometry 110x80
-*FvwmPager: Colorset * 10
-*FvwmPager: HilightColorset * 13
-*FvwmPager: BalloonColorset * 10
-*FvwmPager: WindowColorsets 10 11
-*FvwmPager: Font None
-*FvwmPager: Balloons All
-*FvwmPager: BalloonFont "xft:CozetteVector:Bold:size=8:antialias=True"
-*FvwmPager: BallonYOffset +2
-*FvwmPager: Window3dBorders
-*FvwmPager: MiniIcons
-
-# FvwmIconMan
-#
-# FvwmIconMan is a powerful tool to list and manage windows. This
-# is used as the window list in the panel or taskbar.
-DestroyModuleConfig FvwmIconMan:*
-*FvwmIconMan: UseWinList true
-*FvwmIconMan: ButtonGeometry 120x20
-*FvwmIconMan: ManagerGeometry 1x1
-*FvwmIconMan: Colorset 10
-*FvwmIconMan: FocusColorset 11
-*FvwmIconMan: IconColorset 14
-*FvwmIconMan: FocusAndSelectColorset 12
-*FvwmIconMan: IconColorset 14
-*FvwmIconMan: FocusAndSelectColorset 12
-*FvwmIconMan: SelectColorset 12
-*FvwmIconMan: IconAndSelectColorset 12
-*FvwmIconMan: DrawIcons always
-*FvwmIconMan: ReliefThickness 0
-*FvwmIconMan: Format "%t"
-*FvwmIconMan: Font "xft:CozetteVector:Bold:size=8:antialias=True"
-*FvwmIconMan: Action Mouse 0 A ret
-*FvwmIconMan: Action Mouse 1 A sendcommand IconManClick
-*FvwmIconMan: Action Mouse 3 A sendcommand "Menu MenuIconOps"
-*FvwmIconMan: Resolution global
-*FvwmIconMan: Tips needed
-*FvwmIconMan: Sort id
 
 # FvwmEvent
 #
