@@ -2,7 +2,7 @@ PS1='$([ $? = 0 ] && exc="\033[92m╰──" || exc="\033[91mx  "
 [[ $t != "" ]] && t="took $(($(date +%s) - ${t}))s"
 gitstat="$(git status 2>&1)"
 symb=''
-brnch="$(echo "$(git branch --show-current)")"
+brnch="$(echo "$(git branch --show-current 2>/dev/null)")"
 [ "$brnch" = "" ] || brnch="$(echo "($brnch)")"
 case $gitstat in
     *"has diverged"*) symb+="%" ;&

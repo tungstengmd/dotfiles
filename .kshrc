@@ -9,8 +9,7 @@ eval "$(thefuck --alias)"
 for FILE in ~/kshScripts/*; do
     . $FILE
 done
-echo "Welcome to the Korn shell!"
-echo "Enjoy your stay :3"
+printf "Welcome to the Korn shell!\nEnjoy your stay :3\n"
 #---aliases for git---#
 alias gc="git commit -a"
 alias git="hub"
@@ -23,8 +22,8 @@ alias gsd="git stash drop"
 alias gd="git diff"
 alias gr="git reset --hard HEAD"
 #---general aliases---#
-alias ls="g -A --git --icon"
-alias la="g -l -A --git --icon --table"
+alias ls="ls --color=auto"
+alias la="ls -la"
 alias viksh="vim ~/.kshrc"
 alias ce="clear; . ~/.kshrc"
 alias nerdfetch="nerdfetch -c"
