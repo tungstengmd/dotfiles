@@ -51,8 +51,8 @@ function crap {
     su -c "$(history -p !!)" root
 }
 function man {
-    case "$(type $@)" in
+    case "$(type $@ 2>/dev/null)" in
 	*"builtin"*) "$@" --nroff | mandoc -a ;;
-	*) env man "$@"
+	*) [ "$(exec 2>/dev/null; cat /usr/bin/"$@" | grep "#![*]ksh"; echo $?)" = 0 ] && "$@" --nroff | mandoc -a || env man "$@"
     esac
 }
