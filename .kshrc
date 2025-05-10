@@ -3,7 +3,7 @@ trap 't="$(date +%s)"' DEBUG
 cd
 export DOTNET_ROOT=$HOME/.dotnet
 export PLAN9=$HOME/plan9port
-export PATH=$PATH:$PLAN9/bin:$DOTNET_ROOT:$DOTNET_ROOT/tools:$HOME/.cargo/bin
+export PATH=$PATH:$PLAN9/bin:$DOTNET_ROOT:$DOTNET_ROOT/tools:$HOME/.cargo/bin:$HOME/venv/bin
 export FCEDIT=micro
 eval "$(thefuck --alias)"
 for FILE in ~/kshScripts/*; do
@@ -49,4 +49,10 @@ alias tkill="pkill -9 -t"
 alias petpet='printf "purrr"; for (( i=3; i<$(shuf -i 3-30 | head -1); i++ )); do printf "r"; done; echo'
 function crap {
     su -c "$(history -p !!)" root
+}
+function man {
+    case "$(type $@)" in
+	*"builtin"*) "$@" --nroff | mandoc -a ;;
+	*) env man "$@"
+    esac
 }
