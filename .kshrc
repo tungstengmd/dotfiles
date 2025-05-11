@@ -23,7 +23,7 @@ alias gd="git diff"
 alias gr="git reset --hard HEAD"
 #---general aliases---#
 alias ls="ls --color=auto"
-alias la="ls -la"
+alias la="ls -lhA"
 alias viksh="vim ~/.kshrc"
 alias ce="clear; . ~/.kshrc"
 alias nerdfetch="nerdfetch -c"
