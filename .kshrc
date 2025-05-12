@@ -1,6 +1,5 @@
 trap 'echo' SIGINT
 trap 't="$(date +%s)"' DEBUG
-cd ~
 export DOTNET_ROOT=$HOME/.dotnet
 export PLAN9=$HOME/plan9port
 export PATH=$PATH:$PLAN9/bin:$DOTNET_ROOT:$DOTNET_ROOT/tools:$HOME/.cargo/bin:$HOME/venv/bin
@@ -53,6 +52,6 @@ function crap {
 function man {
     case "$(type $@ 2>/dev/null)" in
 	*"builtin"*) "$@" --nroff | mandoc -a ;;
-	*) [ "$(exec 2>/dev/null; cat /usr/bin/"$@" | grep "#![*]ksh"; echo $?)" = 0 ] && "$@" --nroff | mandoc -a || env man "$@"
+	*) [ "$("${@:$#}" --nroff 2>&1 >/dev/null; echo $?)" = 0 ] && "$@" --nroff | mandoc -a || env man "$@"
     esac
 }

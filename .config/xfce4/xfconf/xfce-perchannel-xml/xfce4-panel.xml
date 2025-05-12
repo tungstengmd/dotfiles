@@ -97,6 +97,7 @@
     </property>
     <property name="plugin-8" type="string" value="systray">
       <property name="known-legacy-items" type="array">
+        <value type="string" value="psensor"/>
         <value type="string" value="wi-fi network connection “ee-983jsf” active: ee-983jsf (68%)"/>
         <value type="string" value="xfce4-power-manager"/>
         <value type="string" value="wi-fi network connection “ee-983jsf” active: ee-983jsf (69%)"/>
@@ -126,6 +127,7 @@
         <value type="string" value="wi-fi network connection “ee-983jsf” active: ee-983jsf (98%)"/>
       </property>
       <property name="known-items" type="array">
+        <value type="string" value="psensor"/>
         <value type="string" value="obs"/>
         <value type="string" value="flameshot"/>
         <value type="string" value="chrome_status_icon_1"/>
