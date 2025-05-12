@@ -1,6 +1,6 @@
 trap 'echo' SIGINT
 trap 't="$(date +%s)"' DEBUG
-cd
+cd ~
 export DOTNET_ROOT=$HOME/.dotnet
 export PLAN9=$HOME/plan9port
 export PATH=$PATH:$PLAN9/bin:$DOTNET_ROOT:$DOTNET_ROOT/tools:$HOME/.cargo/bin:$HOME/venv/bin
