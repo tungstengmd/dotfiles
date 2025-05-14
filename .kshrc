@@ -50,8 +50,9 @@ function crap {
     su -c "$(history -p !!)" root
 }
 function man {
+    [ "$#" -gt 1 ] && env man "$@"
     case "$(type $@ 2>/dev/null)" in
-	*"builtin"*) "$@" --nroff | mandoc -a ;;
-	*) [ "$("${@:$#}" --nroff 2>&1 >/dev/null; echo $?)" = 0 ] && "$@" --nroff | mandoc -a || env man "$@"
+	*"builtin"*) "$@" --nroff | env man -la ;;
+	*) [ "$("${@:$#}" --nroff 2>&1 >/dev/null; echo $?)" = 0 ] && "$@" --nroff | env man -la || env man "$@"
     esac
 }
