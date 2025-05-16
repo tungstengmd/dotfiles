@@ -187,9 +187,7 @@ confirm-before-quit = false
 [fonts]
 family = "CozetteVector"
 size = 18
-
-# [fonts]
-# extras = [{ family = "Microsoft JhengHei" }]
+extras = [{ family = "kirsch" }]
 #
 # In case you want to specify any font feature:
 # [fonts]
