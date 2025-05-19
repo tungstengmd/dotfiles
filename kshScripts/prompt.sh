@@ -2,7 +2,7 @@ PS1='$(e=$?
 [ $e = 0 ] && { exc="\033[92m╰──"; e=""; } || { exc="\033[91mx  "; e="«\033[91m"$e"/SIG$(kill -l "$e")\033[92m»\033[0m"; }
 [[ $t != "" ]] && t="took $(($(date +%s) - ${t}))s"
 gitstat="$(git status 2>&1)"
-symb=''
+symb=""
 brnch="$(echo "$(git branch --show-current 2>/dev/null)")"
 [ "$brnch" = "" ] || brnch="$(echo "($brnch)")"
 case $gitstat in
