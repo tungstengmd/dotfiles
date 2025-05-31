@@ -50,7 +50,6 @@ function crap {
     su -c "$(history -p !!)" root
 }
 function man {
-    [ "$#" -gt 1 ] && env man "$@"
     case "$(type $@ 2>/dev/null)" in
 	*"builtin"*) "$@" --nroff | env man -la ;;
 	*) [ "$("${@:$#}" --nroff 2>&1 >/dev/null; echo $?)" = 0 ] && "$@" --nroff | env man -la || env man "$@"
@@ -62,6 +61,7 @@ function .sh.tilde.get {
 	'~local') .sh.value=~/.local ;;
 	'~trash') .sh.value=~/.local/share/Trash ;;
 	'~conf') .sh.value=~/.config ;;
-	\~*) .sh.value=~ ;;
+	'~') .sh.value=$HOME ;;
+	\~*) eval ".sh.value=${.sh.tilde}"; [[ ${.sh.value} == "${.sh.tilde}" ]] && echo 'WARNING: unknown expansion' >&2 ;;
     esac
 }
