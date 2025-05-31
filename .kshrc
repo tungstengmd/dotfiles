@@ -61,7 +61,13 @@ function .sh.tilde.get {
 	'~local') .sh.value=~/.local ;;
 	'~trash') .sh.value=~/.local/share/Trash ;;
 	'~conf') .sh.value=~/.config ;;
-	'~') .sh.value=$HOME ;;
 	\~*) eval ".sh.value=${.sh.tilde}"; [[ ${.sh.value} == "${.sh.tilde}" ]] && echo 'WARNING: unknown expansion' >&2 ;;
     esac
+}
+function PS1.get
+{
+    if [[ -v RPROMPT ]]; then
+        typeset -R "$COLUMNS" rp=$RPROMPT
+        .sh.value=${rp//[$\`]/\\\0}$'\r'${PS1}
+    fi
 }
