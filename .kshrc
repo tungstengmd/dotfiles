@@ -56,3 +56,12 @@ function man {
 	*) [ "$("${@:$#}" --nroff 2>&1 >/dev/null; echo $?)" = 0 ] && "$@" --nroff | env man -la || env man "$@"
     esac
 }
+function .sh.tilde.get {
+    case ${.sh.tilde} in
+	'~scripts') .sh.value=~/kshScripts ;;
+	'~local') .sh.value=~/.local ;;
+	'~trash') .sh.value=~/.local/share/Trash ;;
+	'~conf') .sh.value=~/.config ;;
+	\~*) .sh.value=~ ;;
+    esac
+}
