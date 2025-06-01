@@ -1,5 +1,6 @@
 function RPROMPT.get {
-    .sh.value="took $(($(date +%s) - $t))s"
+    [[ -n ${SSH_CLIENT} ]] && .sh.value="$(who am i | awk '{print $5}'), "
+    .sh.value+="took $(($(date +%s) - $t))s"
 }
 PS1='$([ $? = 0 ] && e="\n\033[92m╰──" || e=" «\033[91m"$?"/SIG`kill -l "$?"`\033[92m»\033[0m\n\033[91mx  " 
 brnch="$(echo "$(git branch --show-current 2>/dev/null)")"

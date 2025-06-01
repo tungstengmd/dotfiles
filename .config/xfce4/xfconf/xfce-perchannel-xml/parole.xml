@@ -9,8 +9,8 @@
   </property>
   <property name="window" type="empty">
     <property name="maximized" type="bool" value="false"/>
-    <property name="width" type="int" value="616"/>
-    <property name="height" type="int" value="1015"/>
+    <property name="width" type="int" value="1886"/>
+    <property name="height" type="int" value="498"/>
   </property>
   <property name="audio" type="empty">
     <property name="volume" type="int" value="50"/>

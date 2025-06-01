@@ -51,7 +51,7 @@ function crap {
 }
 function man {
     case "$(type $@ 2>/dev/null)" in
-	*"builtin"*) "$@" --nroff | env man -la ;;
+	*"builtin"*) "$@" --nroff 2>&1 | env man -la ;;
 	*) [ "$("${@:$#}" --nroff 2>&1 >/dev/null; echo $?)" = 0 ] && "$@" --nroff | env man -la || env man "$@"
     esac
 }
@@ -64,8 +64,7 @@ function .sh.tilde.get {
 	\~*) eval ".sh.value=${.sh.tilde}"; [[ ${.sh.value} == "${.sh.tilde}" ]] && echo 'WARNING: unknown expansion' >&2 ;;
     esac
 }
-function PS1.get
-{
+function PS1.get {
     if [[ -v RPROMPT ]]; then
         typeset -R "$COLUMNS" rp=$RPROMPT
         .sh.value=${rp//[$\`]/\\\0}$'\r'${PS1}
