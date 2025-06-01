@@ -61,6 +61,7 @@ function .sh.tilde.get {
 	'~local') .sh.value=~/.local ;;
 	'~trash') .sh.value=~/.local/share/Trash ;;
 	'~conf') .sh.value=~/.config ;;
+	'~ssh') .sh.value=~/.ssh ;;
 	\~*) eval ".sh.value=${.sh.tilde}"; [[ ${.sh.value} == "${.sh.tilde}" ]] && echo 'WARNING: unknown expansion' >&2 ;;
     esac
 }
