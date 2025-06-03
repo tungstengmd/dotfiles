@@ -1,8 +1,7 @@
 trap 'echo' SIGINT
 trap 't="$(date +%s)"' DEBUG
 export DOTNET_ROOT=$HOME/.dotnet
-export PLAN9=$HOME/plan9port
-export PATH=$PATH:$PLAN9/bin:$DOTNET_ROOT:$DOTNET_ROOT/tools:$HOME/.cargo/bin:$HOME/venv/bin
+export PATH=$PATH:$DOTNET_ROOT:$DOTNET_ROOT/tools:$HOME/.cargo/bin:$HOME/venv/bin
 export FCEDIT=micro
 eval "$(thefuck --alias)"
 for FILE in ~/kshScripts/*; do
