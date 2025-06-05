@@ -55,6 +55,7 @@ function man {
 	*) [ "$("${@:$#}" --nroff 2>&1 >/dev/null; echo $?)" = 0 ] && "$@" --nroff | env man -la || env man "$@" ;;
     esac
 }
+#---ideas taken from mcdutchie---#
 function .sh.tilde.get {
     case ${.sh.tilde} in
 	'~scripts') .sh.value=~/kshScripts ;;
@@ -71,3 +72,4 @@ function PS1.get {
         .sh.value=${rp//[$\`]/\\\0}$'\r'${PS1}
     fi
 }
+#---mcdutchie block ends here---#
