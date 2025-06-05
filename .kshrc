@@ -1,4 +1,4 @@
-trap 'echo' SIGINT
+trap echo SIGINT
 trap 't="$(date +%s)"' DEBUG
 export DOTNET_ROOT=$HOME/.dotnet
 export PATH=$PATH:$DOTNET_ROOT:$DOTNET_ROOT/tools:$HOME/.cargo/bin:$HOME/venv/bin
