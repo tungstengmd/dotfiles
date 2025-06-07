@@ -7,7 +7,7 @@
   <property name="last-details-view-zoom-level" type="string" value="THUNAR_ZOOM_LEVEL_38_PERCENT"/>
   <property name="last-details-view-column-widths" type="string" value="50,50,137,50,50,483,50,50,454,50,50,73,50,256"/>
   <property name="last-window-width" type="int" value="1886"/>
-  <property name="last-window-height" type="int" value="1015"/>
+  <property name="last-window-height" type="int" value="325"/>
   <property name="last-window-maximized" type="bool" value="false"/>
   <property name="misc-recursive-permissions" type="string" value="THUNAR_RECURSIVE_PERMISSIONS_ALWAYS"/>
 </channel>

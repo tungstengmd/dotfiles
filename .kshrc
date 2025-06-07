@@ -50,7 +50,7 @@ function crap {
 }
 function man {
     case "$(type $@ 2>/dev/null)" in
-	*"builtin"*) [ ${@:$#} != "echo" ] && "$@" --nroff 2>&1 | env man -la || print "this is a builtin without a man page, a rarity in ksh." ;;
+	*"builtin"*) [ ${@:$#} != "echo" ] && "$@" --nroff 2>&1 | env man -la || env man echo ;;
 	*"gnuplot"*) env man "$@" ;;
 	*) [ "$("${@:$#}" --nroff 2>&1 >/dev/null; echo $?)" = 0 ] && "$@" --nroff | env man -la || env man "$@" ;;
     esac
