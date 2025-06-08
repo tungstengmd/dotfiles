@@ -49,11 +49,7 @@ function crap {
     su -c "$(history -p !!)" root
 }
 function man {
-    case "$(type $@ 2>/dev/null)" in
-	*"builtin"*) [ ${@:$#} != "echo" ] && "$@" --nroff 2>&1 | env man -la || env man echo ;;
-	*"gnuplot"*) env man "$@" ;;
-	*) [ "$("${@:$#}" --nroff 2>&1 >/dev/null; echo $?)" = 0 ] && "$@" --nroff | env man -la || env man "$@" ;;
-    esac
+    [ "$(echo exit | ${@:$#} --nroff 2>/dev/null)" = *".TH"* ] && "$@" --nroff 2>&1 | env man -la || env man "$@"
 }
 #---ideas taken from mcdutchie---#
 function .sh.tilde.get {
