@@ -1,5 +1,6 @@
+istrans=1
 trap echo SIGINT
-trap 't="$(date +%s)"' DEBUG
+trap 't="$(date +%s)"; [[ $istrans = 0 ]] && { tput cuu 2; tput ed; print "\E[7m$(pwd | sed "s|^$HOME|~|")\E[0m-> $(fc -lnN0 | sed "s/^[ \t]*//")"; istrans=1; }' DEBUG
 export DOTNET_ROOT=$HOME/.dotnet
 export PATH=$PATH:$DOTNET_ROOT:$DOTNET_ROOT/tools:$HOME/.cargo/bin:$HOME/venv/bin
 export FCEDIT=micro
@@ -46,7 +47,7 @@ alias clean="doas xbps-remove -Oof; doas vkpurge rm all"
 alias tkill="pkill -9 -t"
 alias petpet='printf "purrr"; for (( i=3; i<$(shuf -i 3-30 | head -1); i++ )); do printf "r"; done; echo'
 function crap {
-    su -c "$(history -p !!)" root
+    su -c "$(hist -p !!)" root
 }
 function man {
     [[ "$(echo exit | ${@:$#} --nroff)" = *"TH"* ]] && "${@:$#}" --nroff 2>&1 | env man -la || env man "$@"
@@ -63,9 +64,10 @@ function .sh.tilde.get {
     esac
 }
 function PS1.get {
+    istrans=0
     if [[ -v RPROMPT ]]; then
         typeset -R "$COLUMNS" rp=$RPROMPT
-        .sh.value=${rp//[$\`]/\\\0}$'\r'${PS1}
+        .sh.value='[0m'${rp//[$\`]/\\\0}$'\r'${PS1}
     fi
 }
 #---mcdutchie block ends here---#
