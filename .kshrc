@@ -49,7 +49,7 @@ function crap {
     su -c "$(history -p !!)" root
 }
 function man {
-    [ "$(echo exit | ${@:$#} --nroff 2>/dev/null)" = *".TH"* ] && "$@" --nroff 2>&1 | env man -la || env man "$@"
+    [[ "$(echo exit | ${@:$#} --nroff)" = *"TH"* ]] && "${@:$#}" --nroff 2>&1 | env man -la || env man "$@"
 }
 #---ideas taken from mcdutchie---#
 function .sh.tilde.get {
