@@ -1,6 +1,6 @@
 istrans=1
-trap echo SIGINT
-trap 't="$(date +%s)"; [[ $istrans = 0 ]] && { tput cuu 2; tput ed; print "\E[7m$(pwd | sed "s|^$HOME|~|")\E[0m-> $(fc -lnN0 | sed "s/^[ \t]*//")"; istrans=1; }' DEBUG
+trap 'istrans=1; echo' SIGINT
+trap 't="$(date +%s)"; [[ $istrans = 0 ]] && { tput cuu 2; tput ed; print "\E[92m\E[7m$(pwd | sed "s|^$HOME|~|")\E[0;92m->\E[0m $(fc -lnN0 | sed "s/^[ \t]*//")"; istrans=1; }' DEBUG
 export DOTNET_ROOT=$HOME/.dotnet
 export PATH=$PATH:$DOTNET_ROOT:$DOTNET_ROOT/tools:$HOME/.cargo/bin:$HOME/venv/bin
 export FCEDIT=micro
@@ -50,7 +50,7 @@ function crap {
     su -c "$(hist -p !!)" root
 }
 function man {
-    [[ "$(echo exit | ${@:$#} --nroff)" = *"TH"* ]] && "${@:$#}" --nroff 2>&1 | env man -la || env man "$@"
+    [[ "$(echo exit | ${@:$#} --nroff 2>/dev/null)" = *"TH"* ]] && "${@:$#}" --nroff 2>&1 | env man -la || env man "$@"
 }
 #---ideas taken from mcdutchie---#
 function .sh.tilde.get {
