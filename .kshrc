@@ -1,3 +1,4 @@
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 istrans=1
 trap 'istrans=1; echo' SIGINT
 trap 't="$(date +%s)"; [[ $istrans = 0 ]] && { tput cuu 2; tput ed; print "\E[92m\E[7m$(pwd | sed "s|^$HOME|~|")\E[27m->\E[0m $(fc -lnN0 | sed "s/^[ \t]*//")"; istrans=1; }' DEBUG
