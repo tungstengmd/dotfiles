@@ -187,8 +187,7 @@ confirm-before-quit = false
 [fonts]
 family = "CozetteVector"
 size = 18
-extras = [{ family = "kirsch" }]
-#
+
 # In case you want to specify any font feature:
 # [fonts]
 # features = ["ss02", "ss03", "ss05", "ss19"]
