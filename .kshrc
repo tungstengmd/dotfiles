@@ -1,7 +1,7 @@
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 istrans=1
 trap 'istrans=1; echo' SIGINT
-trap 't="$(date +%s)"; [[ $istrans = 0 ]] && { tput cuu 2; tput ed; print -n "\E[92m\E[7m$(pwd | sed "s|^$HOME|~|")\E[27m->\E[0m "; print -r "$(fc -lnN0 | sed "s/^[ \t]*//")"; istrans=1; }' DEBUG
+trap 't="$(date +%s)"; [[ $istrans = 0 ]] && { tput cuu 2; tput ed; print -n "\E[92m\E[7m$(pwd | sed "s|^$HOME|~|")\E[27m-%\E[0m "; fc -lnN0 | sed "s/^[ \t]*//"; istrans=1; }' DEBUG
 export DOTNET_ROOT=$HOME/.dotnet
 export PATH=$PATH:$DOTNET_ROOT:$DOTNET_ROOT/tools:$HOME/.cargo/bin:$HOME/venv/bin
 export FCEDIT=micro
