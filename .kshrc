@@ -1,5 +1,5 @@
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
-istrans=
+istrans=1
 trap 'istrans=; echo' SIGINT
 trap '[[ ${istrans:-u} != u  ]] && t="$(date +%s)"; [[ $istrans = 0 ]] && { tput cuu 2; tput ed; print -n "\E[92m\E[7m$(pwd | sed "s|^$HOME|~|")\E[27m-%\E[0m "; fc -lnN0 | sed "s/^[ \t]*//"; istrans=; }' DEBUG
 export DOTNET_ROOT=$HOME/.dotnet
