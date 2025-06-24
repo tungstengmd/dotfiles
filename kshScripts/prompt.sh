@@ -1,9 +1,9 @@
 function RPROMPT.get {
     [[ -n ${SSH_CLIENT} ]] && { .sh.value="$(who am i | tr -d '()' | awk '{print $5}')"; [[ $t = "" ]] || .sh.value+=", "; }
-    [[ -n $t ]] && .sh.value+="took $(($(date +%s) - $t))s"
+    .sh.value+="took $(($(date +%s) - $t))s"
 }
 PS1='$([ $? = 0 ] && e="\n\E[92m╰──" || e="«\E[91m"$?"/SIG`kill -l "$?"`\E[92m»\E[0;91m\nx  " 
-brnch="$(echo "$(git branch --show-current 2>/dev/null)")"
+brnch="$(git branch --show-current 2>/dev/null)"
 [ "$brnch" = "" ] || brnch="$(echo " ($brnch)")"
 case `git status 2>&1` in
     *"has diverged"*) symb+="%" ;&
