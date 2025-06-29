@@ -315,6 +315,14 @@ blue = '#8296b0'
 magenta = '#a18daf'
 cyan = '#659ea2'
 white = '#b5b4c9'
+light-black = '#5b5f71'
+light-red = '#fe9f7c'
+light-green = '#92c47e'
+light-yellow = '#d2b45f'
+light-blue = '#a0b9d8'
+light-magenta = '#c6aed7'
+light-cyan = '#7dc2c7'
+light-white = '#f0ecfe'
 
 # Bindings
 #
