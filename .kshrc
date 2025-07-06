@@ -1,3 +1,4 @@
+export LESS="-rIs"
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 istrans=1
 trap 'istrans=; echo' SIGINT
