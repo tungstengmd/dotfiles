@@ -70,7 +70,7 @@ function PS1.get {
     istrans=0
     if [[ -v RPROMPT ]]; then
         typeset -R "$COLUMNS" rp=$RPROMPT
-        .sh.value='[0m'${rp//[$\`]/\\\0}$'\r'${PS1}
+        .sh.value='[0m'${rp}$'\r'${PS1}
     fi
 }
 #---mcdutchie block ends here---#

@@ -1,9 +1,9 @@
 function realtime.get {
-    [[ $failsafe = 0 ]] && .sh.value="$(($(date +%s) - $t))" || realtime=0
+    .sh.value="$(($(date +%s) - $t))"
 }
 function RPROMPT.get {
     [[ -n ${SSH_CLIENT} ]] && { .sh.value="$(who m i | tr -d '()' | awk '{print $5}')"; [[ $t = "" ]] || .sh.value+=", "; }
-    .sh.value+="took ${realtime}s"
+    [[ $failsafe = 0 ]] && .sh.value+="took ${realtime}s" || .sh.value+="timeless"
     failsafe=1
 }
 PS1='$([ $? = 0 ] && e="\n\E[92m╰──" || e="«\E[91m"$?"/SIG`kill -l "$?"`\E[92m»\E[0;91m\nx  " 
