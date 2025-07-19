@@ -18,6 +18,7 @@ hc() {
 feh --bg-fill ~/Pictures/image.png
 xfce4-panel -r
 picom &
+flameshot
 
 hc emit_hook reload
 
