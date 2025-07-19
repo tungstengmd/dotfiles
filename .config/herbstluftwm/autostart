@@ -30,9 +30,9 @@ Mod=Mod4   # Use the super key as the main modifier
 hc keybind $Mod-Shift-r reload
 hc keybind $Mod-q close
 hc keybind $Mod-Return spawn "${TERMINAL:-rio}" # use your $TERMINAL with rio as fallback
-hc keybind Print spawn ksnip -r
-hc keybind Mod1-Print spawn ksnip -m
-hc keybind Shift-Print spawn ksnip -f
+hc keybind Print spawn flameshot gui
+hc keybind Mod1-Print spawn flameshot screen -c
+hc keybind Shift-Print spawn flameshot full -c
 
 hc set frame_bg_transparent    true
 
