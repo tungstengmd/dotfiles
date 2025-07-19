@@ -6,7 +6,8 @@ function RPROMPT.get {
     [[ $failsafe = 0 ]] && .sh.value+="took ${realtime}s" || .sh.value+="timeless"
     failsafe=1
 }
-PS1='$([ $? = 0 ] && e="\n\E[92m╰──" || e=" «\E[91m"$?"/SIG`kill -l "$?"`\E[92m»\E[0;91m\nx  " 
+PS1='$(e=$?
+[ $e = 0 ] && e="\n\E[92m╰──" || e=" «\E[91m"$e"/SIG`kill -l "$e"`\E[92m»\E[0;91m\nx  " 
 brnch="$(git branch --show-current 2>/dev/null)"
 [ "$brnch" = "" ] || brnch="$(echo " ($brnch)")"
 case `git status 2>&1` in
