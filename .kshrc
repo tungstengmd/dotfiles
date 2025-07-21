@@ -1,4 +1,6 @@
 failsafe=1
+export FPATH=$HOME/kshFun
+autoload man
 export LESS="-rIs"
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 istrans=1
@@ -51,9 +53,6 @@ alias tkill="pkill -9 -t"
 alias petpet='printf "purrr"; for i in {3..$(shuf -i 3-30 | head -1)}; do printf "r"; done; echo'
 function crap {
     su -c "$(hist -p !!)" root
-}
-function man {
-    [[ "$(echo exit | ${@:$#} --nroff 2>/dev/null)" = *"TH"* ]] && "${@:$#}" --nroff 2>&1 | env man -la || env man "$@"
 }
 #---ideas taken from mcdutchie---#
 function .sh.tilde.get {
