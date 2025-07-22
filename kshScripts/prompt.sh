@@ -2,6 +2,7 @@ function realtime.get {
     .sh.value="$(($(date +%s) - $t))"
 }
 function RPROMPT.get {
+    .sh.value="`tty | sed -e 's|/dev/||'`, "
     [[ -n ${SSH_CLIENT} ]] && { .sh.value="$(who m i | tr -d '()' | awk '{print $5}')"; [[ $t = "" ]] || .sh.value+=", "; }
     [[ $failsafe = 0 ]] && .sh.value+="took ${realtime}s" || .sh.value+="timeless"
     failsafe=1
