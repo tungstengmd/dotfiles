@@ -6,7 +6,7 @@ eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 istrans=1
 trap 'istrans=; echo' SIGINT
 # sorts out the time variable, the i variable used in PS2 and the transient prompt
-trap 'i=0; [[ ${istrans:-u} = u  ]] || t="$(date +%s)"; [[ $istrans = 0 ]] && { tput cuu 2; tput ed; print -n "\E[92m\E[7m$(pwd | sed "s|^$HOME|~|")\E[27m-%\E[0m "; fc -lnN0 | sed "s/^[ \t]*//"; print "\E[A"; istrans=; }; failsafe=0' DEBUG || failsafe=1
+trap 'i=0; [[ ${istrans:-u} = u  ]] || t="$(date +%s)"; [[ $istrans = 0 ]] && { print -n "\E8"; tput ed; print -n "\E[92m\E[7m$(pwd | sed "s|^$HOME|~|")\E[27m-%\E[0m "; fc -lnN0 | sed "s/^[ \t]*//"; print "\E[A"; istrans=; }; failsafe=0' DEBUG || failsafe=1
 export DOTNET_ROOT=$HOME/.dotnet
 export PATH=$PATH:$DOTNET_ROOT:$DOTNET_ROOT/tools:$HOME/.cargo/bin:$HOME/venv/bin
 export FCEDIT=micro
