@@ -156,13 +156,12 @@ confirm-before-quit = false
 #
 # • filters: A list of paths to RetroArch slang shaders. Might not work with OpenGL.
 #
-# Example:
-# [renderer]
-# performance = "high"
-# backend = "automatic"
-# disable-unfocused-render = false
-# level = 1
-# filters = []
+[renderer]
+performance = "high"
+backend = "automatic"
+disable-unfocused-render = true
+level = 1
+filters = []
 
 # Keyboard
 #
