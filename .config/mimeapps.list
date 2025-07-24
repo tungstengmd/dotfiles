@@ -27,6 +27,7 @@ image/x-portable-graymap=org.xfce.ristretto.desktop
 image/x-portable-pixmap=org.xfce.ristretto.desktop
 image/x-tga=org.xfce.ristretto.desktop
 image/x-xbitmap=org.xfce.ristretto.desktop
+application/x-iff=org.xfce.mousepad.desktop
 
 [Added Associations]
 x-scheme-handler/http=userapp-Firefox-X3Q572.desktop;userapp-Firefox-8NY7Z2.desktop;userapp-Firefox-SZWZ02.desktop;userapp-Firefox-V35H22.desktop;
@@ -63,6 +64,7 @@ image/x-tga=org.xfce.ristretto.desktop;
 image/x-xbitmap=org.xfce.ristretto.desktop;
 audio/mpeg=easytag.desktop;
 application/zip=org.gnome.FileRoller.desktop;gzdoom.desktop;
+application/x-iff=org.xfce.mousepad.desktop;
 
 [Removed Associations]
 audio/vnd.wave=im.riot.Riot.desktop;
