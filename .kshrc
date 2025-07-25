@@ -64,6 +64,7 @@ function .sh.tilde.get {
 	'~ssh') echo "~ssh - the ssh folder in which your keys are stored, as well as other ssh data"; .sh.value=~/.ssh ;;
 	\~*) eval ".sh.value=${.sh.tilde}"; [[ ${.sh.value} == "${.sh.tilde}" ]] && echo 'WARNING: unknown expansion' >&2 ;;
     esac
+    tput cuu 1
 }
 function PS1.get {
     istrans=0
