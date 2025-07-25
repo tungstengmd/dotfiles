@@ -70,11 +70,11 @@ function PS1.get {
     istrans=0
     if [[ -v RPROMPT ]]; then
         typeset -R "$COLUMNS" rp=$RPROMPT
-        .sh.value='[0m'${rp}$'\r'${PS1}
+        .sh.value=$'\E[0m'${rp}$'\r'${PS1}
     fi
 }
 #---mcdutchie block ends here---#
 function PS2.get {
     (( i++ ))
-    .sh.value="[4m${i}[0m  "
+    .sh.value=$'\E[92m«\E[94m'$i$'\E[92m»\E[0m  '
 }
