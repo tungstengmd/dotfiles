@@ -6,7 +6,7 @@ eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 istrans=1
 trap 'istrans=; echo' SIGINT
 # sorts out the time variable, the i variable used in PS2 and the transient prompt
-trap 'i=0; [[ ${istrans:-u} = u  ]] || t="$(date +%s)"; [[ $istrans = 0 && $TERM != dumb ]] && { tput cuu $((`fc -lnN0 | sed "s/[[:blank:]]//" | wc -l`+1)); tput ed; print -n "\E[92m\E[7m$PWD_TRUNC\E[27m-%\E[0m "; fc -lnN0 | sed "s/^[ \t]*//"; print "\E[A"; istrans=; }; failsafe=0' DEBUG || failsafe=1
+trap '[[ ${istrans:-u} = u  ]] || t="$(date +%s)"; [[ $istrans = 0 && $TERM != dumb ]] && { tput cuu $((`fc -lnN0 | sed "s/[[:blank:]]//" | wc -l`+1)); tput ed; print -n "\E[92m\E[7m$PWD_TRUNC\E[27m-%\E[0m "; fc -lnN0 | sed "s/^[ \t]*//"; print "\E[A"; istrans=; }; failsafe=0' DEBUG || failsafe=1
 export DOTNET_ROOT=$HOME/.dotnet
 export PATH=$PATH:$DOTNET_ROOT:$DOTNET_ROOT/tools:$HOME/.cargo/bin:$HOME/venv/bin
 export FCEDIT=micro
@@ -25,7 +25,7 @@ alias gco="git checkout"
 alias gs="git stash"
 alias gsd="git stash drop"
 alias gd="git diff"
-alias gr="git reset --hard HEAD"
+alias gr="git reset"
 #---general aliases---#
 alias ls="ls --color=auto"
 alias la="ls -lhA"
@@ -68,6 +68,7 @@ function .sh.tilde.get {
 }
 function PS1.get {
     istrans=0
+    i=0
     if [[ -v RPROMPT ]]; then
         typeset -R "$COLUMNS" rp=$RPROMPT
         .sh.value=$'\E[0m'${rp}$'\r'${PS1}
