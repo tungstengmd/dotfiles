@@ -159,7 +159,7 @@ confirm-before-quit = false
 [renderer]
 performance = "high"
 backend = "automatic"
-disable-unfocused-render = true
+disable-unfocused-render = false
 level = 1
 filters = []
 
