@@ -59,13 +59,12 @@ function crap {
 function .sh.tilde.get {
     case ${.sh.tilde} in
 	'~scripts') .sh.value=~/kshScripts ;;
-	'~local') echo "~local - a tilde expansion to ~/.local"; .sh.value=~/.local ;;
-	'~trash') echo "~trash - the trash bin used by most xdg-compliant software, just not rm !"; .sh.value=~/.local/share/Trash ;;
-	'~conf') echo "~conf - a tilde expansion to .config, which is where your configuration should be"; .sh.value=~/.config ;;
-	'~ssh') echo "~ssh - the ssh folder in which your keys are stored, as well as other ssh data"; .sh.value=~/.ssh ;;
-	\~*) eval ".sh.value=${.sh.tilde}"; [[ ${.sh.value} == "${.sh.tilde}" ]] && echo 'WARNING: unknown expansion' >&2 ;;
+	'~local') .sh.value=~/.local ;;
+	'~trash') .sh.value=~/.local/share/Trash ;;
+	'~conf') .sh.value=~/.config ;;
+	'~ssh') .sh.value=~/.ssh ;;
+	\~*) eval ".sh.value=${.sh.tilde}"; [[ ${.sh.value} == "${.sh.tilde}" ]] ;;
     esac
-    tput cuu 1
 }
 function PS1.get {
     istrans=0
