@@ -66,6 +66,8 @@ image/x-xbitmap=org.xfce.ristretto.desktop;
 audio/mpeg=org.xfce.Parole.desktop;easytag.desktop;vlc.desktop;
 application/zip=org.gnome.FileRoller.desktop;gzdoom.desktop;
 application/x-iff=org.xfce.mousepad.desktop;
+video/mp4=vlc.desktop;
+image/vnd.microsoft.icon=vlc.desktop;
 
 [Removed Associations]
 audio/vnd.wave=im.riot.Riot.desktop;
