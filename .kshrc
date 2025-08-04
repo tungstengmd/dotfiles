@@ -30,7 +30,7 @@ alias gr="git reset"
 #---general aliases---#
 alias ls="ls --color=auto"
 alias la="ls -lhA"
-alias viksh="vim ~/.kshrc"
+alias viksh="vim ~/.kshrc; print -n"
 alias ce="clear; . ~/.kshrc"
 alias nerdfetch="nerdfetch -c"
 alias cbl="cbonsai -l"
