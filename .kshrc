@@ -53,7 +53,7 @@ alias clean="doas xbps-remove -Oof; doas vkpurge rm all"
 alias tkill="pkill -9 -t"
 alias petpet='printf "purrr"; for i in {3..$(shuf -i 3-30 | head -1)}; do printf "r"; done; echo'
 function crap {
-    su -c "$(hist -p !!)" root
+    su -c "$(fc -p !!)" root
 }
 #---ideas taken from mcdutchie---#
 function .sh.tilde.get {
