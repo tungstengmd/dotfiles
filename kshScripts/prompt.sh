@@ -4,6 +4,7 @@ function PWD_TRUNC.get {
 function RPROMPT.get {
     .sh.value="`tty | sed -e 's|/dev/||'`, "
     [[ -n ${SSH_CLIENT} ]] && { .sh.value="$(who m i | tr -d '()' | awk '{print $5}')"; [[ $t = "" ]] || .sh.value+=", "; }
+    [[ -n $VIRTUAL_ENV || -n $PIPENV_ACTIVE || -n $CONDA_DEFAULT_ENV ]] && .sh.value+="venv active, "
     [[ $failsafe = 0 ]] && .sh.value+="took $(($(date +%s) - $t))s" || .sh.value+="timeless"
     failsafe=1
 }
@@ -20,7 +21,7 @@ case `git status 2>&1` in
     *"renamed"*) symb+="R" ;;&
     *"Untracked"*) symb+="U" ;;&
     *"modified"*) symb+="M" ;;&
-    *"detached"*) brnch="$`git branch | head -1 | sed "s/)//"`"; brnch=" (${brnch##* })" ;;
+    *"detached"*) brnch="`git branch | head -1 | sed "s/)//"`"; brnch=" (${brnch##* })" ;;
     ?) symb=
 esac
 print -n "\E[0;92m╭─{${owo}}─{`date +%H:%M`}`[ $USER = root ] && echo "\E[91m" || echo "\E[93m"` ${USER} \E[92min \E[7m$PWD_TRUNC\E[27m$brnch`[ "$symb" = "" ] || echo " [$symb]"`$e% \E[0m")'
