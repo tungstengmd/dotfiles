@@ -19,43 +19,6 @@ done
 }
 onetime=1
 printf "Welcome to the Korn shell!\nEnjoy your stay :3\n"
-#---aliases for git---#
-alias gc="git commit -a"
-alias git="hub"
-alias gl="git log --oneline --all --graph --decorate"
-alias gf="git pull"
-alias gp="git push"
-alias gco="git checkout"
-alias gs="git stash"
-alias gsd="git stash drop"
-alias gd="git diff"
-alias gr="git reset"
-alias ga="git add"
-#---general aliases---#
-alias ls="ls --color=auto"
-alias la="ls -lhA"
-alias viksh="vim ~/.kshrc; print -n"
-alias ce="clear; . ~/.kshrc"
-alias nerdfetch="nerdfetch -c"
-alias cbl="cbonsai -l"
-alias shit="fuck -y"
-# alias whatbroke="sudo systemctl list-units --failed"
-alias huh="echo yeah..."
-alias mkexec="chmod +x"
-alias visudo="doas vim /etc/doas.conf"
-alias rr="rm -r"
-alias eshell="emacs -nw --no-splash -f eshell"
-alias update="doas xbps-install -Su && flatpak update && brew upgrade"
-alias scug='echo "(\_/)" && echo "|OxO|" && echo "(___)"'
-alias birth="stat --format=%w / | cut -b -10"
-alias sudo="doas "
-alias doas="doas "
-alias sftrbt="pkill xinit"
-alias wtf="netbsd-wtf"
-alias wttr="curl wttr.in/?format=1 2>/dev/null | sed 's/   / /'"
-alias clean="doas xbps-remove -Oof; doas vkpurge rm all"
-alias tkill="pkill -9 -t"
-alias petpet='printf "purrr"; for i in {3..$(shuf -i 3-30 | head -1)}; do printf "r"; done; echo'
 function crap {
     su -c "$(fc -p !!)" root
 }
