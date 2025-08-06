@@ -1,5 +1,5 @@
 failsafe=1
-export FPATH=$HOME/kshFun
+export FPATH=$HOME/.kshrc.d/fun
 autoload man
 export LESS="-rIs"
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
@@ -9,11 +9,11 @@ builtin grep
 # sorts out the time variable, the i variable used in PS2 and the transient prompt
 trap '[[ ${istrans:-u} = u  ]] || t="$(date +%s)"; [[ $istrans = 0 && $TERM != dumb ]] && { tput cuu $((`fc -lnN0 | sed "s/[[:blank:]]//" | wc -l`+1)); tput ed; print -n "\E[92m\E[7m$PWD_TRUNC\E[27m-%\E[0m "; fc -lnN0 | sed "s/[[:blank:]]//"; istrans=; }; failsafe=0' DEBUG
 export FCEDIT=micro
-for FILE in ~/kshScripts/*; do
+for FILE in ~/.kshrc.d/scripts/*; do
     . $FILE
 done
 [[ $onetime = 1 ]] || {
-    for FILE in ~/kshOneTime/*; do
+    for FILE in ~/.kshrc.d/onetime/*; do
         . $FILE
     done
 }
@@ -25,7 +25,7 @@ function crap {
 #---ideas taken from mcdutchie---#
 function .sh.tilde.get {
     case ${.sh.tilde} in
-	'~scripts') .sh.value=~/kshScripts ;;
+	'~scripts') .sh.value=~/.kshrc.d/scripts ;;
 	'~local') .sh.value=~/.local ;;
 	'~trash') .sh.value=~/.local/share/Trash ;;
 	'~conf') .sh.value=~/.config ;;
