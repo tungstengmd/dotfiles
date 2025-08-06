@@ -3,7 +3,7 @@ function PWD_TRUNC.get {
 }
 function RPROMPT.get {
     .sh.value="`tty | sed -e 's|/dev/||'`, "
-    [[ -n ${SSH_CLIENT} ]] && { .sh.value="$(who m i | tr -d '()' | awk '{print $5" ("$2")"}')"; [[ $t = "" ]] || .sh.value+=", "; }
+    [[ -n ${SSH_CLIENT} ]] && { .sh.value="$(who -m | tr -d '()' | awk '{print $5" ("$2")"}')"; [[ $t = "" ]] || .sh.value+=", "; }
     [[ -n $VIRTUAL_ENV || -n $PIPENV_ACTIVE || -n $CONDA_DEFAULT_ENV ]] && .sh.value+="venv active, "
     [[ $failsafe = 0 ]] && .sh.value+="took $(($(date +%s) - $t))s" || .sh.value+="timeless"
     failsafe=1
