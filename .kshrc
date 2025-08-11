@@ -33,16 +33,4 @@ function .sh.tilde.get {
 	\~*) eval ".sh.value=${.sh.tilde}"; [[ ${.sh.value} == "${.sh.tilde}" ]] ;;
     esac
 }
-function PS1.get {
-    istrans=0
-    i=0
-    if [[ -v RPROMPT ]]; then
-        typeset -R "$COLUMNS" rp=$RPROMPT
-        .sh.value=$'\E[0m'${rp}$'\r'${PS1}
-    fi
-}
 #---mcdutchie block ends here---#
-function PS2.get {
-    (( i++ ))
-    .sh.value=$'\E[92m«\E[94m'$i$'\E[92m»\E[0m  '
-}

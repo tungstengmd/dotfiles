@@ -8,7 +8,19 @@ function RPROMPT.get {
     [[ $failsafe = 0 ]] && .sh.value+="took $(($(date +%s) - $t))s" || .sh.value+="timeless"
     failsafe=1
 }
-PS1='$(e=$?
+function PS1.get {
+    istrans=0
+    i=0
+    if [[ -v RPROMPT ]]; then
+        typeset -R "$COLUMNS" rp=$RPROMPT
+        .sh.value=$'\E[0m'${rp}$'\r'${PS1}
+    fi
+}
+function PS2.get {
+    (( i++ ))
+    .sh.value=$'\E[92m«\E[94m'$i$'\E[92m»\E[0m  '
+}
+PS1=$'$(e=$?
 [ $e = 0 ] && { owo="\E[92mowo"; e="\n\E[92m╰──"; } || { owo="\E[91momo\E[92m"; e=" «\E[91m"$e"/SIG`kill -l "$e"`\E[92m»\E[0;91m\nx  "; } 
 brnch="`git branch --show-current 2>/dev/null`"
 [ "$brnch" = "" ] || brnch="`echo " ($brnch)"`"
