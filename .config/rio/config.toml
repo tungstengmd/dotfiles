@@ -64,7 +64,7 @@
 # Environment variables
 #
 # Example:
-# env-vars = []
+env-vars = ["TERM=rio"]
 
 # Use fork
 #
