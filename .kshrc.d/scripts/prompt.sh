@@ -2,8 +2,19 @@ function PWD_TRUNC.get {
     .sh.value="`pwd | sed -e "s|^$HOME|~|" -e "s|\(\.\{0,1\}[^/]\)[^/]*/|\1/|g"`"
 }
 function RPROMPT.get {
-    .sh.value="`tty | sed -e 's|/dev/||'`, "
-    [[ -n ${SSH_CLIENT} ]] && { .sh.value="$(who -m | tr -d '()' | awk '{print $5" ("$2")"}')"; [[ $t = "" ]] || .sh.value+=", "; }
+    #---check version for common tools or languages---#
+    [[ -e `pwd`/package.json ]] && type node >/dev/null && .sh.value+=" `node -v`, "
+    [[ -e `pwd`/pyproject.toml ]] && type python >/dev/null && .sh.value+=" v`python -V | awk '{print $2}'`, "
+    [[ -e `pwd`/Cargo.toml ]] && type rustc >/dev/null && .sh.value+=" v`rustc -V | awk '{print $2}'`, "
+    [[ -e `pwd`/Gemfile* ]] && type ruby >/dev/null && .sh.value+=" v `ruby -v | awk '{print $2}'`, "
+    [[ -e `pwd`/Package.swift ]] && type swift >/dev/null && .sh.value+=" v`swift -version | awk '{print $4}'`, "
+    [[ -e `pwd`/go.mod ]] && type go >/dev/null && .sh.value+=" `go version | awk '{gsub("go", "v", $3); print $3}'`, "
+    [[ -e `pwd`/artisan ]] && type php >/dev/null && .sh.value+=" v`php -v | awk '{print $2}'`, "
+    [[ -e `pwd`/Dockerfile ]] && { type docker >/dev/null && .sh.value+=" v`docker -v | awk '{print $3}'`, " || type podman >/dev/null && .sh.value+=" v`podman -v | awk '{print $3}'`, "; }
+    [[ -e `pwd`/.cljfmt.edn ]] && type clj >/dev/null && .sh.value+=" v`clj --version | awk '{print $4}'`, "
+    [[ -e `pwd`/tsconfig.json ]] && type tsc >/dev/null && .sh.value+=" v`tsc -v | awk '{print $4}'`, "
+    #---now for the other stuff---#
+    [[ -n ${SSH_CLIENT} ]] && { .sh.value+="$(who -m | tr -d '()' | awk '{print $5" ("$2")"}')"; [[ $t = "" ]] || .sh.value+=", "; } || .sh.value+="`tty | sed -e 's|/dev/||'`, "
     [[ -n $VIRTUAL_ENV || -n $PIPENV_ACTIVE || -n $CONDA_DEFAULT_ENV ]] && .sh.value+="venv active, "
     [[ $failsafe = 0 ]] && .sh.value+="took $(($(date +%s) - $t))s" || .sh.value+="timeless"
     failsafe=1
