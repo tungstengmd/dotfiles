@@ -17,7 +17,7 @@ function RPROMPT.get {
     #---now for the other stuff---#
     [[ -n ${SSH_CLIENT} ]] && { .sh.value+="$(who -m | tr -d '()' | awk '{print $5" ("$2")"}')"; [[ $t = "" ]] || .sh.value+=", "; } || .sh.value+="`tty | sed -e 's|/dev/||'`, "
     [[ -n $VIRTUAL_ENV || -n $PIPENV_ACTIVE || -n $CONDA_DEFAULT_ENV ]] && .sh.value+="venv active, "
-    [[ $failsafe = 0 ]] && .sh.value+="took $(($(date +%s) - $t))s" || .sh.value+="timeless"
+    [[ $failsafe = 0 ]] && .sh.value+="took $(($(date -e) - $t))s" || .sh.value+="timeless"
     failsafe=1
 }
 function PS1.get {
@@ -33,7 +33,7 @@ function PS2.get {
     .sh.value=$'\E[92m«\E[94m'$i$'\E[92m»\E[0m  '
 }
 # sorts out the time variable, the i variable used in PS2 and the transient prompt
-trap '[[ ${istrans:-u} = u  ]] || t="$(date +%s)"; [[ $istrans = 0 && $TERM != dumb ]] && { tput cuu $((`fc -lnN0 | sed "s/[[:blank:]]//" | wc -l`+1)); tput ed; print -n "\E[92m\E[7m$PWD_TRUNC\E[27m-%\E[0m "; fc -lnN0 | sed "s/[[:blank:]]//"; istrans=; }; failsafe=0' DEBUG
+trap '[[ ${istrans:-u} = u  ]] || t="$(date -e)"; [[ $istrans = 0 && $TERM != dumb ]] && { tput cuu $((`fc -lnN0 | sed "s/[[:blank:]]//" | wc -l`+1)); tput ed; print -n "\E[92m\E[7m$PWD_TRUNC\E[27m-%\E[0m "; fc -lnN0 | sed "s/[[:blank:]]//"; istrans=; }; failsafe=0' DEBUG
 PS1=$'$(e=$?
 [ $e = 0 ] && { owo="\E[92mowo"; e="\n\E[92m╰──"; } || { owo="\E[91momo\E[92m"; e=" «\E[91m"$e"/SIG`kill -l "$e"`\E[92m»\E[0;91m\nx  "; } 
 brnch="`git branch --show-current 2>&1 >/dev/null`"
