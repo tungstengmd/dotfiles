@@ -5,7 +5,7 @@ export LESS="-rIs"
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 istrans=1
 trap 'istrans=; echo' SIGINT
-builtin grep date cat mv rm rmdir uniq ln uname
+builtin grep egrep fgrep date cat mv rm rmdir uniq ln uname
 export FCEDIT=micro
 for FILE in ~/.kshrc.d/scripts/*; do
     . $FILE
