@@ -1,0 +1,12 @@
+#!/bin/ksh
+function help {
+    USAGE=$'[-?'"${.sh.version}"'][-author?aster foxworthy, thanks for using <3][-license?zlib][+NAME?help - display help for built-in commands][+DESCRIPTION?Displays help for built-in commands.\nDisplays a brief summary for each command. If the last argument is a built-in command, it displays a rundown of the command, specifically the one returned by the command itself. This program was made as I felt annoyed that ksh93 lacked such a command, thus I took it upon myself to create it.][m?display a pseudo-manpagefor the command, with help of the default pager (defaults to less)][s?output a synopsis of the command]'
+    [ -z $1 ] && "$0" -?
+    while getopts "$USAGE" opt; do
+        case $opt in
+            m ) "$2" --man | ${PAGER:-less} ;;
+            s ) "$2" -? ;;
+	    * ) help -? ;;
+        esac
+    done
+}
