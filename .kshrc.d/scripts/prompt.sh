@@ -3,7 +3,7 @@ function PWD_TRUNC.get {
 }
 function RPROMPT.get {
     #---check version for common tools or languages---#
-    [[ -e `pwd`/package.json ]] && type node 2>&1 >/dev/null && .sh.value+=" `node -v`, "
+    [[ -e `pwd`/package.json ]] && { `# go through all the runtimes`; { type node 2>&1 >/dev/null && .sh.value+=" `node -v`, "; } || { type deno 2>&1 >/dev/null && .sh.value+=" `deno -v | sed 's/deno /v/'`, "; } || { type bun 2>&1 >/dev/null && .sh.value+=" v`bun -v`, "; }; }
     [[ -e `pwd`/pyproject.toml ]] && type python 2>&1 >/dev/null && .sh.value+=" v`python -V | awk '{print $2}'`, "
     [[ -e `pwd`/Cargo.toml ]] && type rustc 2>&1 >/dev/null && .sh.value+=" v`rustc -V | awk '{print $2}'`, "
     [[ -e `pwd`/Gemfile* ]] && type ruby 2>&1 >/dev/null && .sh.value+=" v `ruby -v | awk '{print $2}'`, "
