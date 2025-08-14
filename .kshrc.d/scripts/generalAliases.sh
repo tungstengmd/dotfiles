@@ -22,3 +22,4 @@ alias wttr="curl wttr.in/?format=1 2>/dev/null | sed 's/   / /'"
 alias clean="doas xbps-remove -Oof; doas vkpurge rm all"
 alias tkill="pkill -9 -t"
 alias petpet='printf "purrr"; for i in {3..$(shuf -i 3-30 | head -1)}; do printf "r"; done; echo'
+alias prompt="prompt; print"
