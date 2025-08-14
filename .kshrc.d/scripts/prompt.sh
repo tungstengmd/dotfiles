@@ -1,3 +1,4 @@
+#!/bin/ksh
 function PWD_TRUNC.get {
     .sh.value="`pwd | sed -e "s|$HOME|~|" -e "s|\(\.\{0,1\}[^/]\)[^/]*/|\1/|g"`"
 }
@@ -15,7 +16,7 @@ function RPROMPT.get {
     [[ -e `pwd`/tsconfig.json ]] && type tsc 2&>1 >/dev/null && .sh.value+=" v`tsc -v | awk '{print $4}'`, "
     [[ -e `pwd`/build.zig ]] && type zig 2>&1 >/dev/null && .sh.value+=" `zig version`, "
     #---now for the other stuff---#
-    [[ -n ${SSH_CLIENT} ]] && { .sh.value+="$(who -m | tr -d '()' | awk '{print $5" ("$2")"}')"; [[ $t = "" ]] || .sh.value+=", "; } || .sh.value+="`tty | sed -e 's|/dev/||'`, "
+    [[ -n $SSH_CLIENT ]] && { .sh.value+="$(who -m | tr -d '()' | awk '{print $5" ("$2")"}')"; [[ $t = "" ]] || .sh.value+=", "; } || .sh.value+="`tty | sed -e 's|/dev/||'`, "
     [[ -n $VIRTUAL_ENV || -n $PIPENV_ACTIVE || -n $CONDA_DEFAULT_ENV ]] && .sh.value+="venv active, "
     [[ $failsafe = 0 ]] && .sh.value+="took $(($(date -e) - $t))s" || .sh.value+="timeless"
     failsafe=1
