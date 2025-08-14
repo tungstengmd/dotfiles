@@ -10,7 +10,7 @@ function RPROMPT.get {
     [[ -e `pwd`/Package.swift ]] && type swift 2>&1 >/dev/null && .sh.value+=" v`swift -version | awk '{print $4}'`, "
     [[ -e `pwd`/go.mod ]] && type go 2>&1 >/dev/null && .sh.value+=" `go version | awk '{gsub("go", "v", $3); print $3}'`, "
     [[ -e `pwd`/artisan ]] && type php 2>&1 >/dev/null && .sh.value+=" v`php -v | awk '{print $2}'`, "
-    [[ -e `pwd`/Dockerfile ]] && { type docker 2&>1 >/dev/null && .sh.value+=" v`docker -v | awk '{print $3}'`, " || type podman 2>&1 >/dev/null && .sh.value+=" v`podman -v | awk '{print $3}'`, "; }
+    [[ -e `pwd`/Dockerfile ]] || [[ -e `pwd`/.dockerignore ]] && { type docker 2&>1 >/dev/null && .sh.value+=" v`docker -v | awk '{print $3}'`, " || type podman 2>&1 >/dev/null && .sh.value+=" v`podman -v | awk '{print $3}'`, "; }
     [[ -e `pwd`/.cljfmt.edn ]] && type clj 2>&1 >/dev/null && .sh.value+=" v`clj --version | awk '{print $4}'`, "
     [[ -e `pwd`/tsconfig.json ]] && type tsc 2&>1 >/dev/null && .sh.value+=" v`tsc -v | awk '{print $4}'`, "
     [[ -e `pwd`/build.zig ]] && type zig 2>&1 >/dev/null && .sh.value+=" `zig version`, "
@@ -39,8 +39,8 @@ PS1=$'$(e=$?
 brnch="`git branch --show-current 2>/dev/null`"
 [ "$brnch" = "" ] || brnch="`echo " ($brnch)"`"
 case `git status 2>&1` in
-    *"has diverged"*) symb+="%" ;&
-    *"branch is behind"*) symb+="<" ;&
+    *"has diverged"*) symb+="%" ;;&
+    *"branch is behind"*) symb+="<" ;;&
     *"ahead of"*) symb+=">" ;;&
     *"new file:"*) symb+="A" ;;&
     *"deleted"*) symb+="D" ;;&
