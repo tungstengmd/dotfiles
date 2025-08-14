@@ -1,4 +1,4 @@
-alias ls="ls --color=auto"
+alias ls="ls -A --color=auto"
 alias la="ls -lhA"
 alias viksh="vim ~/.kshrc; print -n"
 alias ce="clear; . ~/.kshrc"
