@@ -20,34 +20,37 @@ function RPROMPT.get {
     [[ $failsafe = 0 ]] && .sh.value+="took $(($(date -e) - $t))s" || .sh.value+="timeless"
     failsafe=1
 }
-function PS1.get {
-    istrans=0
-    i=0
-    if [[ -v RPROMPT ]]; then
-        typeset -R "$COLUMNS" rp=$RPROMPT
-        .sh.value=$'\E[0m'${rp}$'\r'${PS1}
-    fi
-}
 function PS2.get {
     (( i++ ))
     .sh.value=$'\E[92m«\E[94m'$i$'\E[92m»\E[0m  '
 }
 # sorts out the time variable, the i variable used in PS2 and the transient prompt
 trap '[[ ${istrans:-u} = u  ]] || t="$(date -e)"; [[ $istrans = 0 && $TERM != dumb ]] && { tput cuu $((`fc -lnN0 | sed "s/[[:blank:]]//" | wc -l`+1)); tput ed; print -n "\E[92m\E[7m$PWD_TRUNC\E[27m-%\E[0m "; fc -lnN0 | sed "s/[[:blank:]]//"; istrans=; }; failsafe=0' DEBUG
-PS1=$'$(e=$?
-[ $e = 0 ] && { owo="\E[92mowo"; e="\n\E[92m╰──"; } || { owo="\E[91momo\E[92m"; e=" «\E[91m"$e"/SIG`kill -l "$e"`\E[92m»\E[0;91m\nx  "; } 
-brnch="`git branch --show-current 2>/dev/null`"
-[ "$brnch" = "" ] || brnch="`echo " ($brnch)"`"
-case `git status 2>&1` in
-    *"has diverged"*) symb+="%" ;;&
-    *"branch is behind"*) symb+="<" ;;&
-    *"ahead of"*) symb+=">" ;;&
-    *"new file:"*) symb+="A" ;;&
-    *"deleted"*) symb+="D" ;;&
-    *"renamed"*) symb+="R" ;;&
-    *"Untracked"*) symb+="U" ;;&
-    *"modified"*) symb+="M" ;;&
-    *"detached"*) brnch="`git branch | head -1 | sed "s/)//"`"; brnch=" (${brnch##* })" ;;
-    ?) symb=
-esac
-print -n "\E[92m╭─{${owo}}─{`date +%H:%M`}`[ $USER = root ] && echo "\E[91m" || echo "\E[93m"` ${USER} \E[92min \E[7m$PWD_TRUNC\E[27m$brnch`[ "$symb" = "" ] || echo " [$symb]"`$e% \E[0m")'
+function prompt {
+    symb=
+    [ $e = 0 ] && { owo="\E[92mowo"; e="\n\E[92m╰──"; } || { owo="\E[91momo\E[92m"; e=" «\E[91m"$e"/SIG`kill -l "$e"`\E[92m»\E[0;91m\nx  "; } 
+    brnch="`git branch --show-current 2>/dev/null`"
+    [ "$brnch" = "" ] || brnch="`echo " ($brnch)"`"
+    case `git status 2>&1` in
+        *"has diverged"*) symb+="%" ;;&
+        *"branch is behind"*) symb+="<" ;;&
+        *"ahead of"*) symb+=">" ;;&
+        *"new file:"*) symb+="A" ;;&
+        *"deleted"*) symb+="D" ;;&
+        *"renamed"*) symb+="R" ;;&
+        *"Untracked"*) symb+="U" ;;&
+        *"modified"*) symb+="M" ;;&
+        *"detached"*) brnch="`git branch | head -1 | sed "s/)//"`"; brnch=" (${brnch##* })" ;;
+        ?) symb=
+    esac
+    print -n "\E[92m╭─{${owo}}─{`date +%H:%M`}`[ $USER = root ] && echo "\E[91m" || echo "\E[93m"` ${USER} \E[92min \E[7m$PWD_TRUNC\E[27m$brnch`[ "$symb" = "" ] || echo " [$symb]"`$e% \E[0m"
+}
+function PS1.get {
+    e=$?
+    istrans=0
+    i=0
+    if [[ -v RPROMPT ]]; then
+        typeset -R "$COLUMNS" rp=$RPROMPT
+	.sh.value=$'\E[0m'${rp}$'\r'$(prompt)
+    fi
+}
