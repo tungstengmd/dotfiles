@@ -52,6 +52,6 @@ function PS1.get {
     i=0
     if [[ -v RPROMPT ]]; then
         typeset -R "$COLUMNS" rp=$RPROMPT
-	.sh.value=$'\E[0m'${rp}$'\r'$(prompt)
+        .sh.value=$'\E[0m'${rp}$'\r'$(prompt)
     fi
 }
