@@ -4,17 +4,20 @@ function PWD_TRUNC.get {
 }
 function RPROMPT.get {
     #---check version for common tools or languages---#
-    [[ -e `pwd`/Dockerfile ]] || [[ -e `pwd`/.dockerignore ]] && { type docker 2&>1 >/dev/null && .sh.value+=" v`docker -v | awk '{print $3}'`, " || type podman 2>&1 >/dev/null && .sh.value+=" v`podman -v | awk '{print $3}'`, "; }
-    [[ -e `pwd`/package.json ]] && { `# go through all the runtimes`; { type node 2>&1 >/dev/null && .sh.value+=" `node -v`, "; } || { type deno 2>&1 >/dev/null && .sh.value+=" `deno -v | sed 's/deno /v/'`, "; } || { type bun 2>&1 >/dev/null && .sh.value+=" v`bun -v`, "; }; }
-    [[ -e `pwd`/pyproject.toml ]] && type python 2>&1 >/dev/null && .sh.value+=" v`python -V | awk '{print $2}'`, "
-    [[ -e `pwd`/Cargo.toml ]] && type rustc 2>&1 >/dev/null && .sh.value+=" v`rustc -V | awk '{print $2}'`, "
-    [[ -e `pwd`/Gemfile* ]] && type ruby 2>&1 >/dev/null && .sh.value+=" v `ruby -v | awk '{print $2}'`, "
-    [[ -e `pwd`/Package.swift ]] && type swift 2>&1 >/dev/null && .sh.value+=" v`swift -version | awk '{print $4}'`, "
-    [[ -e `pwd`/go.mod ]] && type go 2>&1 >/dev/null && .sh.value+=" `go version | awk '{gsub("go", "v", $3); print $3}'`, "
-    [[ -e `pwd`/artisan ]] && type php 2>&1 >/dev/null && .sh.value+=" v`php -v | awk '{print $2}'`, "
-    [[ -e `pwd`/.cljfmt.edn ]] && type clj 2>&1 >/dev/null && .sh.value+=" v`clj --version | awk '{print $4}'`, "
-    [[ -e `pwd`/tsconfig.json ]] && type tsc 2&>1 >/dev/null && .sh.value+=" v`tsc -v | awk '{print $4}'`, "
-    [[ -e `pwd`/build.zig ]] && type zig 2>&1 >/dev/null && .sh.value+=" `zig version`, "
+    [[ -e Dockerfile ]] || [[ -e .dockerignore ]] && { type docker 2&>1 >/dev/null && .sh.value+=" v`docker -v | awk '{print $3}'`, " || type podman 2>&1 >/dev/null && .sh.value+=" v`podman -v | awk '{print $3}'`, "; }
+    [[ -e package.json ]] && { `# go through all the runtimes`; { type node 2>&1 >/dev/null && .sh.value+=" `node -v`, "; } || { type deno 2>&1 >/dev/null && .sh.value+=" `deno -v | sed 's/deno /v/'`, "; } || { type bun 2>&1 >/dev/null && .sh.value+=" v`bun -v`, "; }; }
+    [[ -e pyproject.toml ]] && type python 2>&1 >/dev/null && .sh.value+=" v`python -V | awk '{print $2}'`, "
+    [[ -e Cargo.toml ]] && type rustc 2>&1 >/dev/null && .sh.value+=" v`rustc -V | awk '{print $2}'`, "
+    [[ -e Gemfile* ]] && type ruby 2>&1 >/dev/null && .sh.value+=" v `ruby -v | awk '{print $2}'`, "
+    [[ -e Package.swift ]] && type swift 2>&1 >/dev/null && .sh.value+=" v`swift -version | awk '{print $4}'`, "
+    [[ -e go.mod ]] && type go 2>&1 >/dev/null && .sh.value+=" `go version | awk '{gsub("go", "v", $3); print $3}'`, "
+    [[ -e artisan ]] && type php 2>&1 >/dev/null && .sh.value+=" v`php -v | awk '{print $2}'`, "
+    [[ -e .cljfmt.edn ]] && type clj 2>&1 >/dev/null && .sh.value+=" v`clj --version | awk '{print $4}'`, "
+    [[ -e tsconfig.json ]] && type tsc 2>&1 >/dev/null && .sh.value+=" v`tsc -v | awk '{print $4}'`, "
+    [[ -e build.zig ]] && type zig 2>&1 >/dev/null && .sh.value+=" `zig version`, "
+    [[ -e gleam.toml ]] && type gleam 2>&1 >/dev/null && .sh.value+=" v`gleam -V | awk '{print $2}'`, "
+    [[ -e pubspec.* ]] && type dart 2>&1 >/dev/null && .sh.value+=" `dart --version | awk '{print $4}'`, "
+    [ -e *.sln ] && type dotnet 2>&1 >/dev/null && .sh.value+=" v`dotnet --list-sdks | grep $(grep .0 $(find . -print | grep -K "*.@(cs|fs|x)proj") | sed 's/<[^<>]*>//g;s/net//;s/.0//') | awk 'END{print $1}'`, "
     #---now for the other stuff---#
     [[ -n $SSH_CLIENT ]] && { .sh.value+="$(who -m | tr -d '()' | awk '{print $5" ("$2")"}')"; [[ $t = "" ]] || .sh.value+=", "; } || .sh.value+="`tty | sed -e 's|/dev/||'`, "
     [[ -n $VIRTUAL_ENV || -n $PIPENV_ACTIVE || -n $CONDA_DEFAULT_ENV ]] && .sh.value+="venv active, "
