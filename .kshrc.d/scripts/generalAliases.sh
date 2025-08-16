@@ -1,6 +1,5 @@
 alias ls="ls -A --color=auto"
 alias la="ls -lhA"
-alias viksh="vim ~/.kshrc; print -n"
 alias ce="clear; . ~/.kshrc"
 alias nerdfetch="nerdfetch -c"
 alias cbl="cbonsai -l"
@@ -23,3 +22,7 @@ alias clean="doas xbps-remove -Oof; doas vkpurge rm all"
 alias tkill="pkill -9 -t"
 alias petpet='printf "purrr"; for i in {3..$(shuf -i 3-30 | head -1)}; do printf "r"; done; echo'
 alias prompt="prompt; print"
+function viksh {
+    file=$(FZF_DEFAULT_COMMAND="ls ~/.kshrc ~/.kshrc.d/**/*" fzf --tac --preview "bat -l bash {}")
+    [[ $file = "" ]] || vim $file
+}
