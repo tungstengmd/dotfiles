@@ -17,7 +17,7 @@ function RPROMPT.get {
     [[ -e build.zig ]] && type zig 2>&1 >/dev/null && .sh.value+=" `zig version`, "
     [[ -e gleam.toml ]] && type gleam 2>&1 >/dev/null && .sh.value+=" v`gleam -V | awk '{print $2}'`, "
     [[ -e pubspec.* ]] && type dart 2>&1 >/dev/null && .sh.value+=" `dart --version | awk '{print $4}'`, "
-    [ -e *.sln ] && type dotnet 2>&1 >/dev/null && .sh.value+=" v`dotnet --list-sdks | grep $(grep .0 $(find . -print | grep -K "*.@(cs|fs|x)proj") | sed 's/<[^<>]*>//g;s/net//;s/.0//') | awk 'END{print $1}'`, "
+    { [ -e *.sln ] || [ -e *.@(cs|fs|x)proj ]; } && type dotnet 2>&1 >/dev/null && .sh.value+=" v`dotnet --list-sdks | grep $(grep .0 $(find . -print | grep -K "*.@(cs|fs|x)proj") | sed 's/<[^<>]*>//g;s/net//;s/.0//') | awk 'END{print $1}'`, "
     #---now for the other stuff---#
     [[ -n $SSH_CLIENT ]] && { .sh.value+="$(who -m | tr -d '()' | awk '{print $5" ("$2")"}')"; [[ $t = "" ]] || .sh.value+=", "; } || .sh.value+="`tty | sed -e 's|/dev/||'`, "
     [[ -n $VIRTUAL_ENV || -n $PIPENV_ACTIVE || -n $CONDA_DEFAULT_ENV ]] && .sh.value+="venv active, "
