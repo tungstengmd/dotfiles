@@ -14,7 +14,7 @@ function help {
         [[ $1 = "-"* ]] || "$1" -?
         while getopts "$USAGE" opt; do
             case $opt in
-                m ) "$2" --man | ${PAGER:-less} ;;
+                m ) [[ `"$2" --man | wc -l` -gt ${LINES:-tput lines} ]] && "$2" --man | ${PAGER:-less} || "$2" --man ;;
                 s ) "$2" -? ;;
                 o ) "$2" --help ;;
                 * ) print "$0: invalid parameter: $opt"; "$0" -? ;;
