@@ -18,6 +18,9 @@ function RPROMPT.get {
     [[ -e gleam.toml ]] && type gleam 2>&1 >/dev/null && .sh.value+=" v`gleam -V | awk '{print $2}'`, "
     [[ -e pubspec.* ]] && type dart 2>&1 >/dev/null && .sh.value+=" `dart --version | awk '{print $4}'`, "
     { [ -e *.sln ] || [ -e *.@(cs|fs|x)proj ]; } && type dotnet 2>&1 >/dev/null && .sh.value+=" v`dotnet --list-sdks | grep $(grep .0 $(find . -print | grep -K "*.@(cs|fs|x)proj") | sed 's/<[^<>]*>//g;s/net//;s/.0//') | awk 'END{print $1}'`, "
+    [[ -e mix.exs ]] && type elixir 2>&1 >/dev/null && .sh.value+=" v`elixir -v | awk 'END{print $2}'`, "
+    { [[ -e elm.json ]] || [[ -e elm-package.json ]] || [[ -e .elm-version ]] || [[ -e elm-stuff/ ]]; } && type elm 2>&1 >/dev/null && .sh.value+=" v`elm --version`" 
+    { [[ -e rebar.config ]] || [[ -e erlang.mk ]]; } && type erl 2>&1 >/dev/null && .sh.value+=" `erl -eval '{ok, Version} = file:read_file(filename:join([code:root_dir(), "releases", erlang:system_info(otp_release), "OTP_VERSION"])), io:fwrite(Version), halt().' -noshell`"
     #---now for the other stuff---#
     [[ -n $SSH_CLIENT ]] && { .sh.value+="$(who -m | tr -d '()' | awk '{print $5" ("$2")"}')"; [[ $t = "" ]] || .sh.value+=", "; } || .sh.value+="`tty | sed -e 's|/dev/||'`, "
     [[ -n $VIRTUAL_ENV || -n $PIPENV_ACTIVE || -n $CONDA_DEFAULT_ENV ]] && .sh.value+="venv active, "
