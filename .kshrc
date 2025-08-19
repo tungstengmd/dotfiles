@@ -1,4 +1,5 @@
 failsafe=1
+set -H
 export FPATH=$HOME/.kshrc.d/fun
 autoload man
 export LESS="-rIs"

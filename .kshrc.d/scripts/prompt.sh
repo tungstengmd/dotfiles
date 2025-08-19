@@ -1,10 +1,11 @@
 #!/bin/ksh
+#shellcheck disable=SC2006
 function PWD_TRUNC.get {
     .sh.value="`pwd | sed -e "s|$HOME|~|" -e "s|\(\.\{0,1\}[^/]\)[^/]*/|\1/|g"`"
 }
 function RPROMPT.get {
     #---check version for common tools or languages---#
-    [[ -e Dockerfile ]] || [[ -e .dockerignore ]] && { type docker 2&>1 >/dev/null && .sh.value+=" v`docker -v | awk '{print $3}'`, " || type podman 2>&1 >/dev/null && .sh.value+=" v`podman -v | awk '{print $3}'`, "; }
+    [[ -e Dockerfile || -e .dockerignore ]] && { type docker 2&>1 >/dev/null && .sh.value+=" v`docker -v | awk '{print $3}'`, " || type podman 2>&1 >/dev/null && .sh.value+=" v`podman -v | awk '{print $3}'`, "; }
     [[ -e package.json ]] && { `# go through all the runtimes`; { type node 2>&1 >/dev/null && .sh.value+=" `node -v`, "; } || { type deno 2>&1 >/dev/null && .sh.value+=" `deno -v | sed 's/deno /v/'`, "; } || { type bun 2>&1 >/dev/null && .sh.value+=" v`bun -v`, "; }; }
     [[ -e pyproject.toml ]] && type python 2>&1 >/dev/null && .sh.value+=" v`python -V | awk '{print $2}'`, "
     [[ -e Cargo.toml ]] && type rustc 2>&1 >/dev/null && .sh.value+=" v`rustc -V | awk '{print $2}'`, "
@@ -19,8 +20,14 @@ function RPROMPT.get {
     [[ -e pubspec.* ]] && type dart 2>&1 >/dev/null && .sh.value+=" `dart --version | awk '{print $4}'`, "
     { [ -e *.sln ] || [ -e *.@(cs|fs|x)proj ]; } && type dotnet 2>&1 >/dev/null && .sh.value+=" v`dotnet --list-sdks | grep $(grep .0 $(find . -print | grep -K "*.@(cs|fs|x)proj") | sed 's/<[^<>]*>//g;s/net//;s/.0//') | awk 'END{print $1}'`, "
     [[ -e mix.exs ]] && type elixir 2>&1 >/dev/null && .sh.value+=" v`elixir -v | awk 'END{print $2}'`, "
-    { [[ -e elm.json ]] || [[ -e elm-package.json ]] || [[ -e .elm-version ]] || [[ -e elm-stuff/ ]]; } && type elm 2>&1 >/dev/null && .sh.value+=" v`elm --version`" 
-    { [[ -e rebar.config ]] || [[ -e erlang.mk ]]; } && type erl 2>&1 >/dev/null && .sh.value+=" `erl -eval '{ok, Version} = file:read_file(filename:join([code:root_dir(), "releases", erlang:system_info(otp_release), "OTP_VERSION"])), io:fwrite(Version), halt().' -noshell`"
+    [[ -e elm.json || -e elm-package.json || -e .elm-version || -e elm-stuff/ ]] && type elm 2>&1 >/dev/null && .sh.value+=" v`elm --version`, "
+    [[ -e rebar.config || -e erlang.mk ]] && type erl 2>&1 >/dev/null && .sh.value+=" `erl -eval '{ok, Version} = file:read_file(filename:join([code:root_dir(), "releases", erlang:system_info(otp_release), "OTP_VERSION"])), io:fwrite(Version), halt().' -noshell`, "
+    [[ -e stack.yaml ]] && type ghc 2>&1 >/dev/null && .sh.value+=" `ghc -V | awk '{print $NF}'`, "
+    { [ -e build.@(gradle.kts|.sbt|boot) ] || [[ -e pom.xml || -e .java-version || -e deps.edn || -e project.clj || -e .sdkmanrc ]]; } && type java 2>&1 >/dev/null && .sh.value+=" v`java -version 2>&1 | sed -n '1p' | awk '{print $3}' | sed 's/"//g'`, "
+    [[ -e Project.toml || -e Manifest.toml ]] && type julia 2>&1 >/dev/null && .sh.value+=" v`julia -v | awk '{print $3}'`, "
+    [[ -e lua/ || -e .lua-version ]] && type lua 2>&1 >/dev/null && .sh.value+=" v`lua -v | awk '{print $2}'`, "
+    [[ -e .scalaenv || -e .sbtenv ]] && type scala-cli 2>&1 >/dev/null && .sh.value+=" v`scala-cli --version | awk '{print $4}' | sed -n '2p'`"
+    # todo: perl []
     #---now for the other stuff---#
     [[ -n $SSH_CLIENT ]] && { .sh.value+="$(who -m | tr -d '()' | awk '{print $5" ("$2")"}')"; [[ $t = "" ]] || .sh.value+=", "; } || .sh.value+="`tty | sed -e 's|/dev/||'`, "
     [[ -n $VIRTUAL_ENV || -n $PIPENV_ACTIVE || -n $CONDA_DEFAULT_ENV ]] && .sh.value+="venv active, "
