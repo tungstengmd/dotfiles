@@ -27,7 +27,7 @@ function RPROMPT.get {
     [[ -e Project.toml || -e Manifest.toml ]] && type julia 2>&1 >/dev/null && .sh.value+=" v`julia -v | awk '{print $3}'`, "
     [[ -e lua/ || -e .lua-version ]] && type lua 2>&1 >/dev/null && .sh.value+=" v`lua -v | awk '{print $2}'`, "
     [[ -e .scalaenv || -e .sbtenv ]] && type scala-cli 2>&1 >/dev/null && .sh.value+=" v`scala-cli --version | awk '{print $4}' | sed -n '2p'`"
-    # todo: perl []
+    { [ -e @(Build|Makefile).PL ] || [ -e cpanfile?(.snapshot) ] || [ -e META.@(json|yml) ] || [ -e .perl-version ]; } && type perl 2>&1 >/dev/null && .sh.value+=" `perl -e 'print $^V'`, "
     #---now for the other stuff---#
     [[ -n $SSH_CLIENT ]] && { .sh.value+="$(who -m | tr -d '()' | awk '{print $5" ("$2")"}')"; [[ $t = "" ]] || .sh.value+=", "; } || .sh.value+="`tty | sed -e 's|/dev/||'`, "
     [[ -n $VIRTUAL_ENV || -n $PIPENV_ACTIVE || -n $CONDA_DEFAULT_ENV ]] && .sh.value+="venv active, "
