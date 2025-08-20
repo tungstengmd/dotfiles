@@ -3,7 +3,6 @@ set -H
 export FPATH=$HOME/.kshrc.d/fun
 autoload man
 export LESS="-rIs"
-eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 istrans=1
 trap 'istrans=; echo' SIGINT
 builtin grep egrep fgrep date cat mv rm rmdir uniq ln uname wc
