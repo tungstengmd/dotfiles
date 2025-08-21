@@ -1,10 +1,11 @@
 failsafe=1
+PS1_MIN=0
 set -H
 export FPATH=$HOME/.kshrc.d/fun
 autoload man
 export LESS="-rIs"
 istrans=1
-trap 'istrans=; echo' SIGINT
+trap 'istrans=; print' SIGINT
 builtin grep egrep fgrep date cat mv rm rmdir uniq ln uname wc
 export FCEDIT=micro
 for FILE in ~/.kshrc.d/scripts/*; do
