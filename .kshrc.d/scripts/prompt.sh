@@ -37,7 +37,7 @@ function RPROMPT.get {
 }
 function PS2.get {
     (( line++ ))
-    .sh.value=$'\E[92m«\E[94m'$i$'\E[92m»\E[0m  '
+    .sh.value=$'\E[92m«\E[94m'$line$'\E[92m»\E[0m  '
 }
 # sorts out the time variable, the i variable used in PS2 and the transient prompt
 function PS1_SIZE.get {
