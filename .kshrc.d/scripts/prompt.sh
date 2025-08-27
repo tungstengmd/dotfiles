@@ -9,7 +9,7 @@ function PWD_TRUNC.get {
 #---the failsafe variable is set to 1 so that if you press enter it doesn't just show seconds---#
 function RPROMPT.get {
     #---check version for common tools or languages---#
-    [[ -e Dockerfile || -e .dockerignore ]] && { type docker >/dev/null 2>&1 && .sh.value+=" v`docker -v | awk '{print $3}'`, " || type podman >/dev/null 2>&1 && .sh.value+=" v`podman -v | awk '{print $3}'`, "; }
+    [[ -e Dockerfile || -e .dockerignore ]] && { { type docker >/dev/null 2>&1 && .sh.value+=" v`docker -v | awk '{print $3}'` "; } || { type podman >/dev/null 2>&1 && .sh.value+=" v`podman -v | awk '{print $3}'`, "; }; }
     [[ -e package.json ]] && { `# go through all the runtimes`; { type node >/dev/null 2>&1 && .sh.value+=" `node -v`, "; } || { type deno >/dev/null 2>&1 && .sh.value+=" `deno -v | sed 's/deno /v/'`, "; } || { type bun >/dev/null 2>&1 && .sh.value+=" v`bun -v`, "; }; }
     [[ -e pyproject.toml ]] && type python >/dev/null 2>&1 && .sh.value+=" v`python -V | awk '{print $2}'`, "
     [[ -e Cargo.toml ]] && type rustc >/dev/null 2>&1 && .sh.value+=" v`rustc -V | awk '{print $2}'`, "

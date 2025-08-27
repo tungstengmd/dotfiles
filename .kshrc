@@ -1,4 +1,7 @@
 failsafe=1
+function EPOCHREALTIME.get {
+    .sh.value="$(date +%.6s)"
+}
 PS1_MIN=0
 set -H
 export FPATH=$HOME/.kshrc.d/fun
