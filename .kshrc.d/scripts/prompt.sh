@@ -1,8 +1,12 @@
 #!/bin/ksh
 #shellcheck disable=SC2006,SC2276,SC2086,SC2127,SC2015,SC2288,SC2069
+function PS1_MIN.set {
+    istrans=1
+}
 function PWD_TRUNC.get {
     .sh.value="`pwd | sed -e "s|$HOME|~|" -e "s|\(\.\{0,1\}[^/]\)[^/]*/|\1/|g"`"
 }
+#---the failsafe variable is set to 1 so that if you press enter it doesn't just show seconds---#
 function RPROMPT.get {
     #---check version for common tools or languages---#
     [[ -e Dockerfile || -e .dockerignore ]] && { type docker >/dev/null 2>&1 && .sh.value+=" v`docker -v | awk '{print $3}'`, " || type podman >/dev/null 2>&1 && .sh.value+=" v`podman -v | awk '{print $3}'`, "; }
@@ -29,17 +33,17 @@ function RPROMPT.get {
     [[ -e .scalaenv || -e .sbtenv ]] && type scala-cli >/dev/null 2>&1 && .sh.value+=" v`scala-cli --version | awk '{print $4}' | sed -n '2p'`"
     { [ -e @(Build|Makefile).PL ] || [ -e cpanfile?(.snapshot) ] || [ -e META.@(json|yml) ] || [ -e .perl-version ]; } && type perl >/dev/null 2>&1 && .sh.value+=" `perl -e 'print $^V'`, "
     #---now for the other stuff---#
-    [[ $PS1_MIN = 1 ]] && unset .sh.value
     [[ -n $SSH_CLIENT ]] && { .sh.value+="$(who -m | tr -d '()' | awk '{print $5" ("$2")"}')"; [[ $time = "" ]] || .sh.value+=", "; } || .sh.value+="`tty | sed -e 's|/dev/||'`, "
     [[ -n $VIRTUAL_ENV || -n $PIPENV_ACTIVE || -n $CONDA_DEFAULT_ENV ]] && .sh.value+="venv active, "
     [[ $failsafe = 0 ]] && .sh.value+="took $(($(date -e) - $time))s" || .sh.value+="timeless"
+    [[ $PS1_MIN = 1 ]] && unset .sh.value
     failsafe=1
 }
 function PS2.get {
     (( line++ ))
     .sh.value=$'\E[92m«\E[94m'$line$'\E[92m»\E[0m  '
 }
-# sorts out the time variable, the i variable used in PS2 and the transient prompt
+# sorts out the time variable, the line variable used in PS2 and the transient prompt
 function PS1_SIZE.get {
     [[ $PS1_MIN = 1 ]] && .sh.value=0 || .sh.value=1
 }
@@ -53,10 +57,9 @@ function transprompt {
     fi
     failsafe=0
 }
-trap '[[ ${istrans:-u} = u  ]] || time="$(date -e)"; transprompt' DEBUG
+trap '[[ ${istrans:-u} = u  ]] || time="$(date -e)"; [[ $PS1_MIN = 1 ]] || transprompt' DEBUG
 function prompt {
     symb=
-    [[ $error = 0 ]] && { owo="\E[92mowo"; e="\n\E[92m╰──"; } || { owo="\E[91momo\E[92m"; e=" «\E[91m$error/SIG`kill -l $error`\E[92m»\E[0;91m\nx  "; }
     brnch="`git branch --show-current 2>/dev/null`"
     [ "$brnch" = "" ] || brnch=" ($brnch"
     case `git status 2>&1` in
@@ -71,17 +74,20 @@ function prompt {
         *"detached"*) brnch="`git branch | head -1 | sed "s/)//"`"; brnch=" (${brnch##* }" ;;&
         ?) symb=
     esac
+    [[ $symb = "" ]] || symb=" [$symb]"
     git rev-parse --verify MERGE_HEAD >/dev/null 2>&1 && brnch+="/"
     git rev-parse --verify CHERRY_PICK_HEAD >/dev/null 2>&1 && brnch+="/🍒"
     git rev-parse --verify REVERT_HEAD >/dev/null 2>&1 && brnch+="/↩"
     git rev-parse --verify REBASE_HEAD >/dev/null 2>&1 && brnch+="/"
     git rev-parse --verify BISECT_LOG >/dev/null 2>&1 && brnch+="/"
-    brnch+=")"
-    print -n "\E[92m╭─{${owo}}─{`date +%H:%M`}`[ $USER = root ] && echo "\E[91m" || echo "\E[93m"` ${USER} \E[92min \E[7m$PWD_TRUNC\E[27m$brnch`[ "$symb" = "" ] || echo " [$symb]"`$e% \E[0m"
-}
-function minprompt {
-    print -n "\E[92m$PWD_TRUNC `[ $error = 0 ] || print "\E[91m[$error] "`\E[0m% "
-    istrans=1
+    [[ $brnch = "" ]] || brnch+=")"
+    if [[ $PS1_MIN = 0 ]]; then
+        [[ $error = 0 ]] && { owo="\E[92mowo"; e="\n\E[92m╰──"; } || { owo="\E[91momo\E[92m"; e=" «\E[91m$error/SIG`kill -l $error`\E[92m»\E[0;91m\nx  "; }
+        print -n "\E[92m╭─{${owo}}─{`date +%H:%M`}`[ $USER = root ] && print "\E[91m" || print "\E[93m"` ${USER} \E[92min \E[7m$PWD_TRUNC\E[27m$brnch$symb$e% \E[0m"
+    else
+        istrans=1
+        print -n "\E[92m$PWD_TRUNC`[ $error = 0 ] || print "\E[91m [$error]"`\E[94m$brnch$symb \E[0m% "
+    fi
 }
 function PS1.get {
     error=$?
@@ -89,6 +95,6 @@ function PS1.get {
     line=0
     if [[ -v RPROMPT ]]; then
         typeset -R "$COLUMNS" rp=$RPROMPT
-        .sh.value=$'\E[0m'${rp}$'\r'$([[ $PS1_MIN = 1 ]] && minprompt || prompt)
+        .sh.value=$'\E[0m'${rp}$'\r'$(prompt)
     fi
 }
