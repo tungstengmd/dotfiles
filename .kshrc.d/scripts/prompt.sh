@@ -61,7 +61,7 @@ trap '[[ ${istrans:-u} = u  ]] || time="$(date -e)"; [[ $PS1_MIN = 1 ]] || trans
 function prompt {
     symb=
     brnch="`git branch --show-current 2>/dev/null`"
-    [ "$brnch" = "" ] || brnch=" ($brnch"
+    [ "$brnch" = "" ] || brnch=" ($brnch)"
     case `git status 2>&1` in
         *"has diverged"*) symb+="%" ;;&
         *"branch is behind"*) symb+="<" ;;&
@@ -71,8 +71,7 @@ function prompt {
         *"renamed"*) symb+="R" ;;&
         *"Untracked"*) symb+="U" ;;&
         *"modified"*) symb+="M" ;;&
-        *"detached"*) brnch="`git branch | head -1 | sed "s/)//"`"; brnch=" (${brnch##* }" ;;&
-        ?) symb=
+        *"detached"*) brnch="`git branch | awk '(NR==1) {print " ("$NF}'`" ;;&
     esac
     [[ $symb = "" ]] || symb=" [$symb]"
     git rev-parse --verify MERGE_HEAD >/dev/null 2>&1 && brnch+="/"
@@ -80,7 +79,6 @@ function prompt {
     git rev-parse --verify REVERT_HEAD >/dev/null 2>&1 && brnch+="/↩"
     git rev-parse --verify REBASE_HEAD >/dev/null 2>&1 && brnch+="/"
     git rev-parse --verify BISECT_LOG >/dev/null 2>&1 && brnch+="/"
-    [[ $brnch = "" ]] || brnch+=")"
     if [[ $PS1_MIN = 0 ]]; then
         [[ $error = 0 ]] && { owo="\E[92mowo"; e="\n\E[92m╰──"; } || { owo="\E[91momo\E[92m"; e=" «\E[91m$error/SIG`kill -l $error`\E[92m»\E[0;91m\nx  "; }
         print -n "\E[92m╭─{${owo}}─{`date +%H:%M`}`[ $USER = root ] && print "\E[91m" || print "\E[93m"` ${USER} \E[92min \E[7m$PWD_TRUNC\E[27m$brnch$symb$e% \E[0m"
