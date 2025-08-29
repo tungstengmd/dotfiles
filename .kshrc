@@ -4,7 +4,7 @@ function EPOCHREALTIME.get {
 }
 PS1_MIN=0
 set -H
-export FPATH=$HOME/.kshrc.d/fun
+FPATH=$HOME/.kshrc.d/fun
 autoload man
 export LESS="-rIs"
 istrans=1
