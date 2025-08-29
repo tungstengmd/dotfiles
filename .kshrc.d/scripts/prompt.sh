@@ -22,7 +22,7 @@ function RPROMPT.get {
     [[ -e build.zig ]] && type zig >/dev/null 2>&1 && .sh.value+=" `zig version`, "
     [[ -e gleam.toml ]] && type gleam >/dev/null 2>&1 && .sh.value+=" v`gleam -V | awk '{print $2}'`, "
     [[ -e pubspec.* ]] && type dart >/dev/null 2>&1 && .sh.value+=" `dart --version | awk '{print $4}'`, "
-    { [ -e *.sln ] || [ -e *.@(cs|fs|x)proj ]; } && type dotnet >/dev/null 2>&1 && .sh.value+=" v`dotnet --list-sdks | grep $(grep .0 $(find . -print | grep -K "*.@(cs|fs|x)proj") | sed 's/<[^<>]*>//g;s/net//;s/.0//') | awk 'END{print $1}'`, "
+    { [ -e *.sln ] || [ -e *.@(cs|fs|x)proj ]; } && type dotnet >/dev/null 2>&1 && { ver="`dotnet --list-sdks | grep $(grep .0 $(find . -print | grep -K "*.@(cs|fs|x)proj") | sed -e 's/<[^<>]*>//g' -e 's/net//' -e 's/.0//') | awk 'END{print $1}'`"; ver=${ver%%-*}; .sh.value+=" v${ver}, "; }
     [[ -e mix.exs ]] && type elixir >/dev/null 2>&1 && .sh.value+=" v`elixir -v | awk 'END{print $2}'`, "
     [[ -e elm.json || -e elm-package.json || -e .elm-version || -e elm-stuff/ ]] && type elm >/dev/null 2>&1 && .sh.value+=" v`elm --version`, "
     [[ -e rebar.config || -e erlang.mk ]] && type erl >/dev/null 2>&1 && .sh.value+=" `erl -eval '{ok, Version} = file:read_file(filename:join([code:root_dir(), "releases", erlang:system_info(otp_release), "OTP_VERSION"])), io:fwrite(Version), halt().' -noshell`, "
