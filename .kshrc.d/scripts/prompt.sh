@@ -81,7 +81,7 @@ function prompt {
     git rev-parse --verify BISECT_LOG >/dev/null 2>&1 && brnch+="/"
     if [[ $PS1_MIN = 0 ]]; then
         [[ $error = 0 ]] && { owo="\E[92mowo"; e="\n\E[92m╰──"; } || { owo="\E[91momo\E[92m"; e=" «\E[91m$error/SIG`kill -l $error`\E[92m»\E[0;91m\nx  "; }
-        print -n "\E[92m╭─{${owo}}─{`date +%H:%M`}`[ $USER = root ] && print "\E[91m" || print "\E[93m"` ${USER} \E[92min \E[7m$PWD_TRUNC\E[27m$brnch$symb$e% \E[0m"
+        print -n "\E[92m╭─{${owo}}─{`date +%H:%M`}`[ $(whoami) = root ] && print "\E[91m" || print "\E[93m"` ${USER} \E[92min \E[7m$PWD_TRUNC\E[27m$brnch$symb$e% \E[0m"
     else
         istrans=1
         print -n "\E[92m$PWD_TRUNC`[ $error = 0 ] || print "\E[91m [$error]"`\E[94m$brnch$symb \E[0m% "
