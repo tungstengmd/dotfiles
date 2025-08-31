@@ -1,6 +1,5 @@
 #!/bin/ksh
 function help {
-    USAGE=$"[-?${.sh.version}][-author?aster foxworthy, thanks for using <3][-license?zlib][+NAME?$0 - display help for built-in commands][+DESCRIPTION?Displays help for built-in commands.][+?Displays a brief summary for each command. If the last argument is a built-in command, it displays a rundown of the command, specifically the one returned by the command itself. This program was made as I felt annoyed that ksh93 lacked such a command, thus I took it upon myself to create it. If by any chance, you [3mdidn't[0m put a parameter as an argument, it will perform the same action as [1m$0 -s[0m.][m?display a pseudo-manpage for the command, with help of the default pager (defaults to less)][s?output a synopsis of the command][o?display options for the command, with a detailed description; output identical to --help on every builtin (test it here!)]"
     [[ -z $1 ]] && "$0" --man
     if [[ `type ${@:$#} 2>&1 1>/dev/null; print $?` != 0 ]]; then
         print "$0: not found"
@@ -12,7 +11,7 @@ function help {
         return 1
     else
         [[ $1 = "-"* ]] || "$1" -?
-        while getopts "$USAGE" opt; do
+        while getopts $"[-?${.sh.version}][-author?aster foxworthy, thanks for using <3][-license?zlib][+NAME?$0 - display help for built-in commands][+DESCRIPTION?Displays help for built-in commands.][+?Displays a brief summary for each command. If the last argument is a built-in command, it displays a rundown of the command, specifically the one returned by the command itself. This program was made as I felt annoyed that ksh93 lacked such a command, thus I took it upon myself to create it. If by any chance, you [3mdidn't[0m put a parameter as an argument, it will perform the same action as [1m$0 -s[0m.][m?display a pseudo-manpage for the command, with help of the default pager (defaults to less)][s?output a synopsis of the command][o?display options for the command, with a detailed description; output identical to --help on every builtin (test it here!)]" opt; do
             case $opt in
                 m ) [[ `"$2" --man | wc -l` -gt ${LINES:-tput lines} ]] && "$2" --man | ${PAGER:-less} || "$2" --man ;;
                 s ) "$2" -? ;;
