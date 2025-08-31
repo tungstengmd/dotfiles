@@ -1,3 +1,4 @@
+set --nobackslashctrl
 failsafe=1
 function EPOCHREALTIME.get {
     .sh.value="$(date +%.6s)"
