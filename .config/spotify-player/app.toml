@@ -1,5 +1,4 @@
 theme = "default"
-client_id = "317415dc7cb34148b374e1a5b11cc9c2"
 client_port = 8080
 login_redirect_uri = "http://127.0.0.1:8989/login"
 playback_format = """
