@@ -34,7 +34,7 @@ function RPROMPT.get {
     { [ -e @(Build|Makefile).PL ] || [ -e cpanfile?(.snapshot) ] || [ -e META.@(json|yml) ] || [ -e .perl-version ]; } && type perl >/dev/null 2>&1 && .sh.value+=" `perl -e 'print $^V'`, "
     #---now for the other stuff---#
     [[ -n $SSH_CLIENT ]] && { .sh.value+="$(who -m | tr -d '()' | awk '{print $5" ("$2")"}')"; [[ $time = "" ]] || .sh.value+=", "; } || .sh.value+="`tty | sed -e 's|/dev/||'`, "
-    [[ -n $VIRTUAL_ENV || -n $PIPENV_ACTIVE || -n $CONDA_DEFAULT_ENV ]] && .sh.value+="venv active, "
+    [[ -n $VIRTUAL_ENV || -n $PIPENV_ACTIVE || -n $CONDA_DEFAULT_ENV ]] && .sh.value+="venv active (${VIRTUAL_ENV//$HOME/\~}), "
     [[ $failsafe = 0 ]] && .sh.value+="took $(($(date -e) - $time))s" || .sh.value+="timeless"
     [[ $PS1_MIN = 1 ]] && unset .sh.value
     failsafe=1
