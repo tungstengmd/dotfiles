@@ -96,3 +96,4 @@ function PS1.get {
         .sh.value=$'\E[0m'${rp}$'\r'$(prompt)
     fi
 }
+VIRTUAL_ENV_DISABLE_PROMPT=1
